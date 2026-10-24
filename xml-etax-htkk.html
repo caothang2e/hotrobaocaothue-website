@@ -67,6 +67,8 @@ header{max-width:1170px;margin:auto;display:flex;align-items:center;justify-cont
 
     <button id="convertBtn">2. Chuyển sang cấu trúc HTKK mới</button>
     <button id="downloadBtn" class="secondary" disabled>3. Tải XML mới</button>
+    <button id="reportBtn" class="secondary" disabled hidden>Tải kết quả đối chiếu</button>
+    <div class="small" style="margin-top:10px">Đã bổ sung 01/GTGT → HTKK 5.8.1: giữ số liệu, thông tin kê khai và toàn bộ phụ lục NQ142; đối chiếu trước khi tải.</div>
 
     <div id="summary" class="small" style="margin-top:14px">Chưa chọn file.</div>
     <div id="log" style="display:none"></div>
@@ -80,10 +82,11 @@ header{max-width:1170px;margin:auto;display:flex;align-items:center;justify-cont
 </div>
 
 <script>
-// Build v27: preserve verified schema row order
+// Build v28: verified 01/GTGT HTKK 5.8.1 with lossless NQ142 preservation
 const DBKEY="htkk_schema_library_v1";
 
 const BUILTIN_SCHEMA_XMLS = [
+  {"label":"01/GTGT TT80 - HTKK 5.8.1 - XML 2.8.3","profile":{"maTKhai":"842","preserveGTGT":true},"xml":"<?xml version=\"1.0\" encoding=\"UTF-8\"?><HSoThueDTu xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://kekhaithue.gdt.gov.vn/TKhaiThue\"><HSoKhaiThue id=\"ID_1\"><TTinChung><TTinDVu><maDVu>HTKK</maDVu><tenDVu>HỖ TRỢ KÊ KHAI THUẾ</tenDVu><pbanDVu>5.8.1</pbanDVu><ttinNhaCCapDVu>8082574353E57D1110D1C1A60EAE8255</ttinNhaCCapDVu></TTinDVu><TTinTKhaiThue><TKhaiThue><maTKhai>842</maTKhai><tenTKhai>TỜ KHAI THUẾ GIÁ TRỊ GIA TĂNG (Mẫu số 01/GTGT)</tenTKhai><moTaBMau>(Ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29 tháng 9 năm 2021 của Bộ trưởng Bộ Tài chính)</moTaBMau><pbanTKhaiXML>2.8.3</pbanTKhaiXML><loaiTKhai>C</loaiTKhai><soLan>0</soLan><KyKKhaiThue><kieuKy></kieuKy><kyKKhai></kyKKhai><kyKKhaiTuNgay></kyKKhaiTuNgay><kyKKhaiDenNgay></kyKKhaiDenNgay><kyKKhaiTuThang></kyKKhaiTuThang><kyKKhaiDenThang></kyKKhaiDenThang></KyKKhaiThue><maCQTNoiNop></maCQTNoiNop><tenCQTNoiNop></tenCQTNoiNop><ngayLapTKhai></ngayLapTKhai><GiaHan><maLyDoGiaHan></maLyDoGiaHan><lyDoGiaHan></lyDoGiaHan></GiaHan><nguoiKy></nguoiKy><ngayKy></ngayKy><nganhNgheKD></nganhNgheKD></TKhaiThue><NNT><mst></mst><tenNNT></tenNNT><dchiNNT></dchiNNT><phuongXa></phuongXa><maHuyenNNT></maHuyenNNT><tenHuyenNNT></tenHuyenNNT><maTinhNNT></maTinhNNT><tenTinhNNT></tenTinhNNT><dthoaiNNT></dthoaiNNT><faxNNT></faxNNT><emailNNT></emailNNT></NNT></TTinTKhaiThue></TTinChung><CTieuTKhaiChinh><ma_NganhNghe>00</ma_NganhNghe><ten_NganhNghe>Hoạt động sản xuất kinh doanh thông thường</ten_NganhNghe><tieuMucHachToan>1701</tieuMucHachToan><Header><ct09 /><ct10 /><DiaChiHDSXKDKhacTinhNDTSC><ct11a_phuongXa_ma /><ct11a_phuongXa_ten /><ct11b_quanHuyen_ma /><ct11b_quanHuyen_ten /><ct11c_tinhTP_ma /><ct11c_tinhTP_ten /></DiaChiHDSXKDKhacTinhNDTSC></Header><ct21>0</ct21><ct22>0</ct22><GiaTriVaThueGTGTHHDVMuaVao><ct23>0</ct23><ct24>0</ct24></GiaTriVaThueGTGTHHDVMuaVao><HangHoaDichVuNhapKhau><ct23a>0</ct23a><ct24a>0</ct24a></HangHoaDichVuNhapKhau><ct25>0</ct25><ct26>0</ct26><HHDVBRaChiuThueGTGT><ct27>0</ct27><ct28>0</ct28></HHDVBRaChiuThueGTGT><ct29>0</ct29><HHDVBRaChiuTSuat5><ct30>0</ct30><ct31>0</ct31></HHDVBRaChiuTSuat5><HHDVBRaChiuTSuat10><ct32>0</ct32><ct33>0</ct33></HHDVBRaChiuTSuat10><ct32a>0</ct32a><TongDThuVaThueGTGTHHDVBRa><ct34>0</ct34><ct35>0</ct35></TongDThuVaThueGTGTHHDVBRa><ct36>0</ct36><ct37>0</ct37><ct38>0</ct38><ct39a>0</ct39a><ct40a>0</ct40a><ct40b>0</ct40b><ct40>0</ct40><ct41>0</ct41><ct42>0</ct42><ct43>0</ct43></CTieuTKhaiChinh></HSoKhaiThue></HSoThueDTu>"},
   {
     label: "03/TNDN TT80 - HTKK 5.7.6 - XML 2.9.4",
     xml: "\ufeff<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<HSoThueDTu xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://kekhaithue.gdt.gov.vn/TKhaiThue\">\n  <HSoKhaiThue id=\"ID_1\">\n    <TTinChung>\n      <TTinDVu>\n        <maDVu>HTKK</maDVu>\n        <tenDVu>H\u1ed6 TR\u1ee2 K\u00ca KHAI THU\u1ebe</tenDVu>\n        <pbanDVu>5.7.6</pbanDVu>\n        <ttinNhaCCapDVu>09455F899E894A583351D00F2D48CD60</ttinNhaCCapDVu>\n      </TTinDVu>\n      <TTinTKhaiThue>\n        <TKhaiThue>\n          <maTKhai>892</maTKhai>\n          <tenTKhai>T\u1edc KHAI QUY\u1ebeT TO\u00c1N THU\u1ebe THU NH\u1eacP DOANH NGHI\u1ec6P (M\u1eabu s\u1ed1 03/TNDN)</tenTKhai>\n          <moTaBMau>(Ban h\u00e0nh k\u00e8m theo Th\u00f4ng t\u01b0 s\u1ed1 80/2021/TT-BTC ng\u00e0y 29 th\u00e1ng 9 n\u0103m 2021 c\u1ee7a B\u1ed9 tr\u01b0\u1edfng B\u1ed9 T\u00e0i ch\u00ednh)</moTaBMau>\n          <pbanTKhaiXML>2.9.4</pbanTKhaiXML>\n          <loaiTKhai>C</loaiTKhai>\n          <soLan>0</soLan>\n          <KyKKhaiThue>\n            <kieuKy>Y</kieuKy>\n            <kyKKhai>2024</kyKKhai>\n            <kyKKhaiTuNgay>01/01/2024</kyKKhaiTuNgay>\n            <kyKKhaiDenNgay>31/12/2024</kyKKhaiDenNgay>\n            <kyKKhaiTuThang />\n            <kyKKhaiDenThang />\n          </KyKKhaiThue>\n          <maCQTNoiNop>10100</maCQTNoiNop>\n          <tenCQTNoiNop>Thu\u1ebf Th\u00e0nh ph\u1ed1 H\u00e0 N\u1ed9i</tenCQTNoiNop>\n          <ngayLapTKhai>2026-08-29</ngayLapTKhai>\n          <GiaHan>\n            <maLyDoGiaHan />\n            <lyDoGiaHan />\n          </GiaHan>\n          <nguoiKy />\n          <ngayKy>2026-08-29</ngayKy>\n          <nganhNgheKD />\n        </TKhaiThue>\n        <NNT>\n          <mst>2803102718</mst>\n          <tenNNT>C\u00d4NG TY TNHH LUSSI VI\u1ec6T NAM</tenNNT>\n          <dchiNNT>S\u1ed1 1 ng\u00f5 36 \u0111\u01b0\u1eddng Nguy\u1ec5n Khuy\u1ebfn, Khu ph\u1ed1 L\u01b0\u01a1ng Thi\u1ec7n, Ph\u01b0\u1eddng Trung S\u01a1n</dchiNNT>\n          <phuongXa />\n          <maHuyenNNT />\n          <tenHuyenNNT />\n          <maTinhNNT>101</maTinhNNT>\n          <tenTinhNNT>Th\u00e0nh ph\u1ed1 H\u00e0 N\u1ed9i</tenTinhNNT>\n          <dthoaiNNT />\n          <faxNNT />\n          <emailNNT />\n        </NNT>\n      </TTinTKhaiThue>\n    </TTinChung>\n    <CTieuTKhaiChinh>\n      <Header>\n        <kyTaiChinh_Tu>01/01</kyTaiChinh_Tu>\n        <kyTaiChinh_Den>31/12</kyTaiChinh_Den>\n        <ma_THQuyetToan>01</ma_THQuyetToan>\n        <ten_THQuyetToan>QT \u0111\u1ecbnh k\u1ef3</ten_THQuyetToan>\n        <ct04_ma>000</ct04_ma>\n        <ct04_ten>000 - Kh\u00f4ng ph\u00e1t sinh doanh thu</ct04_ten>\n        <ct05>0</ct05>\n      </Header>\n      <ctA1>0</ctA1>\n      <ctB1>0</ctB1>\n      <ctB2>0</ctB2>\n      <ctB3>0</ctB3>\n      <ctB4>0</ctB4>\n      <ctB5>0</ctB5>\n      <ctB6>0</ctB6>\n      <ctB7>0</ctB7>\n      <ctB8>0</ctB8>\n      <ctB9>0</ctB9>\n      <ctB10>0</ctB10>\n      <ctB11>0</ctB11>\n      <ctB12>0</ctB12>\n      <ctB13>0</ctB13>\n      <ctB14>0</ctB14>\n      <ctB15>0</ctB15>\n      <ctC1>0</ctC1>\n      <ctC2>0</ctC2>\n      <dsThMienThue>\n        <thMienThue id=\"ID_1\">\n          <ma_loaiMien />\n          <ten_loaiMien />\n          <ctC2_soThuNhap>0</ctC2_soThuNhap>\n        </thMienThue>\n      </dsThMienThue>\n      <ctC3>0</ctC3>\n      <ctC3a>0</ctC3a>\n      <ctC3b>0</ctC3b>\n      <ctC4>0</ctC4>\n      <ctC5>0</ctC5>\n      <ctC6>0</ctC6>\n      <ctC7_thuNhap>0</ctC7_thuNhap>\n      <ctC7_tenThueSuat>+ Thu nh\u1eadp t\u00ednh thu\u1ebf \u00e1p d\u1ee5ng thu\u1ebf su\u1ea5t 20%</ctC7_tenThueSuat>\n      <ctC7_thueSuat>20</ctC7_thueSuat>\n      <ctC8>0</ctC8>\n      <ctC8a>0</ctC8a>\n      <ctC9>0</ctC9>\n      <ctC10>0</ctC10>\n      <ctC11>0</ctC11>\n      <ctC12>0</ctC12>\n      <ctC13>0</ctC13>\n      <ctC14>0</ctC14>\n      <ctC15>0</ctC15>\n      <ctC16>0</ctC16>\n      <ctC17>0</ctC17>\n      <ctD1>0</ctD1>\n      <ctD2>0</ctD2>\n      <ctD3>0</ctD3>\n      <ctD4>0</ctD4>\n      <ctD5>0</ctD5>\n      <ctD6>0</ctD6>\n      <ctD7>0</ctD7>\n      <ctD8>0</ctD8>\n      <ctE>0</ctE>\n      <ctE1>0</ctE1>\n      <ctE2>0</ctE2>\n      <ctE3>0</ctE3>\n      <ctE4>0</ctE4>\n      <ctE5>0</ctE5>\n      <ctE6>0</ctE6>\n      <ctG>0</ctG>\n      <thueTNDN_tamnop_sxkd>0</thueTNDN_tamnop_sxkd>\n      <ctG1>0</ctG1>\n      <ctG2>0</ctG2>\n      <thueTNDN_tamnop_cnbds>0</thueTNDN_tamnop_cnbds>\n      <ctG3>0</ctG3>\n      <ctG4>0</ctG4>\n      <ctG5>0</ctG5>\n      <ctH1>0</ctH1>\n      <ctH2>0</ctH2>\n      <ctH3>0</ctH3>\n      <ctI>0</ctI>\n      <ctI1>0</ctI1>\n      <ctI2>0</ctI2>\n      <NghiaVuThue>\n        <CtE1>\n          <soKK>0</soKK>\n          <tieuMuc1052>0</tieuMuc1052>\n          <tieuMuc1056>0</tieuMuc1056>\n          <tieuMuc1057>0</tieuMuc1057>\n          <tieuMuc1099>0</tieuMuc1099>\n        </CtE1>\n        <CtE2>\n          <soKK>0</soKK>\n          <tieuMuc1053>0</tieuMuc1053>\n        </CtE2>\n        <CtE5>\n          <soKK>0</soKK>\n          <tieuMuc1052>0</tieuMuc1052>\n          <tieuMuc1056>0</tieuMuc1056>\n          <tieuMuc1057>0</tieuMuc1057>\n          <tieuMuc1099>0</tieuMuc1099>\n        </CtE5>\n        <tong1052>0</tong1052>\n        <tong1056>0</tong1056>\n        <tong1057>0</tong1057>\n        <tong1053>0</tong1053>\n      </NghiaVuThue>\n    </CTieuTKhaiChinh>\n  </HSoKhaiThue>\n</HSoThueDTu>"
@@ -601,6 +604,80 @@ function convert05QTTVerifiedFrame(oldDoc,newDoc,logs){
   logs.push("05/QTT: map vào schema đích đã được HTKK xác nhận.");
 }
 
+
+// 01/GTGT: only the envelope changes when the verified XML 2.8.3 shape matches.
+function gtgtShape(el){
+  return JSON.stringify([el.namespaceURI,local(el),Array.from(el.children).map(gtgtShape)]);
+}
+function gtgtTree(el){
+  const attrs=Array.from(el.attributes||[])
+    .filter(a=>a.namespaceURI!=="http://www.w3.org/2000/xmlns/")
+    .map(a=>[a.namespaceURI||"",a.localName,a.value]).sort((a,b)=>JSON.stringify(a).localeCompare(JSON.stringify(b)));
+  return JSON.stringify([el.namespaceURI,local(el),attrs,
+    el.children.length ? Array.from(el.children).map(gtgtTree) : el.textContent]);
+}
+function gtgtRequire(ok,message){if(!ok)throw new Error(message)}
+function convert01GTGT(oldDoc,frame,logs){
+  gtgtRequire(val(oldDoc,"maTKhai")==="842" && val(frame,"maTKhai")==="842","Mẫu không phải 01/GTGT.");
+  gtgtRequire(val(oldDoc,"pbanTKhaiXML")===val(frame,"pbanTKhaiXML"),"Phiên bản XML 01/GTGT khác mẫu 2.8.3; cần mẫu tương thích để giữ đủ dữ liệu.");
+  for(const tag of ["HSoKhaiThue","TTinChung","TTinDVu","TTinTKhaiThue","CTieuTKhaiChinh"]){
+    gtgtRequire(all(oldDoc,tag).length===1 && all(frame,tag).length===1,"Thiếu hoặc trùng khối "+tag+".");
+  }
+  for(const tag of ["TTinChung","CTieuTKhaiChinh"]){
+    gtgtRequire(gtgtShape(first(oldDoc,tag))===gtgtShape(first(frame,tag)),"Cấu trúc "+tag+" khác mẫu đã đối chiếu; chưa thể chuyển an toàn.");
+  }
+  const result=oldDoc.cloneNode(true);
+  removeSignature(result);
+  const service=first(result,"TTinDVu");
+  service.parentNode.replaceChild(result.importNode(first(frame,"TTinDVu"),true),service);
+  first(result,"HSoKhaiThue").setAttribute("id",first(frame,"HSoKhaiThue").getAttribute("id"));
+  verify01GTGT(oldDoc,result,frame,logs);
+  return result;
+}
+function verify01GTGT(source,result,frame,logs){
+  const restored=result.cloneNode(true), original=source.cloneNode(true);
+  removeSignature(restored); removeSignature(original);
+  gtgtRequire(gtgtTree(first(result,"TTinDVu"))===gtgtTree(first(frame,"TTinDVu")),"Thông tin HTKK đích không khớp mẫu.");
+  const service=first(restored,"TTinDVu");
+  service.parentNode.replaceChild(restored.importNode(first(original,"TTinDVu"),true),service);
+  const hso=first(restored,"HSoKhaiThue"), oldHso=first(original,"HSoKhaiThue");
+  if(oldHso.hasAttribute("id"))hso.setAttribute("id",oldHso.getAttribute("id"));
+  else hso.removeAttribute("id");
+  gtgtRequire(gtgtTree(restored.documentElement)===gtgtTree(original.documentElement),"Đối chiếu không khớp dữ liệu nguồn; đã chặn tải XML.");
+  gtgtRequire(!all(result,"CKyDTu").length && !all(result,"Signature").length,"Chữ ký số cũ chưa được loại bỏ đầy đủ.");
+  if(logs){
+    const pl=first(result,"PL_NQ142_GTGT");
+    const count=name=>{const block=pl?first(pl,name):null;return block?Array.from(block.children).filter(n=>local(n)==="BangKeTenHHDV").length:0};
+    logs.push("ĐỐI CHIẾU ĐẠT: toàn bộ cây dữ liệu nguồn khớp, gồm giá trị, thuộc tính và thứ tự dòng; chỉ đổi thông tin HTKK/id và bỏ chữ ký số cũ.");
+    logs.push("NQ142: "+count("HH_DV_MuaVaoTrongKy")+" dòng mua vào; "+count("HH_DV_BanRaTrongKy")+" dòng bán ra.");
+    logs.push("Giữ nguyên MST, CQT, kỳ khai, ngày lập/ngày ký, toàn bộ chỉ tiêu và các phụ lục nguồn.");
+    logs.push("Chỉ tiêu tờ khai chính (nguồn = đích):");
+    for(const el of first(result,"CTieuTKhaiChinh").getElementsByTagName("*")){
+      if(!el.children.length && /^ct\d/.test(local(el)))logs.push(local(el)+" = "+el.textContent);
+    }
+    logs.push("Chữ ký số cũ đã bỏ; XML cần được kiểm tra nhập lại trong HTKK. Đối chiếu dữ liệu không thay thế xác thực XSD/HTKK.");
+  }
+}
+let outReport="", conversionRun=0;
+function resetConversion(){
+  conversionRun++;
+  outXml=""; outReport="";
+  document.getElementById("downloadBtn").disabled=true;
+  document.getElementById("reportBtn").disabled=true;
+  document.getElementById("reportBtn").hidden=true;
+}
+document.getElementById("oldFile").addEventListener("change",()=>{
+  resetConversion();
+  document.getElementById("summary").textContent="Đã chọn file mới. Bấm chuyển để kiểm tra.";
+  document.getElementById("log").textContent="";
+});
+document.getElementById("reportBtn").onclick=()=>{
+  if(!outReport)return;
+  const a=document.createElement("a"), url=URL.createObjectURL(new Blob(["\ufeff"+outReport],{type:"text/plain;charset=utf-8"}));
+  a.href=url; a.download=outName.replace(/\.xml$/i,"_DOI_CHIEU.txt"); a.click();
+  setTimeout(()=>URL.revokeObjectURL(url),1000);
+};
+
 function validateBasic(oldInfo,newDoc,schema,logs){
   const newInfo=identity(newDoc);
   if(oldInfo.mst && newInfo.mst!==oldInfo.mst)logs.push("CẢNH BÁO: MST sau map không khớp.");
@@ -629,18 +706,22 @@ async function readFile(id){
 
 
 document.getElementById("convertBtn").onclick=async()=>{
-  const logs=[];
+  resetConversion();
+  const run=conversionRun, logs=[];
   try{
     const {text}=await readFile("oldFile");
+    if(run!==conversionRun)return;
     const oldDoc=parseXml(text); removeSignature(oldDoc);
     const oldInfo=identity(oldDoc);
     const schema=chooseSchema(oldInfo,loadLib());
     if(!schema)throw new Error("Tờ khai này hiện chưa được hỗ trợ chuyển tự động. Vui lòng liên hệ Hỗ trợ báo cáo thuế - 0979 936 336.");
 
-    const newDoc=parseXml(schema.xml);
+    let newDoc=parseXml(schema.xml);
     removeSignature(newDoc);
 
-    if(String(oldInfo.ma||"")==="953" && schema.profile){
+    if(schema.profile && schema.profile.preserveGTGT){
+      newDoc=convert01GTGT(oldDoc,newDoc,logs);
+    }else if(String(oldInfo.ma||"")==="953" && schema.profile){
       convert05QTTVerifiedFrame(oldDoc,newDoc,logs);
     }else{
       // GIỮ NGUYÊN pipeline chuẩn trước đó cho tất cả schema cũ.
@@ -653,6 +734,14 @@ document.getElementById("convertBtn").onclick=async()=>{
     validateBasic(oldInfo,newDoc,schema,logs);
 
     outXml=serialize(newDoc);
+    const reloaded=parseXml(outXml);
+    if(schema.profile && schema.profile.preserveGTGT){
+      verify01GTGT(oldDoc,reloaded,parseXml(schema.xml));
+      logs.push("XML đầu ra đã được đọc lại và đối chiếu thành công.");
+      outReport=["KẾT QUẢ ĐỐI CHIẾU 01/GTGT", "MST: "+oldInfo.mst+" | Kỳ: "+oldInfo.ky, ...logs].join("\n");
+      document.getElementById("reportBtn").hidden=false;
+      document.getElementById("reportBtn").disabled=false;
+    }
     const i=identity(newDoc);
     outName=`${i.mst||"MST"}-${i.ma||"TKHAI"}-${String(i.ky||"KY").replaceAll("/","_")}-L${String(i.soLan||"0").padStart(2,"0")}_MIGRATED.xml`;
 
@@ -661,16 +750,24 @@ document.getElementById("convertBtn").onclick=async()=>{
        <div>XML nguồn: ${oldInfo.xmlVersion || "-"} → XML mới: ${i.xmlVersion || "-"}</div>
        <div>HTKK đích: ${i.serviceVersion || "-"}</div>
        <div style="margin-top:6px">Bấm <b>Tải XML mới</b> rồi nhập vào HTKK để kiểm tra.</div>`;
+    if(outReport){
+      const note=document.createElement("p"); note.className="ok";
+      note.textContent=logs.find(line=>line.startsWith("NQ142:"))+" Đối chiếu toàn bộ dữ liệu: khớp nguồn. Chữ ký số cũ đã bỏ.";
+      document.getElementById("summary").appendChild(note);
+    }
     document.getElementById("log").textContent=logs.join("\n");
     document.getElementById("downloadBtn").disabled=false;
   }catch(e){
-    document.getElementById("summary").innerHTML=`<span class="err">${e.message}</span>`;
+    if(run!==conversionRun)return;
+    resetConversion();
+    document.getElementById("summary").textContent=e.message;
     document.getElementById("log").textContent=e.stack||e.message;
     document.getElementById("downloadBtn").disabled=true;
   }
 };
 
 document.getElementById("downloadBtn").onclick=()=>{
+  if(!outXml)return;
   const b=new Blob([outXml],{type:"application/xml;charset=utf-8"});
   const a=document.createElement("a");
   a.href=URL.createObjectURL(b);a.download=outName;a.click();
