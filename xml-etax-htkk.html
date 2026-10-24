@@ -683,7 +683,7 @@ function validateBasic(oldInfo,newDoc,schema,logs){
   if(oldInfo.mst && newInfo.mst!==oldInfo.mst)logs.push("CẢNH BÁO: MST sau map không khớp.");
   if(oldInfo.ky && newInfo.ky!==oldInfo.ky)logs.push("CẢNH BÁO: kỳ sau map không khớp.");
   logs.push(`Schema đích: ${schema.info.xmlVersion} / HTKK ${schema.info.serviceVersion}`);
-  logs.push(`Phụ lục đích: ${schema.info.appendices.join(", ")||"không có"}`);
+  logs.push(`Phụ lục đầu ra: ${newInfo.appendices.join(", ")||"không có"}`);
 }
 function renderSchemas(){
   const box=document.getElementById("schemas"); if(!box)return;
