@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Làm trống chỉ tiêu XML | Hỗ trợ Báo cáo thuế</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #192437;
+      --muted: #536782;
+      --green: #153936;
+      --border: #dce2e9;
+      --paper: #fff;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f8f7f3; color: var(--ink); font: 15px/1.5 system-ui, "Segoe UI", sans-serif; }
+    a { color: inherit; }
+    a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visible {
+      outline: 3px solid #4276d5; outline-offset: 3px;
+    }
+    .header {
+      max-width: 1210px; margin: auto; padding: 26px 22px;
+      display: flex; align-items: center; justify-content: space-between; gap: 20px;
+      border-bottom: 1px solid #d7ddd5; color: var(--green);
+    }
+    .brand { display: inline-flex; align-items: center; gap: 14px; text-decoration: none; letter-spacing: .065em; }
+    .brand small, .brand strong { display: block; }
+    .mark {
+      width: 64px; height: 64px; border-radius: 50%; display: grid; align-content: center;
+      border: 2px solid #f7d65a; background: #d62720; color: #ffeb83;
+      text-align: center; font-size: 9px; font-weight: 800; line-height: 1.25; letter-spacing: 0;
+    }
+    .mark span { font-size: 14px; }
+    nav { display: flex; flex-wrap: wrap; gap: 10px 22px; font-size: 14px; }
+    nav a { text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    main { width: min(1100px, calc(100% - 32px)); margin: 28px auto 40px; display: grid; gap: 14px; }
+    .card {
+      background: var(--paper); border: 1px solid var(--border); border-radius: 15px;
+      box-shadow: 0 3px 15px #1924370b; padding: 17px 18px;
+    }
+    h1, h2, p { margin: 0; }
+    h1 { font-size: clamp(24px, 4vw, 29px); line-height: 1.2; margin: 4px 0 8px; }
+    h2 { font-size: 22px; line-height: 1.25; }
+    .intro p, .note, .hint, .status, details { font-size: 13px; color: var(--muted); }
+    .strip {
+      display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 24px;
+      background: var(--green); border-radius: 11px; color: #fff;
+      padding: 10px 14px; font-size: 14px; font-weight: 700;
+    }
+    .strip span::before { content: "✓"; color: #a8e5b2; margin-right: 7px; }
+    .tool { width: min(818px, 100%); justify-self: center; }
+    .tool h2 { margin: 3px 0 18px; text-align: center; }
+    label { display: block; margin-bottom: 5px; font-weight: 700; }
+    input[type=file] {
+      width: 100%; padding: 10px 11px; border: 1px solid #c6d3e2;
+      border-radius: 9px; font: inherit; color: var(--ink); background: var(--paper);
+    }
+    .actions { display: grid; gap: 10px; margin: 17px 0 10px; }
+    button, .zalo a {
+      border: 0; border-radius: 9px; padding: 12px 14px; min-height: 46px;
+      font: inherit; font-weight: 750; cursor: pointer; text-align: center;
+    }
+    button { color: #fff; background: var(--green); }
+    button:hover:not(:disabled) { background: #22504a; }
+    button:disabled { background: #687484; cursor: default; }
+    details { margin-top: 8px; }
+    summary { cursor: pointer; width: fit-content; }
+    details ul { margin: 6px 0 0; padding-left: 22px; }
+    .status { margin-top: 10px; overflow-wrap: anywhere; }
+    .status[data-state=error] { color: #a02620; }
+    .status[data-state=success] { color: #236443; }
+    .zalo {
+      display: flex; align-items: center; justify-content: space-between; gap: 20px;
+      padding: clamp(20px, 4vw, 32px); border-radius: 20px; color: #fff;
+      background: linear-gradient(110deg, #183b8f, #2659cb);
+    }
+    .zalo .eyebrow { color: #d5e4ff; font-size: 11px; font-weight: 800; letter-spacing: .12em; }
+    .zalo h2 { margin: 9px 0; }
+    .zalo p { color: #edf3ff; font-size: 14px; }
+    .zalo-links { display: grid; gap: 9px; flex: 0 0 auto; }
+    .zalo a { display: block; text-decoration: none; font-size: 14px; border: 1px solid #ffffff6b; }
+    .zalo a:hover { box-shadow: inset 0 0 0 2px #ffffffa3; }
+    .zalo a:first-child { background: #fff; color: #174296; }
+    @media (max-width: 630px) {
+      .header, .zalo { align-items: flex-start; flex-direction: column; }
+      .header { padding: 16px; }
+      .mark { width: 53px; height: 53px; font-size: 8px; }
+      main { margin-top: 16px; }
+      .zalo-links { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="https://caothang2e.github.io/hotrobaocaothue-website/">
+      <span class="mark" aria-hidden="true"><span>★</span>HỖ TRỢ<br>BÁO CÁO THUẾ</span>
+      <span><small>HỖ TRỢ</small><strong>BÁO CÁO THUẾ</strong></span>
+    </a>
+    <nav aria-label="Điều hướng">
+      <a href="https://caothang2e.github.io/hotrobaocaothue-website/xml-etax-htkk.html" target="_blank" rel="noopener">Công cụ XML eTax → HTKK ↗</a>
+      <a href="#ho-tro">Hỗ trợ qua Zalo</a>
+    </nav>
+  </header>
+  <main>
+    <section class="card intro" aria-labelledby="intro-title">
+      <h1 id="intro-title">Công cụ làm trống chỉ tiêu XML</h1>
+      <p>Làm trống 5 chỉ tiêu đã định sẵn và xuất bản sao XML để sử dụng.</p>
+      <p>Hỗ trợ Báo cáo thuế · 0979 936 336</p>
+    </section>
+    <div class="strip">
+      <span>Xử lý trực tiếp trên trình duyệt</span>
+      <span>Giữ nguyên phần XML còn lại</span>
+      <span>Tải file XML mới</span>
+    </div>
+    <section class="card tool" aria-labelledby="tool-title">
+      <h2 id="tool-title">Xử lý tờ khai XML</h2>
+      <label for="file">1. Chọn file XML gốc</label>
+      <input id="file" type="file" accept=".xml,application/xml,text/xml" aria-describedby="file-hint">
+      <div class="actions">
+        <button id="process" type="button" disabled>2. Làm trống 5 chỉ tiêu</button>
+        <button id="download" type="button" disabled>3. Tải XML mới</button>
+      </div>
+      <p class="hint" id="file-hint">Hỗ trợ XML mã hóa UTF-8 và UTF-16.</p>
+      <details>
+        <summary>Xem 5 chỉ tiêu được xử lý</summary>
+        <ul>
+          <li><code>ct9_tenCoQuanThu</code></li>
+          <li><code>ct7_soNopThua</code></li>
+          <li><code>tongCot7TM</code></li>
+          <li><code>tongCot7</code></li>
+          <li><code>ct8_soNopThua</code></li>
+        </ul>
+      </details>
+      <p class="status" id="status" role="status">Chưa chọn file.</p>
+    </section>
+    <p class="card note">🔒 File được xử lý ngay trên thiết bị của anh, không tải lên máy chủ.</p>
+    <section class="zalo" id="ho-tro" aria-labelledby="zalo-title">
+      <div>
+        <p class="eyebrow">ĐỒNG HÀNH CÙNG DOANH NGHIỆP</p>
+        <h2 id="zalo-title">Cần hỗ trợ thực hiện hồ sơ?</h2>
+        <p>Kết nối qua Zalo hoặc tham gia nhóm hỗ trợ để được hướng dẫn.</p>
+      </div>
+      <div class="zalo-links">
+        <a href="https://zalo.me/0979936336" target="_blank" rel="noopener">Zalo · 0979 936 336 ↗</a>
+        <a href="https://zalo.me/g/uya1kcroeg3fdyks1zea" target="_blank" rel="noopener">Tham gia nhóm hỗ trợ ↗</a>
+      </div>
+    </section>
+  </main>
+  <script>
+    "use strict";
+
+    const fields = new Set([
+      "ct9_tenCoQuanThu", "ct7_soNopThua", "tongCot7TM", "tongCot7", "ct8_soNopThua"
+    ]);
+    const fileInput = document.getElementById("file");
+    const processButton = document.getElementById("process");
+    const downloadButton = document.getElementById("download");
+    const status = document.getElementById("status");
+    let selectionVersion = 0;
+    let result = null;
+
+    function readXml(buffer) {
+      const bytes = new Uint8Array(buffer);
+      const [first, second] = bytes;
+      let encoding = "utf-8";
+      let bom = 0;
+
+      if (first === 0xff && second === 0xfe) {
+        encoding = "utf-16le";
+        bom = 2;
+      } else if (first === 0xfe && second === 0xff) {
+        encoding = "utf-16be";
+        bom = 2;
+      } else if (first === 0xef && second === 0xbb && bytes[2] === 0xbf) {
+        bom = 3;
+      } else if (first === 0x3c && second === 0) {
+        encoding = "utf-16le";
+      } else if (first === 0 && second === 0x3c) {
+        encoding = "utf-16be";
+      }
+
+      let xml;
+      try {
+        xml = new TextDecoder(encoding, { fatal: true, ignoreBOM: true }).decode(bytes.subarray(bom));
+      } catch {
+        throw new Error("Không đọc được file. Vui lòng dùng XML mã hóa UTF-8 hoặc UTF-16.");
+      }
+
+      const declared = xml.match(/^<\?xml\s+[^?]*?\bencoding\s*=\s*(['"])([\w.-]+)\1/i)?.[2]?.toLowerCase();
+      if (declared && declared !== encoding && !(declared === "utf-16" && encoding.startsWith("utf-16"))) {
+        throw new Error("Mã hóa khai báo trong XML không khớp hoặc không được hỗ trợ.");
+      }
+      return { xml, encoding, prefix: bytes.subarray(0, bom) };
+    }
+
+    function clearFields(xml) {
+      // Đọc vị trí thẻ trong văn bản gốc, tránh ghi lại XML qua bộ tuần tự hóa.
+      const markup = /<!--[\s\S]*?-->|<!\[CDATA\[[\s\S]*?\]\]>|<\?[\s\S]*?\?>|<!DOCTYPE\b|<(?:[^<>"']|"[^"]*"|'[^']*')*>/g;
+      const stack = [];
+      const edits = [];
+      let found = 0;
+      let active = null;
+
+      for (const token of xml.matchAll(markup)) {
+        const raw = token[0];
+        if (raw === "<!DOCTYPE") {
+          throw new Error("Công cụ không hỗ trợ file XML có khai báo DOCTYPE.");
+        }
+        if (raw.startsWith("<!") || raw.startsWith("<?")) continue;
+
+        if (raw.startsWith("</")) {
+          const start = stack.pop();
+          if (start === active && active !== null) {
+            if (start.content < token.index) edits.push([start.content, token.index]);
+            active = null;
+          }
+          continue;
+        }
+
+        const name = raw.match(/^<([^\s/>]+)/)?.[1];
+        const target = name && fields.has(name.split(":").pop());
+        const selfClosing = raw.endsWith("/>");
+        if (target) found++;
+        if (!selfClosing) {
+          const start = { content: token.index + raw.length };
+          stack.push(start);
+          if (target && active === null) active = start;
+        }
+      }
+
+      const parsed = new DOMParser().parseFromString(xml, "application/xml");
+      const errorNamespaces = [
+        "http://www.w3.org/1999/xhtml",
+        "http://www.mozilla.org/newlayout/xml/parsererror.xml"
+      ];
+      const hasParseError = errorNamespaces.some(namespace =>
+        parsed.getElementsByTagNameNS(namespace, "parsererror").length > 0
+      );
+      if (!parsed.documentElement || hasParseError) {
+        throw new Error("File XML không hợp lệ. Vui lòng kiểm tra cấu trúc file gốc.");
+      }
+
+      const parts = [];
+      let cursor = 0;
+      for (const [start, end] of edits) {
+        parts.push(xml.slice(cursor, start));
+        cursor = end;
+      }
+      parts.push(xml.slice(cursor));
+      return { xml: parts.join(""), found, changed: edits.length };
+    }
+
+    function encodeXml(xml, encoding) {
+      if (encoding === "utf-8") return new TextEncoder().encode(xml);
+      const buffer = new ArrayBuffer(xml.length * 2);
+      const view = new DataView(buffer);
+      for (let i = 0; i < xml.length; i++) {
+        view.setUint16(i * 2, xml.charCodeAt(i), encoding === "utf-16le");
+      }
+      return buffer;
+    }
+
+    function showStatus(message, state = "") {
+      status.textContent = message;
+      status.dataset.state = state;
+    }
+
+    fileInput.addEventListener("change", () => {
+      selectionVersion++;
+      result = null;
+      downloadButton.disabled = true;
+      const file = fileInput.files[0];
+      processButton.disabled = !file;
+      showStatus(file ? "Đã chọn " + file.name + "." : "Chưa chọn file.");
+    });
+
+    processButton.addEventListener("click", async () => {
+      const file = fileInput.files[0];
+      if (!file) return;
+      const version = selectionVersion;
+      result = null;
+      processButton.disabled = true;
+      downloadButton.disabled = true;
+      showStatus("Đang xử lý file…");
+
+      try {
+        const original = await file.arrayBuffer();
+        if (version !== selectionVersion) return;
+        const source = readXml(original);
+        const output = clearFields(source.xml);
+        const chunks = output.changed ? [source.prefix, encodeXml(output.xml, source.encoding)] : [original];
+        result = {
+          blob: new Blob(chunks, { type: "application/xml" }),
+          name: file.name.replace(/\.xml$/i, "") + "_lam-trong.xml"
+        };
+        downloadButton.disabled = false;
+        if (output.changed) {
+          showStatus("Đã làm trống " + output.changed + " thẻ. File XML mới đã sẵn sàng.", "success");
+        } else if (output.found) {
+          showStatus("Các thẻ tìm thấy đã trống. Anh có thể tải bản sao XML.");
+        } else {
+          showStatus("File không có thẻ nào trong danh sách. Anh có thể tải bản sao XML.");
+        }
+      } catch (error) {
+        if (version === selectionVersion) showStatus(error.message || "Không thể xử lý file XML.", "error");
+      } finally {
+        if (version === selectionVersion) processButton.disabled = false;
+      }
+    });
+
+    downloadButton.addEventListener("click", () => {
+      if (!result) return;
+      const url = URL.createObjectURL(result.blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = result.name;
+      document.body.append(link);
+      link.click();
+      link.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 10000);
+    });
+  </script>
+</body>
+</html>
