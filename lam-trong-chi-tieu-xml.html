@@ -1,129 +1,75 @@
 <!doctype html>
 <html lang="vi">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Làm trống chỉ tiêu XML | Hỗ trợ Báo cáo thuế</title>
-  <style>
-    :root {
-      color-scheme: light;
-      --ink: #192437;
-      --muted: #536782;
-      --green: #153936;
-      --border: #dce2e9;
-      --paper: #fff;
-    }
-    * { box-sizing: border-box; }
-    body { margin: 0; background: #f8f7f3; color: var(--ink); font: 15px/1.5 system-ui, "Segoe UI", sans-serif; }
-    a { color: inherit; }
-    a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visible {
-      outline: 3px solid #4276d5; outline-offset: 3px;
-    }
-    .header {
-      max-width: 1210px; margin: auto; padding: 26px 22px;
-      display: flex; align-items: center; justify-content: space-between; gap: 20px;
-      border-bottom: 1px solid #d7ddd5; color: var(--green);
-    }
-    .brand { display: inline-flex; align-items: center; gap: 14px; text-decoration: none; letter-spacing: .065em; }
-    .brand small, .brand strong { display: block; }
-    .mark {
-      width: 64px; height: 64px; border-radius: 50%; display: grid; align-content: center;
-      border: 2px solid #f7d65a; background: #d62720; color: #ffeb83;
-      text-align: center; font-size: 9px; font-weight: 800; line-height: 1.25; letter-spacing: 0;
-    }
-    .mark span { font-size: 14px; }
-    nav { display: flex; flex-wrap: wrap; gap: 10px 22px; font-size: 14px; }
-    nav a { text-decoration: none; }
-    nav a:hover { text-decoration: underline; }
-    main { width: min(1100px, calc(100% - 32px)); margin: 28px auto 40px; display: grid; gap: 14px; }
-    .card {
-      background: var(--paper); border: 1px solid var(--border); border-radius: 15px;
-      box-shadow: 0 3px 15px #1924370b; padding: 17px 18px;
-    }
-    h1, h2, p { margin: 0; }
-    h1 { font-size: clamp(24px, 4vw, 29px); line-height: 1.2; margin: 4px 0 8px; }
-    h2 { font-size: 22px; line-height: 1.25; }
-    .intro p, .note, .hint, .status, details { font-size: 13px; color: var(--muted); }
-    .strip {
-      display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 24px;
-      background: var(--green); border-radius: 11px; color: #fff;
-      padding: 10px 14px; font-size: 14px; font-weight: 700;
-    }
-    .strip span::before { content: "✓"; color: #a8e5b2; margin-right: 7px; }
-    .tool { width: min(818px, 100%); justify-self: center; }
-    .tool h2 { margin: 3px 0 18px; text-align: center; }
-    label { display: block; margin-bottom: 5px; font-weight: 700; }
-    input[type=file] {
-      width: 100%; padding: 10px 11px; border: 1px solid #c6d3e2;
-      border-radius: 9px; font: inherit; color: var(--ink); background: var(--paper);
-    }
-    .actions { display: grid; gap: 10px; margin: 17px 0 10px; }
-    button, .zalo a {
-      border: 0; border-radius: 9px; padding: 12px 14px; min-height: 46px;
-      font: inherit; font-weight: 750; cursor: pointer; text-align: center;
-    }
-    button { color: #fff; background: var(--green); }
-    button:hover:not(:disabled) { background: #22504a; }
-    button:disabled { background: #687484; cursor: default; }
-    details { margin-top: 8px; }
-    summary { cursor: pointer; width: fit-content; }
-    details ul { margin: 6px 0 0; padding-left: 22px; }
-    .status { margin-top: 10px; overflow-wrap: anywhere; }
-    .status[data-state=error] { color: #a02620; }
-    .status[data-state=success] { color: #236443; }
-    .zalo {
-      display: flex; align-items: center; justify-content: space-between; gap: 20px;
-      padding: clamp(20px, 4vw, 32px); border-radius: 20px; color: #fff;
-      background: linear-gradient(110deg, #183b8f, #2659cb);
-    }
-    .zalo .eyebrow { color: #d5e4ff; font-size: 11px; font-weight: 800; letter-spacing: .12em; }
-    .zalo h2 { margin: 9px 0; }
-    .zalo p { color: #edf3ff; font-size: 14px; }
-    .zalo-links { display: grid; gap: 9px; flex: 0 0 auto; }
-    .zalo a { display: block; text-decoration: none; font-size: 14px; border: 1px solid #ffffff6b; }
-    .zalo a:hover { box-shadow: inset 0 0 0 2px #ffffffa3; }
-    .zalo a:first-child { background: #fff; color: #174296; }
-    @media (max-width: 630px) {
-      .header, .zalo { align-items: flex-start; flex-direction: column; }
-      .header { padding: 16px; }
-      .mark { width: 53px; height: 53px; font-size: 8px; }
-      main { margin-top: 16px; }
-      .zalo-links { width: 100%; }
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Làm trống chỉ tiêu XML | Hỗ trợ Báo Cáo Thuế</title>
+<style>
+body{font-family:Arial,sans-serif;background:#f5f7fb;margin:0;color:#1f2937}
+.wrap{max-width:1100px;margin:28px auto;padding:0 16px}
+.card{background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:18px;margin-bottom:14px;box-shadow:0 3px 14px rgba(0,0,0,.04)}
+h1{margin:0 0 6px;font-size:25px} h2{font-size:18px;margin:0 0 10px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+label{font-weight:700;display:block;margin:10px 0 6px}
+input,button,select{width:100%;box-sizing:border-box;padding:11px;border-radius:9px}
+input,select{border:1px solid #cbd5e1;background:white}
+button{border:0;background:#111827;color:white;font-weight:700;cursor:pointer;margin-top:10px}
+button.secondary{background:#475569}
+button.danger{background:#991b1b}
+button:disabled{opacity:.45}
+.small{font-size:13px;color:#64748b}.ok{color:#166534}.warn{color:#92400e}.err{color:#b91c1c}
+pre{background:#0f172a;color:#e2e8f0;padding:12px;border-radius:9px;white-space:pre-wrap;max-height:360px;overflow:auto}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{padding:8px;border-bottom:1px solid #e5e7eb;text-align:left}
+.badge{display:inline-block;padding:3px 8px;background:#e2e8f0;border-radius:999px;font-size:12px}
+@media(max-width:800px){.grid{grid-template-columns:1fr}}
+.adbar{overflow:hidden;white-space:nowrap;background:#0f172a;color:#fff;border-radius:12px;margin-bottom:14px}
+.marquee{display:flex;width:max-content;animation:marqueeLoop 42s linear infinite}
+.marquee-group{display:flex;flex-shrink:0}
+.marquee-item{padding:11px 42px 11px 0;font-weight:700}.green-check{color:#22c55e;font-weight:900;margin:0 8px}
+@keyframes marqueeLoop{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.adbar:hover .marquee{animation-play-state:paused}
+.brand-note{font-size:13px;color:#64748b;margin-top:4px}
+@media(max-width:800px){.marquee{animation-duration:34s}}
+
+.public-tool{max-width:780px;margin-left:auto;margin-right:auto}
+.public-tool h2{text-align:center;font-size:22px;margin-bottom:18px}
+.public-tool input[type=file]{margin-bottom:8px}
+.public-tool button{font-size:16px;padding:13px}
+header{max-width:1170px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:25px 20px;border-bottom:1px solid #d9dfd5}header a{text-decoration:none;color:#183e39}.brand{display:flex;align-items:center;gap:12px;font-size:12px;line-height:1.5;letter-spacing:1px}.brand b{font-size:16px}.brand-logo{width:72px;height:72px;object-fit:contain;border-radius:50%}nav{display:flex;gap:22px;flex-wrap:wrap;font-size:14px}nav [aria-current]{font-weight:700;text-decoration:underline;text-underline-offset:6px}body{background:#faf9f5;font-family:'Segoe UI',Arial,sans-serif}input,button,select{font-family:inherit}button{background:#183e39}.adbar{background:#183e39}.wrap{max-width:1100px}label{font-size:15px}h1{font-size:28px;line-height:1.4}input[type=file]{font-size:14px}a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #b49b60;outline-offset:3px}@media(max-width:700px){header{align-items:flex-start;flex-direction:column;padding:18px 20px}nav{gap:15px;font-size:13px}.brand-logo{width:60px;height:60px}h1{font-size:24px}}@media(prefers-reduced-motion:reduce){.marquee{animation:none}}
+</style>
 </head>
-<body>
-  <header class="header">
-    <a class="brand" href="https://caothang2e.github.io/hotrobaocaothue-website/">
-      <span class="mark" aria-hidden="true"><span>★</span>HỖ TRỢ<br>BÁO CÁO THUẾ</span>
-      <span><small>HỖ TRỢ</small><strong>BÁO CÁO THUẾ</strong></span>
-    </a>
-    <nav aria-label="Điều hướng">
-      <a href="https://caothang2e.github.io/hotrobaocaothue-website/xml-etax-htkk.html" target="_blank" rel="noopener">Công cụ XML eTax → HTKK ↗</a>
-      <a href="#ho-tro">Hỗ trợ qua Zalo</a>
-    </nav>
-  </header>
-  <main>
-    <section class="card intro" aria-labelledby="intro-title">
-      <h1 id="intro-title">Công cụ làm trống chỉ tiêu XML</h1>
-      <p>Làm trống 5 chỉ tiêu đã định sẵn và xuất bản sao XML để sử dụng.</p>
-      <p>Hỗ trợ Báo cáo thuế · 0979 936 336</p>
-    </section>
-    <div class="strip">
-      <span>Xử lý trực tiếp trên trình duyệt</span>
-      <span>Giữ nguyên phần XML còn lại</span>
-      <span>Tải file XML mới</span>
+<body><header><a class="brand" href="index.html"><img class="brand-logo" src="assets/logo.png" alt="Logo Hỗ Trợ Báo Cáo Thuế" width="72" height="72"><span>HỖ TRỢ<br><b>BÁO CÁO THUẾ</b></span></a><nav><a href="index.html#library">Thư viện kiến thức</a><a href="xml-etax-htkk.html">Công cụ XML eTax → HTKK</a><a href="lam-trong-chi-tieu-xml.html" aria-current="page">Làm trống chỉ tiêu XML</a><a href="https://tra-cuu-cshhl-0979936336.mellow-duck-3403.chatgpt.site/" target="_blank" rel="noopener">Hướng dẫn kê khai chủ sở hữu hưởng lợi ↗</a><a href="index.html#services">Dịch vụ</a><a href="https://www.facebook.com/hotrobaocaothue/" target="_blank" rel="noopener">Facebook ↗</a></nav></header>
+<div class="wrap">
+  <div class="card">
+    <h1>Công cụ làm trống chỉ tiêu XML</h1>
+    <div class="small">Làm trống 5 chỉ tiêu đã định sẵn và tải bản sao XML.</div>
+    <div class="brand-note">FB: Hỗ trợ báo cáo thuế - 0979 936 336 </div>
+  </div>
+
+  <div class="adbar">
+    <div class="marquee">
+      <div class="marquee-group">
+        <div class="marquee-item">HỖ TRỢ BÁO CÁO THUẾ - 0979 936 336 <span class="green-check">✅</span> Đăng ký / gia hạn Chữ ký số ICA - FAST - VIETTEL - VNPT..vvv <span class="green-check">✅</span> Phần mềm BHXH <span class="green-check">✅</span> Hóa đơn điện tử <span class="green-check">✅</span> Chứng từ TNCN <span class="green-check">✅</span> Phần mềm quản lý hóa đơn</div>
+        <div class="marquee-item">HỖ TRỢ BÁO CÁO THUẾ - 0979 936 336 <span class="green-check">✅</span> Đăng ký / gia hạn Chữ ký số ICA - FAST - VIETTEL - VNPT..vvv <span class="green-check">✅</span> Phần mềm BHXH <span class="green-check">✅</span> Hóa đơn điện tử <span class="green-check">✅</span> Chứng từ TNCN <span class="green-check">✅</span> Phần mềm quản lý hóa đơn</div>
+      </div>
+      <div class="marquee-group" aria-hidden="true">
+        <div class="marquee-item">HỖ TRỢ BÁO CÁO THUẾ - 0979 936 336 <span class="green-check">✅</span> Đăng ký / gia hạn Chữ ký số ICA - FAST - VIETTEL - VNPT..vvv <span class="green-check">✅</span> Phần mềm BHXH <span class="green-check">✅</span> Hóa đơn điện tử <span class="green-check">✅</span> Chứng từ TNCN <span class="green-check">✅</span> Phần mềm quản lý hóa đơn</div>
+        <div class="marquee-item">HỖ TRỢ BÁO CÁO THUẾ - 0979 936 336 <span class="green-check">✅</span> Đăng ký / gia hạn Chữ ký số ICA - FAST - VIETTEL - VNPT..vvv <span class="green-check">✅</span> Phần mềm BHXH <span class="green-check">✅</span> Hóa đơn điện tử <span class="green-check">✅</span> Chứng từ TNCN <span class="green-check">✅</span> Phần mềm quản lý hóa đơn</div>
+      </div>
     </div>
-    <section class="card tool" aria-labelledby="tool-title">
+  </div>
+
+  <section class="card public-tool" aria-labelledby="tool-title">
       <h2 id="tool-title">Xử lý tờ khai XML</h2>
       <label for="file">1. Chọn file XML gốc</label>
       <input id="file" type="file" accept=".xml,application/xml,text/xml" aria-describedby="file-hint">
       <div class="actions">
         <button id="process" type="button" disabled>2. Làm trống 5 chỉ tiêu</button>
-        <button id="download" type="button" disabled>3. Tải XML mới</button>
+        <button class="secondary" id="download" type="button" disabled>3. Tải XML mới</button>
       </div>
-      <p class="hint" id="file-hint">Hỗ trợ XML mã hóa UTF-8 và UTF-16.</p>
-      <details>
+      <p class="small" id="file-hint">Hỗ trợ XML mã hóa UTF-8 và UTF-16.</p>
+      <details class="small">
         <summary>Xem 5 chỉ tiêu được xử lý</summary>
         <ul>
           <li><code>ct9_tenCoQuanThu</code></li>
@@ -133,22 +79,17 @@
           <li><code>ct8_soNopThua</code></li>
         </ul>
       </details>
-      <p class="status" id="status" role="status">Chưa chọn file.</p>
+      <p class="small" id="status" role="status">Chưa chọn file.</p>
     </section>
-    <p class="card note">🔒 File được xử lý ngay trên thiết bị của anh, không tải lên máy chủ.</p>
-    <section class="zalo" id="ho-tro" aria-labelledby="zalo-title">
-      <div>
-        <p class="eyebrow">ĐỒNG HÀNH CÙNG DOANH NGHIỆP</p>
-        <h2 id="zalo-title">Cần hỗ trợ thực hiện hồ sơ?</h2>
-        <p>Kết nối qua Zalo hoặc tham gia nhóm hỗ trợ để được hướng dẫn.</p>
-      </div>
-      <div class="zalo-links">
-        <a href="https://zalo.me/0979936336" target="_blank" rel="noopener">Zalo · 0979 936 336 ↗</a>
-        <a href="https://zalo.me/g/uya1kcroeg3fdyks1zea" target="_blank" rel="noopener">Tham gia nhóm hỗ trợ ↗</a>
-      </div>
-    </section>
-  </main>
-  <script>
+
+  <div class="card">
+    <div class="small">
+      🔒 File XML được xử lý trực tiếp trên trình duyệt. File gốc được giữ nguyên.
+    </div>
+  </div>
+</div>
+
+<script>
     "use strict";
 
     const fields = new Set([
@@ -322,5 +263,5 @@
       setTimeout(() => URL.revokeObjectURL(url), 10000);
     });
   </script>
-</body>
+<style>header{gap:24px}header nav{flex-wrap:wrap;justify-content:flex-end;gap:12px 22px;max-width:800px}header nav a{font-size:14px;line-height:1.5}header nav a:hover{text-decoration:underline}header .brand{flex-shrink:0}@media(max-width:700px){header{flex-direction:column;align-items:flex-start}header nav{justify-content:flex-start;gap:10px 18px}header nav a:first-child{display:block}}</style></body>
 </html>
