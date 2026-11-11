@@ -43,7 +43,7 @@ header{max-width:1170px;margin:auto;display:flex;align-items:center;justify-cont
 <div class="wrap">
   <div class="card">
     <h1>Công cụ làm trống chỉ tiêu XML</h1>
-    <div class="small">Chọn đưa 4 chỉ tiêu số về 0 và giữ nguyên mã, tên cơ quan thu; hoặc cập nhật cả 6 chỉ tiêu.</div>
+    <div class="small">Đưa 4 chỉ tiêu số về 0 và giữ nguyên mã, tên cơ quan thu.</div>
     <div class="brand-note">FB: Hỗ trợ báo cáo thuế - 0979 936 336 </div>
   </div>
 
@@ -65,7 +65,6 @@ header{max-width:1170px;margin:auto;display:flex;align-items:center;justify-cont
       <label for="file">1. Chọn file XML gốc</label>
       <input id="file" type="file" accept=".xml,application/xml,text/xml" aria-describedby="file-hint">
       <div class="actions">
-        <button id="process" type="button" disabled>2. Cập nhật 6 chỉ tiêu</button>
         <button id="processFour" type="button" disabled>2. Chỉ đưa 4 chỉ tiêu số về 0</button>
         <button class="secondary" id="download" type="button" disabled>3. Tải XML mới</button>
       </div>
@@ -73,7 +72,7 @@ header{max-width:1170px;margin:auto;display:flex;align-items:center;justify-cont
       <details class="small">
         <summary>Xem cách xử lý từng chỉ tiêu</summary>
         <ul>
-          <li><code>ct9_maCoQuanThu</code> và <code>ct9_tenCoQuanThu</code>: chỉ để trống khi chọn cập nhật 6 chỉ tiêu.</li>
+          <li><code>ct9_maCoQuanThu</code> và <code>ct9_tenCoQuanThu</code>: giữ nguyên.</li>
           <li><code>ct7_soNopThua</code>: đặt về 0.</li>
           <li><code>tongCot7TM</code>: đặt về 0.</li>
           <li><code>tongCot7</code>: đặt về 0.</li>
@@ -94,17 +93,10 @@ header{max-width:1170px;margin:auto;display:flex;align-items:center;justify-cont
     "use strict";
 
     const fieldValues = new Map([
-      ["ct9_maCoQuanThu", ""], ["ct9_tenCoQuanThu", ""],
       ["ct7_soNopThua", "0"], ["tongCot7TM", "0"], ["tongCot7", "0"], ["ct8_soNopThua", "0"]
     ]);
     const fileInput = document.getElementById("file");
-    const numericFieldValues = new Map([...fieldValues].filter(([, value]) => value === "0"));
-    const processButton = document.getElementById("process");
     const processFourButton = document.getElementById("processFour");
-    function setProcessingDisabled(disabled) {
-      processButton.disabled = disabled;
-      processFourButton.disabled = disabled;
-    }
     const downloadButton = document.getElementById("download");
     const status = document.getElementById("status");
     let selectionVersion = 0;
@@ -144,7 +136,7 @@ header{max-width:1170px;margin:auto;display:flex;align-items:center;justify-cont
       return { xml, encoding, prefix: bytes.subarray(0, bom) };
     }
 
-    function updateFields(xml, values = fieldValues) {
+    function updateFields(xml) {
       // Đọc vị trí thẻ trong văn bản gốc, tránh ghi lại XML qua bộ tuần tự hóa.
       const markup = /<!--[\s\S]*?-->|<!\[CDATA\[[\s\S]*?\]\]>|<\?[\s\S]*?\?>|<!DOCTYPE\b|<(?:[^<>"']|"[^"]*"|'[^']*')*>/g;
       const stack = [];
@@ -169,7 +161,7 @@ header{max-width:1170px;margin:auto;display:flex;align-items:center;justify-cont
         }
 
         const name = raw.match(/^<([^\s/>]+)/)?.[1];
-        const value = name ? values.get(name.split(":").pop()) : undefined;
+        const value = name ? fieldValues.get(name.split(":").pop()) : undefined;
         const target = value !== undefined;
         const selfClosing = raw.endsWith("/>");
         if (target) found++;
@@ -226,16 +218,16 @@ header{max-width:1170px;margin:auto;display:flex;align-items:center;justify-cont
       result = null;
       downloadButton.disabled = true;
       const file = fileInput.files[0];
-      setProcessingDisabled(!file);
+      processFourButton.disabled = !file;
       showStatus(file ? "Đã chọn " + file.name + "." : "Chưa chọn file.");
     });
 
-    async function processFile(values) {
+    async function processFile() {
       const file = fileInput.files[0];
       if (!file) return;
       const version = selectionVersion;
       result = null;
-      setProcessingDisabled(true);
+      processFourButton.disabled = true;
       downloadButton.disabled = true;
       showStatus("Đang xử lý file…");
 
@@ -243,7 +235,7 @@ header{max-width:1170px;margin:auto;display:flex;align-items:center;justify-cont
         const original = await file.arrayBuffer();
         if (version !== selectionVersion) return;
         const source = readXml(original);
-        const output = updateFields(source.xml, values);
+        const output = updateFields(source.xml);
         const chunks = output.changed ? [source.prefix, encodeXml(output.xml, source.encoding)] : [original];
         result = {
           blob: new Blob(chunks, { type: "application/xml" }),
@@ -251,7 +243,7 @@ header{max-width:1170px;margin:auto;display:flex;align-items:center;justify-cont
         };
         downloadButton.disabled = false;
         if (output.changed) {
-          showStatus("Đã cập nhật " + output.changed + " thẻ." + (values === numericFieldValues ? " Giữ nguyên mã và tên cơ quan thu." : "") + " File XML mới đã sẵn sàng.", "success");
+          showStatus("Đã cập nhật " + output.changed + " thẻ. Giữ nguyên mã và tên cơ quan thu. File XML mới đã sẵn sàng.", "success");
         } else if (output.found) {
           showStatus("Các thẻ tìm thấy đã có giá trị đúng. Anh có thể tải bản sao XML.");
         } else {
@@ -260,12 +252,11 @@ header{max-width:1170px;margin:auto;display:flex;align-items:center;justify-cont
       } catch (error) {
         if (version === selectionVersion) showStatus(error.message || "Không thể xử lý file XML.", "error");
       } finally {
-        if (version === selectionVersion) setProcessingDisabled(false);
+        if (version === selectionVersion) processFourButton.disabled = false;
       }
     }
 
-    processButton.addEventListener("click", () => processFile(fieldValues));
-    processFourButton.addEventListener("click", () => processFile(numericFieldValues));
+    processFourButton.addEventListener("click", processFile);
 
     downloadButton.addEventListener("click", () => {
       if (!result) return;
