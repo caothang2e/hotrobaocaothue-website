@@ -43,7 +43,7 @@ header{max-width:1170px;margin:auto;display:flex;align-items:center;justify-cont
 <div class="wrap">
   <div class="card">
     <h1>Công cụ làm trống chỉ tiêu XML</h1>
-    <div class="small">Làm trống 5 chỉ tiêu đã định sẵn và tải bản sao XML.</div>
+    <div class="small">Đưa 4 chỉ tiêu số về 0, để trống mã và tên cơ quan thu, rồi tải bản sao XML.</div>
     <div class="brand-note">FB: Hỗ trợ báo cáo thuế - 0979 936 336 </div>
   </div>
 
@@ -65,18 +65,18 @@ header{max-width:1170px;margin:auto;display:flex;align-items:center;justify-cont
       <label for="file">1. Chọn file XML gốc</label>
       <input id="file" type="file" accept=".xml,application/xml,text/xml" aria-describedby="file-hint">
       <div class="actions">
-        <button id="process" type="button" disabled>2. Làm trống 5 chỉ tiêu</button>
+        <button id="process" type="button" disabled>2. Cập nhật 6 chỉ tiêu</button>
         <button class="secondary" id="download" type="button" disabled>3. Tải XML mới</button>
       </div>
       <p class="small" id="file-hint">Hỗ trợ XML mã hóa UTF-8 và UTF-16.</p>
       <details class="small">
-        <summary>Xem 5 chỉ tiêu được xử lý</summary>
+        <summary>Xem 6 chỉ tiêu được xử lý</summary>
         <ul>
-          <li><code>ct9_tenCoQuanThu</code></li>
-          <li><code>ct7_soNopThua</code></li>
-          <li><code>tongCot7TM</code></li>
-          <li><code>tongCot7</code></li>
-          <li><code>ct8_soNopThua</code></li>
+          <li><code>ct9_maCoQuanThu</code> và <code>ct9_tenCoQuanThu</code>: để trống.</li>
+          <li><code>ct7_soNopThua</code>: đặt về 0.</li>
+          <li><code>tongCot7TM</code>: đặt về 0.</li>
+          <li><code>tongCot7</code>: đặt về 0.</li>
+          <li><code>ct8_soNopThua</code>: đặt về 0.</li>
         </ul>
       </details>
       <p class="small" id="status" role="status">Chưa chọn file.</p>
@@ -92,8 +92,9 @@ header{max-width:1170px;margin:auto;display:flex;align-items:center;justify-cont
 <script>
     "use strict";
 
-    const fields = new Set([
-      "ct9_tenCoQuanThu", "ct7_soNopThua", "tongCot7TM", "tongCot7", "ct8_soNopThua"
+    const fieldValues = new Map([
+      ["ct9_maCoQuanThu", ""], ["ct9_tenCoQuanThu", ""],
+      ["ct7_soNopThua", "0"], ["tongCot7TM", "0"], ["tongCot7", "0"], ["ct8_soNopThua", "0"]
     ]);
     const fileInput = document.getElementById("file");
     const processButton = document.getElementById("process");
@@ -136,7 +137,7 @@ header{max-width:1170px;margin:auto;display:flex;align-items:center;justify-cont
       return { xml, encoding, prefix: bytes.subarray(0, bom) };
     }
 
-    function clearFields(xml) {
+    function updateFields(xml) {
       // Đọc vị trí thẻ trong văn bản gốc, tránh ghi lại XML qua bộ tuần tự hóa.
       const markup = /<!--[\s\S]*?-->|<!\[CDATA\[[\s\S]*?\]\]>|<\?[\s\S]*?\?>|<!DOCTYPE\b|<(?:[^<>"']|"[^"]*"|'[^']*')*>/g;
       const stack = [];
@@ -154,18 +155,23 @@ header{max-width:1170px;margin:auto;display:flex;align-items:center;justify-cont
         if (raw.startsWith("</")) {
           const start = stack.pop();
           if (start === active && active !== null) {
-            if (start.content < token.index) edits.push([start.content, token.index]);
+            if (xml.slice(start.content, token.index) !== start.value) edits.push([start.content, token.index, start.value]);
             active = null;
           }
           continue;
         }
 
         const name = raw.match(/^<([^\s/>]+)/)?.[1];
-        const target = name && fields.has(name.split(":").pop());
+        const value = name ? fieldValues.get(name.split(":").pop()) : undefined;
+        const target = value !== undefined;
         const selfClosing = raw.endsWith("/>");
         if (target) found++;
-        if (!selfClosing) {
-          const start = { content: token.index + raw.length };
+        if (selfClosing) {
+          if (value === "0" && active === null) {
+            edits.push([token.index + raw.length - 2, token.index + raw.length, ">0</" + name + ">"]);
+          }
+        } else {
+          const start = { content: token.index + raw.length, value };
           stack.push(start);
           if (target && active === null) active = start;
         }
@@ -185,8 +191,8 @@ header{max-width:1170px;margin:auto;display:flex;align-items:center;justify-cont
 
       const parts = [];
       let cursor = 0;
-      for (const [start, end] of edits) {
-        parts.push(xml.slice(cursor, start));
+      for (const [start, end, value] of edits) {
+        parts.push(xml.slice(cursor, start), value);
         cursor = end;
       }
       parts.push(xml.slice(cursor));
@@ -230,7 +236,7 @@ header{max-width:1170px;margin:auto;display:flex;align-items:center;justify-cont
         const original = await file.arrayBuffer();
         if (version !== selectionVersion) return;
         const source = readXml(original);
-        const output = clearFields(source.xml);
+        const output = updateFields(source.xml);
         const chunks = output.changed ? [source.prefix, encodeXml(output.xml, source.encoding)] : [original];
         result = {
           blob: new Blob(chunks, { type: "application/xml" }),
@@ -238,9 +244,9 @@ header{max-width:1170px;margin:auto;display:flex;align-items:center;justify-cont
         };
         downloadButton.disabled = false;
         if (output.changed) {
-          showStatus("Đã làm trống " + output.changed + " thẻ. File XML mới đã sẵn sàng.", "success");
+          showStatus("Đã cập nhật " + output.changed + " thẻ. File XML mới đã sẵn sàng.", "success");
         } else if (output.found) {
-          showStatus("Các thẻ tìm thấy đã trống. Anh có thể tải bản sao XML.");
+          showStatus("Các thẻ tìm thấy đã có giá trị đúng. Anh có thể tải bản sao XML.");
         } else {
           showStatus("File không có thẻ nào trong danh sách. Anh có thể tải bản sao XML.");
         }
