@@ -374,14 +374,8 @@ const entries = {
     {
       "name": "Phường Đại Mỗ",
       "deadline": "Chưa xác minh hạn của địa phương",
-      "note": "Đường dẫn do người dùng cung cấp. Xem tên đơn vị trên bảng và xác nhận cách gửi với UBND phường, xã trước khi khai.",
-      "links": [
-        [
-          "Mở bảng khai trực tuyến",
-          "https://docs.google.com/spreadsheets/d/1x2Yb6Tg3hz5ivtJuHTFRyCBFt4I2VBFg/edit?gid=1851350132#gid=1851350132",
-          "submit"
-        ]
-      ]
+      "note": "Tạm tắt link khai trực tuyến vì bảng hiện dẫn đến nội dung khám sức khỏe. Đang chờ link báo cáo lương, thưởng thay thế.",
+      "links": []
     },
     {
       "name": "Phường Định Công",
@@ -474,14 +468,8 @@ const entries = {
     {
       "name": "Phường Khương Đình",
       "deadline": "Chưa xác minh hạn của địa phương",
-      "note": "Bảng này cũng xuất hiện dưới tên Thanh Xuân trong danh sách gửi thêm. Kiểm tra tên phường trên bảng hoặc xác nhận với UBND phường Khương Đình trước khi khai.",
-      "links": [
-        [
-          "Mở bảng khai trực tuyến",
-          "https://docs.google.com/spreadsheets/d/15HedfXtyQE7Y-UIOfeLVZZLEW1P-xfhS/edit?gid=800472999#gid=800472999",
-          "submit"
-        ]
-      ]
+      "note": "Tạm tắt link khai trực tuyến vì bảng cũng được dẫn cho Thanh Xuân và chưa xác định được đúng đầu mối. Đang chờ link được xác nhận.",
+      "links": []
     },
     {
       "name": "Phường Kiến Hưng",
