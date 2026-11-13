@@ -27,16 +27,12 @@ function normalized(value) {
 }
 
 function displayLinks(channel) {
-  const isWard = /^Phường /.test(channel.name);
+  const links = channel.links.filter(([label]) => !label.startsWith('Danh sách phường, xã Hà Nội'));
   const isOnlineTable = ([, url]) => /^https:\/\/docs\.google\.com\/(?:spreadsheets|document)\//.test(url);
-  const table = isWard && channel.links.find(isOnlineTable);
-  if (!table) {
-    return /^(Phường|Xã) /.test(channel.name)
-      ? channel.links.filter(([label]) => label !== 'Danh sách phường, xã Hà Nội')
-      : channel.links;
-  }
+  const table = /^Phường /.test(channel.name) && links.find(isOnlineTable);
+  if (!table) return links;
 
-  return [['Mở bảng khai trực tuyến', table[1], 'submit'], ...channel.links.filter(item => !isOnlineTable(item))];
+  return [['Mở bảng khai trực tuyến', table[1], 'submit'], ...links.filter(item => !isOnlineTable(item))];
 }
 
 function renderProvince() {
@@ -106,6 +102,7 @@ document.getElementById('coverage').textContent = `${provinces.length} tỉnh, t
 document.getElementById('central').append(...central.map(link));
 const sourceList = document.getElementById('source-list');
 for (const source of sources) {
+  if (source[0].startsWith('Danh sách phường, xã Hà Nội')) continue;
   const item = element('li');
   item.append(link(source));
   sourceList.append(item);
