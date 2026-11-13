@@ -2,6 +2,8 @@ const filter = document.getElementById('filter');
 const province = document.getElementById('province');
 const result = document.getElementById('result');
 const match = document.getElementById('match');
+const ward = document.getElementById('ward');
+const wardPicker = document.getElementById('ward-picker');
 
 function element(tag, content, className) {
   const node = document.createElement(tag);
@@ -26,6 +28,7 @@ function normalized(value) {
 
 function renderProvince() {
   result.replaceChildren();
+  wardPicker.hidden = (entries[province.value]?.length ?? 0) < 2;
   if (!province.value) return;
 
   const name = province.value;
@@ -46,7 +49,12 @@ function renderProvince() {
     return;
   }
 
-  for (const channel of channels) {
+  const queryWard = normalized(ward.value).replace(/^(phuong|xa)\s+/, '');
+  const matchingChannels = channels.filter(channel => normalized(channel.name).includes(queryWard));
+  if (matchingChannels.length === 0) {
+    result.append(element('p', 'Chưa tìm thấy phường, xã hoặc nơi tiếp nhận này trong dữ liệu đang có.', 'muted'));
+  }
+  for (const channel of matchingChannels) {
     const card = element('article');
     const links = element('div', '', 'links');
     links.append(...channel.links.map(link));
@@ -54,7 +62,9 @@ function renderProvince() {
     result.append(card);
   }
   const source = element('div', '', 'links');
-  source.append(link(name === 'Hà Nội' ? sources[2] : sources[3]), link(search));
+  if (name === 'Hà Nội') source.append(link(sources[4]), link(sources[2]));
+  else source.append(link(sources[3]));
+  source.append(link(search));
   result.append(source);
 }
 
@@ -71,6 +81,7 @@ function renderOptions() {
     province.append(option);
   }
   province.value = matching.includes(previous) ? previous : (matching.length === 1 ? matching[0] : '');
+  if (province.value !== previous) ward.value = '';
   province.disabled = matching.length === 0;
   match.textContent = query ? matching.length + ' tỉnh, thành phù hợp.' : '';
   renderProvince();
@@ -86,5 +97,9 @@ for (const source of sources) {
   sourceList.append(item);
 }
 filter.addEventListener('input', renderOptions);
-province.addEventListener('change', renderProvince);
+province.addEventListener('change', () => {
+  ward.value = '';
+  renderProvince();
+});
+ward.addEventListener('input', renderProvince);
 renderOptions();

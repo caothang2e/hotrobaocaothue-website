@@ -14,6 +14,7 @@
 .tet-report p { margin: 8px 0; }
 .tet-report .muted { color: #546b62; }
 .tet-report .pick { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin: 18px 0; }
+.tet-report .pick[hidden] { display: none; }
 .tet-report .pick label { display: block; margin-bottom: 4px; font-weight: 650; }
 .tet-report .pick input, .tet-report .pick select { display: block; width: 100%; min-height: 44px; padding: 8px 12px; border: 1px solid #a9b6a7; border-radius: 4px; font: inherit; }
 .tet-report :is(a, input, select):focus-visible { outline: 3px solid #8b7143; outline-offset: 3px; }

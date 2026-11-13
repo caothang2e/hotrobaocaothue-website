@@ -131,12 +131,12 @@ const entries = {
       "note": "Gửi báo cáo theo mẫu về Sở Nội vụ, tòa I‑6, J‑5 Trung tâm Chính trị – Hành chính, Khu đô thị Bắc sông Cấm, phường Thủy Nguyên.",
       "links": [
         [
-        "Công văn 7017/SNV-LĐVL",
-        "https://cdn.thuvienphapluat.vn/phap-luat/2022-2/NDBT/071126/cong-van-7071-snv-ldvl-2026-tp-hai-phong.pdf"
-      ],
-      [
-        "Mẫu báo cáo",
-        "https://cdn.thuvienphapluat.vn/phap-luat/2022-2/NDBT/071126/mau-bao-cao-luong-2026-thuong-tet-2027-hai-phong.pdf"
+          "Công văn 7017/SNV-LĐVL",
+          "https://cdn.thuvienphapluat.vn/phap-luat/2022-2/NDBT/071126/cong-van-7071-snv-ldvl-2026-tp-hai-phong.pdf"
+        ],
+        [
+          "Mẫu báo cáo",
+          "https://cdn.thuvienphapluat.vn/phap-luat/2022-2/NDBT/071126/mau-bao-cao-luong-2026-thuong-tet-2027-hai-phong.pdf"
         ]
       ]
     }
@@ -166,7 +166,7 @@ const entries = {
         ],
         [
           "Biểu mẫu từ nguồn tổng hợp",
-        "https://cdn.thuvienphapluat.vn/phap-luat/2022-2/NDBT/091126/mau-bao-cao-luong-2026-thuong-2027-nghe-an.docx"
+          "https://cdn.thuvienphapluat.vn/phap-luat/2022-2/NDBT/091126/mau-bao-cao-luong-2026-thuong-2027-nghe-an.docx"
         ]
       ]
     }
@@ -189,7 +189,7 @@ const entries = {
         ],
         [
           "Công văn 10456/SNV-LĐVL và biểu mẫu",
-        "https://cdn.thuvienphapluat.vn/phap-luat/2022-2/NDBT/091126/cong-van-10456-snv-ldvl-2026-tp-da-nang.pdf"
+          "https://cdn.thuvienphapluat.vn/phap-luat/2022-2/NDBT/091126/cong-van-10456-snv-ldvl-2026-tp-da-nang.pdf"
         ]
       ]
     }
@@ -206,7 +206,7 @@ const entries = {
         ],
         [
           "Mẫu báo cáo từ nguồn tổng hợp",
-        "https://cdn.thuvienphapluat.vn/phap-luat/2022-2/NDBT/101126/mau-bao-cao-luong-2026-thuong-2027-hung-yen.docx"
+          "https://cdn.thuvienphapluat.vn/phap-luat/2022-2/NDBT/101126/mau-bao-cao-luong-2026-thuong-2027-hung-yen.docx"
         ]
       ]
     }
@@ -218,13 +218,18 @@ const entries = {
       "note": "Điền biểu mẫu trực tuyến hoặc mở biểu mẫu qua mã QR kèm công văn.",
       "links": [
         [
-          "Mở biểu mẫu nộp",
+          "Mở Google Form nộp trực tiếp",
+          "https://docs.google.com/forms/d/e/1FAIpQLScILCxx3As-V-AbFyQZI1xMd6RFkl2KBGExCkT5DXmIquBWiQ/viewform",
+          "submit"
+        ],
+        [
+          "Link rút gọn trong công văn",
           "https://byvn.net/SLy3",
           "submit"
         ],
         [
           "Công văn 6238/SNV-CSLĐ",
-        "https://cdn.thuvienphapluat.vn/phap-luat/2022-2/DTML/101126/6238-bac-ninh.pdf"
+          "https://cdn.thuvienphapluat.vn/phap-luat/2022-2/DTML/101126/6238-bac-ninh.pdf"
         ]
       ]
     }
@@ -237,11 +242,11 @@ const entries = {
       "links": [
         [
           "Công văn 9366/SNV-LĐ",
-        "https://cdn.thuvienphapluat.vn/phap-luat/2022-2/NDBT/101126/cong-van-9366-snv-ld-tp-dong-nai-2026.pdf"
+          "https://cdn.thuvienphapluat.vn/phap-luat/2022-2/NDBT/101126/cong-van-9366-snv-ld-tp-dong-nai-2026.pdf"
         ],
         [
           "Mẫu báo cáo từ nguồn tổng hợp",
-        "https://cdn.thuvienphapluat.vn/phap-luat/2022-2/NDBT/111126/mau-bao-cao-luong-2026-thuong-tet-2027-tp-dong-nai.pdf"
+          "https://cdn.thuvienphapluat.vn/phap-luat/2022-2/NDBT/111126/mau-bao-cao-luong-2026-thuong-tet-2027-tp-dong-nai.pdf"
         ]
       ]
     },
@@ -300,6 +305,17 @@ const entries = {
       ]
     },
     {
+      "name": "Phường Cửa Nam",
+      "deadline": "Chưa xác minh hạn của địa phương",
+      "note": "Nơi nhận được dẫn: Phòng Nội vụ – Tư pháp, phòng 502, số 102 Hai Bà Trưng.",
+      "links": [
+        [
+          "Danh sách phường, xã Hà Nội",
+          "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-phuong-xa-ha-noi-da-co-link-bao-cao-tien-luong-thuong-tet-2027-chi-tiet-nhu-the-nao-301695.html"
+        ]
+      ]
+    },
+    {
       "name": "Phường Dương Nội",
       "deadline": "Trước ngày 18/11/2026",
       "note": "Điền bảng trực tuyến hoặc gửi bản giấy qua Phòng Nội vụ – Tư pháp.",
@@ -316,48 +332,39 @@ const entries = {
       ]
     },
     {
-      "name": "Phường Yên Hòa",
-      "deadline": "Trước ngày 15/11/2026",
-      "note": "Điền mẫu Excel và gửi theo công văn của phường, qua Phòng Văn hóa – Xã hội.",
+      "name": "Phường Định Công",
+      "deadline": "Chưa xác minh hạn của địa phương",
+      "note": "Nơi nhận được dẫn: Phòng Nội vụ – Tư pháp, số 1 ngõ 282 đường Kim Giang.",
       "links": [
         [
-          "Mẫu Excel",
-          "https://cdn.thuvienphapluat.vn/uploads/laodongtienluong/20230301/HTT/10-2026/bao-cao-yen-hoa.xlsx"
-        ],
-        [
-          "Công văn 2981/UBND-VHXH",
-          "https://cdn.thuvienphapluat.vn/uploads/laodongtienluong/20230301/HTT/10-2026/CV-2981.pdf"
+          "Danh sách phường, xã Hà Nội",
+          "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-phuong-xa-ha-noi-da-co-link-bao-cao-tien-luong-thuong-tet-2027-chi-tiet-nhu-the-nao-301695.html"
         ]
       ]
     },
     {
-      "name": "Phường Nghĩa Đô",
-      "deadline": "Trước ngày 17/11/2026",
-      "note": "Gửi Phòng Nội vụ – Tư pháp, 45 Nghĩa Tân, theo biểu 1, 2, 3.",
+      "name": "Phường Đống Đa",
+      "deadline": "Chưa xác minh hạn của phường",
+      "note": "Danh sách địa phương có dẫn biểu mẫu hoặc tài liệu này. Xem hướng dẫn trong tài liệu và hỏi phường nếu cần xác nhận cách gửi.",
       "links": [
         [
-          "Tải bộ mẫu",
-          "https://cdn.thuvienphapluat.vn/uploads/laodongtienluong/20230301/HTT/10-2026/bieu-so-1%2C2.3.docx"
+          "Mở tài liệu hướng dẫn",
+          "https://docs.google.com/document/d/1jx4YLLulyzmnt_04nzkf9IvY3pybfYHOtgB4a1NPINI/edit?tab=t.0"
         ],
         [
-          "Công văn 2367/UBND-NVTP",
-          "https://cdn.thuvienphapluat.vn/uploads/laodongtienluong/20230301/HTT/10-2026/phuong-nghia-do.doc"
+          "Danh sách phường, xã Hà Nội",
+          "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-phuong-xa-ha-noi-da-co-link-bao-cao-tien-luong-thuong-tet-2027-chi-tiet-nhu-the-nao-301695.html"
         ]
       ]
     },
     {
-      "name": "Phường Kiến Hưng",
-      "deadline": "Trước ngày 18/11/2026",
-      "note": "Điền bảng trực tuyến hoặc gửi bản giấy theo công văn.",
+      "name": "Phường Giảng Võ",
+      "deadline": "Chưa xác minh hạn của địa phương",
+      "note": "Nơi nhận được dẫn: Phòng Nội vụ – Tư pháp, 525 Kim Mã.",
       "links": [
         [
-          "Mở bảng khai trực tuyến",
-          "https://docs.google.com/spreadsheets/d/1IbyyL0m-spW4oMubRZGg8Fb5U6cXq45rCKHuocleUI0/edit?gid=0#gid=0",
-          "submit"
-        ],
-        [
-          "Công văn 3176/UBND-NVTP",
-          "https://cdn.nhansu.vn/uploads/img/HTT/10-2026/CV-3176.pdf"
+          "Danh sách phường, xã Hà Nội",
+          "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-phuong-xa-ha-noi-da-co-link-bao-cao-tien-luong-thuong-tet-2027-chi-tiet-nhu-the-nao-301695.html"
         ]
       ]
     },
@@ -380,7 +387,7 @@ const entries = {
     {
       "name": "Phường Hai Bà Trưng",
       "deadline": "Trước ngày 18/11/2026",
-      "note": "Điền bộ mẫu và gửi Phòng Nội vụ – Tư pháp theo công văn.",
+      "note": "Điền bộ mẫu và gửi Phòng Nội vụ – Tư pháp theo công văn. Nơi nhận được dẫn: 30 Lê Đại Hành.",
       "links": [
         [
           "Mở bộ mẫu",
@@ -389,6 +396,168 @@ const entries = {
         [
           "Công văn 2991/UBND-NVTP",
           "https://cdn.thuvienphapluat.vn/uploads/laodongtienluong/20230301/HTT/10-2026/bc-2991.pdf"
+        ]
+      ]
+    },
+    {
+      "name": "Phường Hoàng Mai",
+      "deadline": "Chưa xác minh hạn của phường",
+      "note": "Danh sách địa phương có dẫn biểu mẫu hoặc tài liệu này. Xem hướng dẫn trong tài liệu và hỏi phường nếu cần xác nhận cách gửi.",
+      "links": [
+        [
+          "Mở bảng được dẫn",
+          "https://docs.google.com/spreadsheets/d/1B_DkEY75jifpaaPr4dRpX7jAqheIS7IhWS8vybvJClk/edit?gid=0"
+        ],
+        [
+          "Danh sách phường, xã Hà Nội",
+          "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-phuong-xa-ha-noi-da-co-link-bao-cao-tien-luong-thuong-tet-2027-chi-tiet-nhu-the-nao-301695.html"
+        ]
+      ]
+    },
+    {
+      "name": "Phường Kiến Hưng",
+      "deadline": "Trước ngày 18/11/2026",
+      "note": "Điền bảng trực tuyến hoặc gửi bản giấy theo công văn.",
+      "links": [
+        [
+          "Mở bảng khai trực tuyến",
+          "https://docs.google.com/spreadsheets/d/1IbyyL0m-spW4oMubRZGg8Fb5U6cXq45rCKHuocleUI0/edit?gid=0#gid=0",
+          "submit"
+        ],
+        [
+          "Công văn 3176/UBND-NVTP",
+          "https://cdn.nhansu.vn/uploads/img/HTT/10-2026/CV-3176.pdf"
+        ]
+      ]
+    },
+    {
+      "name": "Phường Kim Liên",
+      "deadline": "Chưa xác minh hạn của phường",
+      "note": "Danh sách địa phương có dẫn biểu mẫu hoặc tài liệu này. Xem hướng dẫn trong tài liệu và hỏi phường nếu cần xác nhận cách gửi.",
+      "links": [
+        [
+          "Mở bảng được dẫn",
+          "https://docs.google.com/spreadsheets/d/1z9z3uvxO1XQ1mcvbmexPi7bROrumB9MT/edit?gid=387306274"
+        ],
+        [
+          "Danh sách phường, xã Hà Nội",
+          "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-phuong-xa-ha-noi-da-co-link-bao-cao-tien-luong-thuong-tet-2027-chi-tiet-nhu-the-nao-301695.html"
+        ]
+      ]
+    },
+    {
+      "name": "Phường Láng",
+      "deadline": "Chưa xác minh hạn của phường",
+      "note": "Danh sách địa phương có dẫn biểu mẫu hoặc tài liệu này. Xem hướng dẫn trong tài liệu và hỏi phường nếu cần xác nhận cách gửi.",
+      "links": [
+        [
+          "Mở bảng được dẫn",
+          "https://docs.google.com/spreadsheets/d/1XsjhlwtlBTX4fjodALzfMrNGtl6QOsoPQ8NnfDKUQzU/edit?usp=sharing"
+        ],
+        [
+          "Danh sách phường, xã Hà Nội",
+          "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-phuong-xa-ha-noi-da-co-link-bao-cao-tien-luong-thuong-tet-2027-chi-tiet-nhu-the-nao-301695.html"
+        ]
+      ]
+    },
+    {
+      "name": "Phường Long Biên",
+      "deadline": "Chưa xác minh hạn của địa phương",
+      "note": "Nơi nhận được dẫn: Phòng Nội vụ – Tư pháp, 199 đường Bát Khối.",
+      "links": [
+        [
+          "Danh sách phường, xã Hà Nội",
+          "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-phuong-xa-ha-noi-da-co-link-bao-cao-tien-luong-thuong-tet-2027-chi-tiet-nhu-the-nao-301695.html"
+        ]
+      ]
+    },
+    {
+      "name": "Phường Nghĩa Đô",
+      "deadline": "Trước ngày 17/11/2026",
+      "note": "Gửi Phòng Nội vụ – Tư pháp, 45 Nghĩa Tân, theo biểu 1, 2, 3.",
+      "links": [
+        [
+          "Tải bộ mẫu",
+          "https://cdn.thuvienphapluat.vn/uploads/laodongtienluong/20230301/HTT/10-2026/bieu-so-1%2C2.3.docx"
+        ],
+        [
+          "Công văn 2367/UBND-NVTP",
+          "https://cdn.thuvienphapluat.vn/uploads/laodongtienluong/20230301/HTT/10-2026/phuong-nghia-do.doc"
+        ],
+        [
+          "Mở bảng được dẫn",
+          "https://docs.google.com/spreadsheets/d/1VaAmt9fc71QawlEODW09JCQxdejGYWME/edit?gid=1792705786"
+        ],
+        [
+          "Danh sách phường, xã Hà Nội",
+          "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-phuong-xa-ha-noi-da-co-link-bao-cao-tien-luong-thuong-tet-2027-chi-tiet-nhu-the-nao-301695.html"
+        ]
+      ]
+    },
+    {
+      "name": "Phường Ngọc Hà",
+      "deadline": "Trước ngày 18/11/2026",
+      "note": "Gửi báo cáo đã ký, đóng dấu về Phòng Nội vụ – Tư pháp, 25 Liễu Giai.",
+      "links": [
+        [
+          "Công văn 2664/UBND-NVTP và mẫu",
+          "https://cdn.thuvienphapluat.vn/uploads/laodongtienluong/20230301/HTT/11-2026/CV-2664-phuong-Ngoc-Ha.pdf"
+        ]
+      ]
+    },
+    {
+      "name": "Phường Ô Chợ Dừa",
+      "deadline": "Trước ngày 17/11/2026",
+      "note": "Dùng các biểu 1, 2, 3 kèm theo. Gửi bản giấy theo hướng dẫn của phường. Nơi nhận được dẫn: 61 phố Hoàng Cầu.",
+      "links": [
+        [
+          "Công văn 2596/UBND-NVTP và mẫu",
+          "https://cdn.thuvienphapluat.vn/uploads/laodongtienluong/20230301/HTT/11-2026/CV-2596-UBND-O-Cho-Dua.pdf"
+        ]
+      ]
+    },
+    {
+      "name": "Phường Phú Diễn",
+      "deadline": "Chưa xác minh hạn của phường",
+      "note": "Danh sách địa phương có dẫn biểu mẫu hoặc tài liệu này. Xem hướng dẫn trong tài liệu và hỏi phường nếu cần xác nhận cách gửi.",
+      "links": [
+        [
+          "Mở bảng được dẫn",
+          "https://docs.google.com/spreadsheets/d/1bZa0Iq9T9QHFTnbgqSY2D0qwoFJ44d_u/htmlview"
+        ],
+        [
+          "Danh sách phường, xã Hà Nội",
+          "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-phuong-xa-ha-noi-da-co-link-bao-cao-tien-luong-thuong-tet-2027-chi-tiet-nhu-the-nao-301695.html"
+        ]
+      ]
+    },
+    {
+      "name": "Phường Phương Liệt",
+      "deadline": "Chưa xác minh hạn của phường",
+      "note": "Danh sách địa phương có dẫn biểu mẫu hoặc tài liệu này. Xem hướng dẫn trong tài liệu và hỏi phường nếu cần xác nhận cách gửi.",
+      "links": [
+        [
+          "Mở bảng được dẫn",
+          "https://docs.google.com/spreadsheets/d/11ITv-HxjTQ3DglPoXbddbQfk0kwUNXZd/edit?gid=711823865"
+        ],
+        [
+          "Danh sách phường, xã Hà Nội",
+          "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-phuong-xa-ha-noi-da-co-link-bao-cao-tien-luong-thuong-tet-2027-chi-tiet-nhu-the-nao-301695.html"
+        ]
+      ]
+    },
+    {
+      "name": "Phường Thanh Xuân",
+      "deadline": "Chưa xác minh hạn của phường",
+      "note": "Danh sách địa phương có dẫn biểu mẫu hoặc tài liệu này. Xem hướng dẫn trong tài liệu và hỏi phường nếu cần xác nhận cách gửi.",
+      "links": [
+        [
+          "Mở bảng được dẫn",
+          "https://docs.google.com/spreadsheets/u/0/d/15HedfXtyQE7Y-UIOfeLVZZLEW1P-xfhS/htmlview"
+        ],
+        [
+          "Danh sách phường, xã Hà Nội",
+          "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-phuong-xa-ha-noi-da-co-link-bao-cao-tien-luong-thuong-tet-2027-chi-tiet-nhu-the-nao-301695.html"
         ]
       ]
     },
@@ -408,44 +577,75 @@ const entries = {
       ]
     },
     {
-      "name": "Phường Ô Chợ Dừa",
-      "deadline": "Trước ngày 17/11/2026",
-      "note": "Dùng các biểu 1, 2, 3 kèm theo. Gửi bản giấy theo hướng dẫn của phường.",
+      "name": "Phường Tương Mai",
+      "deadline": "Chưa xác minh hạn của phường",
+      "note": "Danh sách địa phương có dẫn biểu mẫu hoặc tài liệu này. Xem hướng dẫn trong tài liệu và hỏi phường nếu cần xác nhận cách gửi.",
       "links": [
         [
-          "Công văn 2596/UBND-NVTP và mẫu",
-          "https://cdn.thuvienphapluat.vn/uploads/laodongtienluong/20230301/HTT/11-2026/CV-2596-UBND-O-Cho-Dua.pdf"
-        ]
-      ]
-    },
-    {
-      "name": "Phường Ngọc Hà",
-      "deadline": "Trước ngày 18/11/2026",
-      "note": "Gửi báo cáo đã ký, đóng dấu về Phòng Nội vụ – Tư pháp, 25 Liễu Giai.",
-      "links": [
-        [
-          "Công văn 2664/UBND-NVTP và mẫu",
-          "https://cdn.thuvienphapluat.vn/uploads/laodongtienluong/20230301/HTT/11-2026/CV-2664-phuong-Ngoc-Ha.pdf"
-        ]
-      ]
-    },
-    {
-      "name": "Phường Láng và phường Phú Diễn",
-      "deadline": "Cần xác nhận hạn và cách gửi với phường",
-      "note": "Bài tổng hợp dẫn hai bảng tính. Liên hệ từng phường để xác nhận cách sử dụng bảng và nơi nộp.",
-      "links": [
-        [
-          "Bảng tham khảo phường Láng",
-          "https://docs.google.com/spreadsheets/d/1XsjhlwtlBTX4fjodALzfMrNGtl6QOsoPQ8NnfDKUQzU/edit?gid=0#gid=0"
+          "Mở bảng được dẫn",
+          "https://docs.google.com/spreadsheets/d/1JnJfXGDgn5H4jFFD-7HcoCl-6uq09uxkIefCJ17bQfY/edit?gid=0"
         ],
         [
-          "Bảng tham khảo phường Phú Diễn",
-          "https://docs.google.com/spreadsheets/d/1bZa0Iq9T9QHFTnbgqSY2D0qwoFJ44d_u/htmlview?gid=1899816963"
+          "Danh sách phường, xã Hà Nội",
+          "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-phuong-xa-ha-noi-da-co-link-bao-cao-tien-luong-thuong-tet-2027-chi-tiet-nhu-the-nao-301695.html"
+        ]
+      ]
+    },
+    {
+      "name": "Phường Xuân Đỉnh",
+      "deadline": "Chưa xác minh hạn của phường",
+      "note": "Danh sách địa phương có dẫn biểu mẫu hoặc tài liệu này. Xem hướng dẫn trong tài liệu và hỏi phường nếu cần xác nhận cách gửi.",
+      "links": [
+        [
+          "Mở bảng được dẫn",
+          "https://docs.google.com/spreadsheets/d/1jyij7Gk9HsrDMDurX7pJraibr6uXOLSu1MIuzeNDfWw/edit?gid=0"
+        ],
+        [
+          "Danh sách phường, xã Hà Nội",
+          "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-phuong-xa-ha-noi-da-co-link-bao-cao-tien-luong-thuong-tet-2027-chi-tiet-nhu-the-nao-301695.html"
+        ]
+      ]
+    },
+    {
+      "name": "Phường Xuân Phương",
+      "deadline": "Chưa xác minh hạn của địa phương",
+      "note": "Nơi nhận được dẫn: Phòng Nội vụ – Tư pháp, 28 đường Foresa 4B, KĐT Xuân Phương.",
+      "links": [
+        [
+          "Danh sách phường, xã Hà Nội",
+          "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-phuong-xa-ha-noi-da-co-link-bao-cao-tien-luong-thuong-tet-2027-chi-tiet-nhu-the-nao-301695.html"
+        ]
+      ]
+    },
+    {
+      "name": "Phường Yên Hòa",
+      "deadline": "Trước ngày 15/11/2026",
+      "note": "Điền mẫu Excel và gửi theo công văn của phường, qua Phòng Văn hóa – Xã hội. Nơi nhận được dẫn: 231 Nguyễn Ngọc Vũ.",
+      "links": [
+        [
+          "Mẫu Excel",
+          "https://cdn.thuvienphapluat.vn/uploads/laodongtienluong/20230301/HTT/10-2026/bao-cao-yen-hoa.xlsx"
+        ],
+        [
+          "Công văn 2981/UBND-VHXH",
+          "https://cdn.thuvienphapluat.vn/uploads/laodongtienluong/20230301/HTT/10-2026/CV-2981.pdf"
+        ]
+      ]
+    },
+    {
+      "name": "Xã Nội Bài",
+      "deadline": "Chưa xác minh hạn của địa phương",
+      "note": "Nơi nhận được dẫn: Phòng Nội vụ – Tư pháp, thôn Thanh Nhàn.",
+      "links": [
+        [
+          "Danh sách phường, xã Hà Nội",
+          "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-phuong-xa-ha-noi-da-co-link-bao-cao-tien-luong-thuong-tet-2027-chi-tiet-nhu-the-nao-301695.html"
         ]
       ]
     }
   ]
 };
+
 const central = [
   [
     "Công văn 12421/BNV-CTL&BHXH (PDF)",
@@ -472,5 +672,9 @@ const sources = [
   [
     "Thư Viện Pháp Luật – bảng đối chiếu công văn, hạn và kênh nộp",
     "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/tong-hop-link-bao-cao-tien-luong-thuong-tet-2027-cua-so-noi-vu-34-tinh-thanh-doanh-nghiep-can-thuc-300243.html"
+  ],
+  [
+    "Danh sách phường, xã Hà Nội và link biểu mẫu",
+    "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-phuong-xa-ha-noi-da-co-link-bao-cao-tien-luong-thuong-tet-2027-chi-tiet-nhu-the-nao-301695.html"
   ]
 ];
