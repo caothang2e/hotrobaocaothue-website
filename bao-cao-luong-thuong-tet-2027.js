@@ -26,6 +26,19 @@ function normalized(value) {
   return value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/g, 'd').trim();
 }
 
+function displayLinks(channel) {
+  const isWard = /^Phường /.test(channel.name);
+  const isOnlineTable = ([, url]) => /^https:\/\/docs\.google\.com\/(?:spreadsheets|document)\//.test(url);
+  const table = isWard && channel.links.find(isOnlineTable);
+  if (!table) {
+    return /^(Phường|Xã) /.test(channel.name)
+      ? channel.links.filter(([label]) => label !== 'Danh sách phường, xã Hà Nội')
+      : channel.links;
+  }
+
+  return [['Mở bảng khai trực tuyến', table[1], 'submit'], ...channel.links.filter(item => !isOnlineTable(item))];
+}
+
 function renderProvince() {
   result.replaceChildren();
   wardPicker.hidden = (entries[province.value]?.length ?? 0) < 2;
@@ -57,14 +70,15 @@ function renderProvince() {
   for (const channel of matchingChannels) {
     const card = element('article');
     const links = element('div', '', 'links');
-    links.append(...channel.links.map(link));
-    card.append(element('h4', channel.name), element('p', channel.deadline, 'deadline'), element('p', channel.note), links);
+    links.append(...displayLinks(channel).map(link));
+    card.append(element('h4', channel.name), element('p', channel.deadline, 'deadline'), element('p', channel.note));
+    if (links.childElementCount) card.append(links);
     result.append(card);
   }
+  if (name === 'Hà Nội') return;
+
   const source = element('div', '', 'links');
-  if (name === 'Hà Nội') source.append(link(sources[4]), link(sources[2]));
-  else source.append(link(sources[3]));
-  source.append(link(search));
+  source.append(link(sources[3]), link(search));
   result.append(source);
 }
 
