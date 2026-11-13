@@ -236,6 +236,22 @@ const entries = {
   ],
   "TP. Đồng Nai": [
     {
+      "name": "Sở Nội vụ Đồng Nai – Báo cáo thưởng Tết 2027",
+      "deadline": "Trước ngày 20/11/2026",
+      "note": "Doanh nghiệp, tổ chức, đơn vị và cá nhân có sử dụng lao động trên địa bàn thành phố gửi báo cáo tiền thưởng Tết Dương lịch và Tết Nguyên đán 2027 trực tiếp qua biểu mẫu của Sở Nội vụ.",
+      "links": [
+        [
+          "Mở bảng khai trực tuyến",
+          "https://docs.google.com/forms/d/e/1FAIpQLSewRwePfLxWTCVnAWCUaBNc5RjJjcb1Rf2DkWTxsHIdIISXbA/viewform",
+          "submit"
+        ],
+        [
+          "Công văn 9876/SNV-LĐ ngày 13/11/2026",
+          "cong-van-9876-dong-nai.jpg"
+        ]
+      ]
+    },
+    {
       "name": "Hướng dẫn của Sở Nội vụ",
       "deadline": "Theo đầu mối tiếp nhận",
       "note": "Đối chiếu đối tượng và nơi nhận trong Công văn 9366. Doanh nghiệp kiểm tra hướng dẫn của xã, phường hoặc Ban Quản lý phụ trách địa bàn.",
