@@ -318,7 +318,7 @@ const entries = {
     {
       "name": "Phường Dương Nội",
       "deadline": "Trước ngày 18/11/2026",
-      "note": "Điền bảng trực tuyến hoặc gửi bản giấy qua Phòng Nội vụ – Tư pháp.",
+      "note": "Điền bảng trực tuyến hoặc gửi bản giấy về UBND phường Dương Nội qua Phòng Nội vụ – Tư pháp.",
       "links": [
         [
           "Mở bảng khai trực tuyến",
@@ -326,7 +326,7 @@ const entries = {
           "submit"
         ],
         [
-          "Công văn 2932/UBND-NVTP",
+          "Công văn 2932/UBND-NVTP ngày 09/11/2026",
           "https://cdn.thuvienphapluat.vn/uploads/laodongtienluong/20230301/HTT/11-2026/2932.pdf"
         ]
       ]
@@ -371,7 +371,7 @@ const entries = {
     {
       "name": "Phường Hà Đông",
       "deadline": "Trước ngày 18/11/2026",
-      "note": "Điền bảng trực tuyến hoặc gửi bản giấy theo công văn.",
+      "note": "Điền bảng trực tuyến hoặc gửi bản giấy về UBND phường Hà Đông qua Phòng Nội vụ – Tư pháp.",
       "links": [
         [
           "Mở bảng khai trực tuyến",
@@ -379,7 +379,7 @@ const entries = {
           "submit"
         ],
         [
-          "Công văn 4865/UBND-NVTP",
+          "Công văn 4865/UBND-NVTP ngày 09/11/2026",
           "https://cdn.nhansu.vn/uploads/img/HTT/10-2026/CV-4865.pdf"
         ]
       ]
@@ -387,14 +387,14 @@ const entries = {
     {
       "name": "Phường Hai Bà Trưng",
       "deadline": "Trước ngày 18/11/2026",
-      "note": "Điền bộ mẫu và gửi Phòng Nội vụ – Tư pháp theo công văn. Nơi nhận được dẫn: 30 Lê Đại Hành.",
+      "note": "Điền bộ mẫu và gửi Phòng Nội vụ – Tư pháp, UBND phường Hai Bà Trưng, 30 Lê Đại Hành. Liên hệ tiếp nhận: Hoàng Thanh Tâm, 0913 299 994.",
       "links": [
         [
           "Mở bộ mẫu",
           "https://docs.google.com/document/d/13C7nR8CP2mTQsiRLLB1YDXrdzQMUYcQ_/edit"
         ],
         [
-          "Công văn 2991/UBND-NVTP",
+          "Công văn 2991/UBND-NVTP ngày 09/11/2026",
           "https://cdn.thuvienphapluat.vn/uploads/laodongtienluong/20230301/HTT/10-2026/bc-2991.pdf"
         ]
       ]
@@ -417,7 +417,7 @@ const entries = {
     {
       "name": "Phường Kiến Hưng",
       "deadline": "Trước ngày 18/11/2026",
-      "note": "Điền bảng trực tuyến hoặc gửi bản giấy theo công văn.",
+      "note": "Điền bảng trực tuyến hoặc gửi bản giấy về UBND phường Kiến Hưng qua Phòng Nội vụ – Tư pháp.",
       "links": [
         [
           "Mở bảng khai trực tuyến",
@@ -425,7 +425,7 @@ const entries = {
           "submit"
         ],
         [
-          "Công văn 3176/UBND-NVTP",
+          "Công văn 3176/UBND-NVTP ngày 09/11/2026",
           "https://cdn.nhansu.vn/uploads/img/HTT/10-2026/CV-3176.pdf"
         ]
       ]
@@ -452,7 +452,7 @@ const entries = {
       "links": [
         [
           "Mở bảng được dẫn",
-          "https://docs.google.com/spreadsheets/d/1XsjhlwtlBTX4fjodALzfMrNGtl6QOsoPQ8NnfDKUQzU/edit?usp=sharing"
+          "https://docs.google.com/spreadsheets/d/1XsjhlwtlBTX4fjodALzfMrNGtl6QOsoPQ8NnfDKUQzU/edit?gid=0#gid=0"
         ],
         [
           "Danh sách phường, xã Hà Nội",
@@ -474,14 +474,14 @@ const entries = {
     {
       "name": "Phường Nghĩa Đô",
       "deadline": "Trước ngày 17/11/2026",
-      "note": "Gửi Phòng Nội vụ – Tư pháp, 45 Nghĩa Tân, theo biểu 1, 2, 3.",
+      "note": "Điền biểu 1, 2, 3 và gửi UBND phường Nghĩa Đô qua Phòng Nội vụ – Tư pháp, số 45 phố Nghĩa Tân. Liên hệ tiếp nhận: Chử Thị Quỳnh Hương, 0904 227 635.",
       "links": [
         [
           "Tải bộ mẫu",
           "https://cdn.thuvienphapluat.vn/uploads/laodongtienluong/20230301/HTT/10-2026/bieu-so-1%2C2.3.docx"
         ],
         [
-          "Công văn 2367/UBND-NVTP",
+          "Công văn 2367/UBND-NVTP ngày 10/11/2026",
           "https://cdn.thuvienphapluat.vn/uploads/laodongtienluong/20230301/HTT/10-2026/phuong-nghia-do.doc"
         ],
         [
@@ -497,21 +497,25 @@ const entries = {
     {
       "name": "Phường Ngọc Hà",
       "deadline": "Trước ngày 18/11/2026",
-      "note": "Gửi báo cáo đã ký, đóng dấu về Phòng Nội vụ – Tư pháp, 25 Liễu Giai.",
+      "note": "Dùng mẫu kèm công văn. Gửi báo cáo đã ký, đóng dấu về Phòng Nội vụ – Tư pháp, UBND phường Ngọc Hà, 25 Liễu Giai. Bảng trực tuyến được dẫn để đối chiếu, cách gửi theo công văn.",
       "links": [
         [
           "Công văn 2664/UBND-NVTP và mẫu",
           "https://cdn.thuvienphapluat.vn/uploads/laodongtienluong/20230301/HTT/11-2026/CV-2664-phuong-Ngoc-Ha.pdf"
+        ],
+        [
+          "Mở bảng phường Ngọc Hà",
+          "https://docs.google.com/spreadsheets/d/14laUXFpX1Qv5c3iIkw9pQ45-WikPYHg56m9PSL1wtQk/edit?gid=1385867739#gid=1385867739"
         ]
       ]
     },
     {
       "name": "Phường Ô Chợ Dừa",
       "deadline": "Trước ngày 17/11/2026",
-      "note": "Dùng các biểu 1, 2, 3 kèm theo. Gửi bản giấy theo hướng dẫn của phường. Nơi nhận được dẫn: 61 phố Hoàng Cầu.",
+      "note": "Dùng biểu 1, 2, 3 kèm công văn và gửi UBND phường Ô Chợ Dừa qua Phòng Nội vụ – Tư pháp, 61 phố Hoàng Cầu. Liên hệ tiếp nhận: Nguyễn Thị Thùy Trang, 0987 558 382.",
       "links": [
         [
-          "Công văn 2596/UBND-NVTP và mẫu",
+          "Công văn 2596/UBND-NVTP ngày 10/11/2026 và mẫu",
           "https://cdn.thuvienphapluat.vn/uploads/laodongtienluong/20230301/HTT/11-2026/CV-2596-UBND-O-Cho-Dua.pdf"
         ]
       ]
@@ -523,7 +527,7 @@ const entries = {
       "links": [
         [
           "Mở bảng được dẫn",
-          "https://docs.google.com/spreadsheets/d/1bZa0Iq9T9QHFTnbgqSY2D0qwoFJ44d_u/htmlview"
+          "https://docs.google.com/spreadsheets/d/1bZa0Iq9T9QHFTnbgqSY2D0qwoFJ44d_u/htmlview?gid=1899816963&pru=AAABofLT9bU*kl9ambGKUR6R9jbUBfSFKg#gid=1899816963"
         ],
         [
           "Danh sách phường, xã Hà Nội",
@@ -552,7 +556,11 @@ const entries = {
       "note": "Danh sách địa phương có dẫn biểu mẫu hoặc tài liệu này. Xem hướng dẫn trong tài liệu và hỏi phường nếu cần xác nhận cách gửi.",
       "links": [
         [
-          "Mở bảng được dẫn",
+          "Mở bảng phường Thanh Xuân",
+          "https://docs.google.com/spreadsheets/d/1LAbTDbnt47O52_BITFS-BEyFKw1XeScnfkZZQcww5no/edit?usp=sharing"
+        ],
+        [
+          "Mở bảng từ danh sách đối chiếu",
           "https://docs.google.com/spreadsheets/u/0/d/15HedfXtyQE7Y-UIOfeLVZZLEW1P-xfhS/htmlview"
         ],
         [
@@ -564,14 +572,14 @@ const entries = {
     {
       "name": "Phường Từ Liêm",
       "deadline": "Trước ngày 17/11/2026",
-      "note": "Lấy mẫu từ bảng được dẫn và gửi về Phòng Nội vụ – Tư pháp theo công văn.",
+      "note": "Tổng hợp số liệu theo biểu 01, 02, 03 trong bảng và đồng thời gửi về Phòng Nội vụ – Tư pháp phường Từ Liêm. Liên hệ tiếp nhận: Nghiêm Thị Thu, 0983 393 118.",
       "links": [
         [
           "Xem bảng mẫu",
-          "https://docs.google.com/spreadsheets/d/1as2XK_DiLfSPOFnvT15AXpvyEBqvgtU2DkhcezrGsII/htmlview"
+          "https://docs.google.com/spreadsheets/d/1as2XK_DiLfSPOFnvT15AXpvyEBqvgtU2DkhcezrGsII/htmlview?usp=sharing&pru=AAABofKhB_E*hAXEXQtSP9BKNP0pXdLnrw"
         ],
         [
-          "Công văn 5014",
+          "Công văn 5014/UBND-NVTP ngày 11/11/2026",
           "https://cdn.thuvienphapluat.vn/uploads/laodongtienluong/20230301/HTT/11-2026/tu-liem.pdf"
         ]
       ]
@@ -583,7 +591,7 @@ const entries = {
       "links": [
         [
           "Mở bảng được dẫn",
-          "https://docs.google.com/spreadsheets/d/1JnJfXGDgn5H4jFFD-7HcoCl-6uq09uxkIefCJ17bQfY/edit?gid=0"
+          "https://docs.google.com/spreadsheets/d/1JnJfXGDgn5H4jFFD-7HcoCl-6uq09uxkIefCJ17bQfY/edit?gid=0#gid=0"
         ],
         [
           "Danh sách phường, xã Hà Nội",
@@ -598,7 +606,7 @@ const entries = {
       "links": [
         [
           "Mở bảng được dẫn",
-          "https://docs.google.com/spreadsheets/d/1jyij7Gk9HsrDMDurX7pJraibr6uXOLSu1MIuzeNDfWw/edit?gid=0"
+          "https://docs.google.com/spreadsheets/d/1jyij7Gk9HsrDMDurX7pJraibr6uXOLSu1MIuzeNDfWw/edit?gid=0#gid=0"
         ],
         [
           "Danh sách phường, xã Hà Nội",
@@ -620,14 +628,14 @@ const entries = {
     {
       "name": "Phường Yên Hòa",
       "deadline": "Trước ngày 15/11/2026",
-      "note": "Điền mẫu Excel và gửi theo công văn của phường, qua Phòng Văn hóa – Xã hội. Nơi nhận được dẫn: 231 Nguyễn Ngọc Vũ.",
+      "note": "Điền mẫu Excel và gửi UBND phường Yên Hòa qua Phòng Văn hóa – Xã hội, 231 Nguyễn Ngọc Vũ. Liên hệ tiếp nhận: Nguyễn Thị Thanh Nhàn, 0975 731 372.",
       "links": [
         [
           "Mẫu Excel",
           "https://cdn.thuvienphapluat.vn/uploads/laodongtienluong/20230301/HTT/10-2026/bao-cao-yen-hoa.xlsx"
         ],
         [
-          "Công văn 2981/UBND-VHXH",
+          "Công văn 2981/UBND-VHXH ngày 10/11/2026",
           "https://cdn.thuvienphapluat.vn/uploads/laodongtienluong/20230301/HTT/10-2026/CV-2981.pdf"
         ]
       ]
