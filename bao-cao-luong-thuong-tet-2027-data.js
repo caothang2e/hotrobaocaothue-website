@@ -346,12 +346,20 @@ const entries = {
     },
     {
       "name": "Phường Cửa Nam",
-      "deadline": "Chưa xác minh hạn của địa phương",
-      "note": "Nộp bản giấy tại Phòng Nội vụ – Tư pháp, UBND phường Cửa Nam, phòng 502, số 102 Hai Bà Trưng.",
+      "deadline": "Trước ngày 15/11/2026",
+      "note": "Nộp bản giấy tại Phòng Nội vụ – Tư pháp, UBND phường Cửa Nam, phòng 502, số 102 Hai Bà Trưng. Liên hệ Hoàng Thị Hồng Duyên, 0988 900 459.",
       "links": [
         [
           "Danh sách phường, xã Hà Nội",
           "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-phuong-xa-ha-noi-da-co-link-bao-cao-tien-luong-thuong-tet-2027-chi-tiet-nhu-the-nao-301695.html"
+        ],
+        [
+          "Tải biểu mẫu 01, 02, 03",
+          "https://cdn.thuvienphapluat.vn/uploads/khoinghiep/2026/11/12/BI%E1%BB%82U%20M%E1%BA%AAU%20s%E1%BB%91%201%2C%202%2C%203%20b%C3%A1o%20c%C3%A1o%20l%C6%B0%C6%A1ng%20th%C6%B0%E1%BB%9Fng%20t%E1%BA%BFt.doc"
+        ],
+        [
+          "Tải biểu mẫu 04",
+          "https://cdn.thuvienphapluat.vn/uploads/khoinghiep/2026/11/12/BI%E1%BB%82U%20M%E1%BA%AAU%20s%E1%BB%91%204%2C%20b%C3%A1o%20c%C3%A1o%20l%C6%B0%C6%A1ng%20th%C6%B0%E1%BB%9Fng%20t%E1%BA%BFt%20doc.doc"
         ]
       ]
     },
@@ -373,14 +381,23 @@ const entries = {
     },
     {
       "name": "Phường Đại Mỗ",
-      "deadline": "Chưa xác minh hạn của địa phương",
-      "note": "Tạm tắt link khai trực tuyến vì bảng hiện dẫn đến nội dung khám sức khỏe. Đang chờ link báo cáo lương, thưởng thay thế.",
-      "links": []
+      "deadline": "Trước ngày 17/11/2026",
+      "note": "Lập biểu 01, 02, 03 và nộp bản giấy tại UBND phường Đại Mỗ, số 76 Trung Văn. Người nhận: Bùi Thị Yến.",
+      "links": [
+        [
+          "Tải biểu mẫu 01, 02, 03",
+          "https://cdn.thuvienphapluat.vn/uploads/khoinghiep/2026/11/13/BI%E1%BB%82U%20M%E1%BA%AAU%20s%E1%BB%91%201%2C%202%2C%203%20b%C3%A1o%20c%C3%A1o%20l%C6%B0%C6%A1ng%20th%C6%B0%E1%BB%9Fng%20t%E1%BA%BFt%20dai-mo.doc"
+        ],
+        [
+          "Hướng dẫn nộp bản giấy",
+          "https://thuvienphapluat.vn/phap-luat-doanh-nghiep/bai-viet/cap-nhat-link-nhap-bao-cao-luong-thuong-cac-xa-phuong-ha-noi-2026-24406.html"
+        ]
+      ]
     },
     {
       "name": "Phường Định Công",
-      "deadline": "Chưa xác minh hạn của địa phương",
-      "note": "Nơi nhận được dẫn: Phòng Nội vụ – Tư pháp, số 1 ngõ 282 đường Kim Giang.",
+      "deadline": "Trước ngày 18/11/2026",
+      "note": "Theo văn bản của phường, lập báo cáo theo mẫu và gửi về Phòng Nội vụ – Tư pháp, số 1 ngõ 282 đường Kim Giang. Liên hệ Nguyễn Thị Mạnh, 0973 736 502.",
       "links": [
         [
           "Mở bảng khai trực tuyến",
@@ -390,6 +407,14 @@ const entries = {
         [
           "Danh sách phường, xã Hà Nội",
           "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-phuong-xa-ha-noi-da-co-link-bao-cao-tien-luong-thuong-tet-2027-chi-tiet-nhu-the-nao-301695.html"
+        ],
+        [
+          "Văn bản hướng dẫn của phường",
+          "https://cdn.thuvienphapluat.vn/uploads/khoinghiep/2026/11/13/Cv-dinh-cong.docx"
+        ],
+        [
+          "Tải mẫu báo cáo",
+          "https://cdn.thuvienphapluat.vn/uploads/khoinghiep/2026/11/13/bieu-mau-dinh-cong.doc"
         ]
       ]
     },
@@ -520,11 +545,15 @@ const entries = {
     {
       "name": "Phường Long Biên",
       "deadline": "Chưa xác minh hạn của địa phương",
-      "note": "Nơi nhận được dẫn: Phòng Nội vụ – Tư pháp, 199 đường Bát Khối.",
+      "note": "Nộp tại Phòng Nội vụ – Tư pháp, UBND phường Long Biên, số 199 đường Bát Khối. Mở văn bản hướng dẫn để đối chiếu.",
       "links": [
         [
           "Danh sách phường, xã Hà Nội",
           "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-phuong-xa-ha-noi-da-co-link-bao-cao-tien-luong-thuong-tet-2027-chi-tiet-nhu-the-nao-301695.html"
+        ],
+        [
+          "Công văn 3672 của UBND phường",
+          "https://cdn.thuvienphapluat.vn/uploads/khoinghiep/2026/11/13/CV%203672%20UBNDP%20vv%20BC%20ti%CC%80nh%20hi%CC%80nh%20lu%CC%9Bo%CC%9Bng%2C%20thu%CC%9Bo%CC%9B%CC%89ng%20Te%CC%82%CC%81t%20trong%20DN.pdf"
         ]
       ]
     },
@@ -621,8 +650,8 @@ const entries = {
     },
     {
       "name": "Phường Thanh Xuân",
-      "deadline": "Chưa xác minh hạn của phường",
-      "note": "Danh sách địa phương có dẫn biểu mẫu hoặc tài liệu này. Xem hướng dẫn trong tài liệu và hỏi phường nếu cần xác nhận cách gửi.",
+      "deadline": "Trước ngày 18/11/2026",
+      "note": "Gửi bản có ký tên, đóng dấu và file mềm về Phòng Nội vụ – Tư pháp, UBND phường Thanh Xuân. Liên hệ Nguyễn Thị Hương, 0963 764 999.",
       "links": [
         [
           "Mở bảng phường Thanh Xuân",
@@ -635,6 +664,10 @@ const entries = {
         [
           "Danh sách phường, xã Hà Nội",
           "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-phuong-xa-ha-noi-da-co-link-bao-cao-tien-luong-thuong-tet-2027-chi-tiet-nhu-the-nao-301695.html"
+        ],
+        [
+          "Văn bản hướng dẫn của phường",
+          "https://cdn.thuvienphapluat.vn/uploads/khoinghiep/2026/11/12/Cv-Thanh-xuan.docx"
         ]
       ]
     },
@@ -686,11 +719,15 @@ const entries = {
     {
       "name": "Phường Xuân Phương",
       "deadline": "Chưa xác minh hạn của địa phương",
-      "note": "Gửi về UBND phường Xuân Phương qua Phòng Nội vụ – Tư pháp, số 28 đường Foresa 4B, KĐT Xuân Phương. Liên hệ 0376 230 586.",
+      "note": "Tải mẫu Excel để lập báo cáo. Nộp bản giấy về Phòng Nội vụ – Tư pháp, UBND phường Xuân Phương, số 28 đường Foresa 4B, KĐT Xuân Phương. Liên hệ 0376 230 586.",
       "links": [
         [
           "Danh sách phường, xã Hà Nội",
           "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-phuong-xa-ha-noi-da-co-link-bao-cao-tien-luong-thuong-tet-2027-chi-tiet-nhu-the-nao-301695.html"
+        ],
+        [
+          "Tải mẫu báo cáo Excel",
+          "https://cdn.thuvienphapluat.vn/uploads/khoinghiep/2026/11/12/Bi%E1%BB%83u%20b%C3%A1o%20c%C3%A1o%20c%E1%BB%A7a%20c%C3%A1c%20doanh%20nghi%E1%BB%87p.xlsx"
         ]
       ]
     },
@@ -753,6 +790,23 @@ const entries = {
         [
           "Danh sách phường, xã Hà Nội",
           "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-phuong-xa-ha-noi-da-co-link-bao-cao-tien-luong-thuong-tet-2027-chi-tiet-nhu-the-nao-301695.html"
+        ]
+      ]
+    }
+  ],
+  "Khánh Hòa": [
+    {
+      "name": "Biểu mẫu báo cáo của Sở Nội vụ Khánh Hòa",
+      "deadline": "Chưa xác minh hạn nộp",
+      "note": "Link do bài tổng hợp dẫn. Google yêu cầu đăng nhập nên chưa kiểm tra được nội dung biểu mẫu. Xác nhận với Sở Nội vụ trước khi gửi số liệu.",
+      "links": [
+        [
+          "Xem link Google Form (cần đăng nhập)",
+          "https://docs.google.com/forms/d/e/1FAIpQLSfO-nsPIJ0j5p0mKrUNRxDrIY7K1PcptMJ747SMXguBJB6qpQ/viewform"
+        ],
+        [
+          "Nguồn công bố link",
+          "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/link-bao-cao-tinh-hinh-tien-luong-thuong-tet-2027-tai-tinh-khanh-hoa-chi-tiet-nhu-the-nao-301303.html"
         ]
       ]
     }
