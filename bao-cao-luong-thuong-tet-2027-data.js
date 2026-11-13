@@ -305,9 +305,33 @@ const entries = {
       ]
     },
     {
+      "name": "Phường Bồ Đề",
+      "deadline": "Chưa xác minh hạn của địa phương",
+      "note": "Đường dẫn do người dùng cung cấp. Xem tên đơn vị trên bảng và xác nhận cách gửi với UBND phường, xã trước khi khai.",
+      "links": [
+        [
+          "Mở bảng khai trực tuyến",
+          "https://docs.google.com/spreadsheets/d/1lkcCQJ4gMgopr8a_reg-aNS76qF0qTNC/edit?gid=1145814093#gid=1145814093",
+          "submit"
+        ]
+      ]
+    },
+    {
+      "name": "Phường Cầu Giấy",
+      "deadline": "Chưa xác minh hạn của địa phương",
+      "note": "Đường dẫn do người dùng cung cấp. Xem tên đơn vị trên bảng và xác nhận cách gửi với UBND phường, xã trước khi khai.",
+      "links": [
+        [
+          "Mở bảng khai trực tuyến",
+          "https://docs.google.com/spreadsheets/d/1IPAs7M-RVqxp_MCBCpYCjoKWts83_4jT/edit?gid=1429323643#gid=1429323643",
+          "submit"
+        ]
+      ]
+    },
+    {
       "name": "Phường Cửa Nam",
       "deadline": "Chưa xác minh hạn của địa phương",
-      "note": "Nơi nhận được dẫn: Phòng Nội vụ – Tư pháp, phòng 502, số 102 Hai Bà Trưng.",
+      "note": "Nộp bản giấy tại Phòng Nội vụ – Tư pháp, UBND phường Cửa Nam, phòng 502, số 102 Hai Bà Trưng.",
       "links": [
         [
           "Danh sách phường, xã Hà Nội",
@@ -332,10 +356,27 @@ const entries = {
       ]
     },
     {
+      "name": "Phường Đại Mỗ",
+      "deadline": "Chưa xác minh hạn của địa phương",
+      "note": "Đường dẫn do người dùng cung cấp. Xem tên đơn vị trên bảng và xác nhận cách gửi với UBND phường, xã trước khi khai.",
+      "links": [
+        [
+          "Mở bảng khai trực tuyến",
+          "https://docs.google.com/spreadsheets/d/1x2Yb6Tg3hz5ivtJuHTFRyCBFt4I2VBFg/edit?gid=1851350132#gid=1851350132",
+          "submit"
+        ]
+      ]
+    },
+    {
       "name": "Phường Định Công",
       "deadline": "Chưa xác minh hạn của địa phương",
       "note": "Nơi nhận được dẫn: Phòng Nội vụ – Tư pháp, số 1 ngõ 282 đường Kim Giang.",
       "links": [
+        [
+          "Mở bảng khai trực tuyến",
+          "https://docs.google.com/spreadsheets/d/1lkOswj_wAcZPCE8ttudLDsKgf81_FNdol4uyWukwhss/edit?usp=sharing",
+          "submit"
+        ],
         [
           "Danh sách phường, xã Hà Nội",
           "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-phuong-xa-ha-noi-da-co-link-bao-cao-tien-luong-thuong-tet-2027-chi-tiet-nhu-the-nao-301695.html"
@@ -349,7 +390,7 @@ const entries = {
       "links": [
         [
           "Mở tài liệu hướng dẫn",
-          "https://docs.google.com/document/d/1jx4YLLulyzmnt_04nzkf9IvY3pybfYHOtgB4a1NPINI/edit?tab=t.0"
+          "https://docs.google.com/document/d/1jx4YLLulyzmnt_04nzkf9IvY3pybfYHOtgB4a1NPINI/edit?tab=t.0#heading=h.lv43rfgs9sa0"
         ],
         [
           "Danh sách phường, xã Hà Nội",
@@ -411,6 +452,18 @@ const entries = {
         [
           "Danh sách phường, xã Hà Nội",
           "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-phuong-xa-ha-noi-da-co-link-bao-cao-tien-luong-thuong-tet-2027-chi-tiet-nhu-the-nao-301695.html"
+        ]
+      ]
+    },
+    {
+      "name": "Phường Khương Đình",
+      "deadline": "Chưa xác minh hạn của địa phương",
+      "note": "Bảng này cũng xuất hiện dưới tên Thanh Xuân trong danh sách gửi thêm. Kiểm tra tên phường trên bảng hoặc xác nhận với UBND phường Khương Đình trước khi khai.",
+      "links": [
+        [
+          "Mở bảng khai trực tuyến",
+          "https://docs.google.com/spreadsheets/d/15HedfXtyQE7Y-UIOfeLVZZLEW1P-xfhS/edit?gid=800472999#gid=800472999",
+          "submit"
         ]
       ]
     },
@@ -512,7 +565,7 @@ const entries = {
     {
       "name": "Phường Ô Chợ Dừa",
       "deadline": "Trước ngày 17/11/2026",
-      "note": "Dùng biểu 1, 2, 3 kèm công văn và gửi UBND phường Ô Chợ Dừa qua Phòng Nội vụ – Tư pháp, 61 phố Hoàng Cầu. Liên hệ tiếp nhận: Nguyễn Thị Thùy Trang, 0987 558 382.",
+      "note": "Dùng biểu 1, 2, 3 kèm công văn và gửi bản giấy về UBND phường Ô Chợ Dừa qua Phòng Nội vụ – Tư pháp, 61 phố Hoàng Cầu. Liên hệ tiếp nhận: Nguyễn Thị Thùy Trang, 0987 558 382.",
       "links": [
         [
           "Công văn 2596/UBND-NVTP ngày 10/11/2026 và mẫu",
@@ -527,7 +580,7 @@ const entries = {
       "links": [
         [
           "Mở bảng được dẫn",
-          "https://docs.google.com/spreadsheets/d/1bZa0Iq9T9QHFTnbgqSY2D0qwoFJ44d_u/htmlview?gid=1899816963&pru=AAABofLT9bU*kl9ambGKUR6R9jbUBfSFKg#gid=1899816963"
+          "https://docs.google.com/spreadsheets/d/1bZa0Iq9T9QHFTnbgqSY2D0qwoFJ44d_u/edit?gid=1899816963#gid=1899816963"
         ],
         [
           "Danh sách phường, xã Hà Nội",
@@ -547,6 +600,18 @@ const entries = {
         [
           "Danh sách phường, xã Hà Nội",
           "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-phuong-xa-ha-noi-da-co-link-bao-cao-tien-luong-thuong-tet-2027-chi-tiet-nhu-the-nao-301695.html"
+        ]
+      ]
+    },
+    {
+      "name": "Phường Thanh Liệt",
+      "deadline": "Chưa xác minh hạn của địa phương",
+      "note": "Đường dẫn do người dùng cung cấp. Xem tên đơn vị trên bảng và xác nhận cách gửi với UBND phường, xã trước khi khai.",
+      "links": [
+        [
+          "Mở bảng khai trực tuyến",
+          "https://docs.google.com/forms/d/e/1FAIpQLSfX3E9jMGE3kBbH7jmd4y_lIhshwn72C2hpUCOrzYVT_w13DA/viewform",
+          "submit"
         ]
       ]
     },
@@ -617,7 +682,7 @@ const entries = {
     {
       "name": "Phường Xuân Phương",
       "deadline": "Chưa xác minh hạn của địa phương",
-      "note": "Nơi nhận được dẫn: Phòng Nội vụ – Tư pháp, 28 đường Foresa 4B, KĐT Xuân Phương.",
+      "note": "Gửi về UBND phường Xuân Phương qua Phòng Nội vụ – Tư pháp, số 28 đường Foresa 4B, KĐT Xuân Phương. Liên hệ 0376 230 586.",
       "links": [
         [
           "Danh sách phường, xã Hà Nội",
@@ -637,6 +702,42 @@ const entries = {
         [
           "Công văn 2981/UBND-VHXH ngày 10/11/2026",
           "https://cdn.thuvienphapluat.vn/uploads/laodongtienluong/20230301/HTT/10-2026/CV-2981.pdf"
+        ]
+      ]
+    },
+    {
+      "name": "Xã Đại Thanh",
+      "deadline": "Chưa xác minh hạn của địa phương",
+      "note": "Đường dẫn do người dùng cung cấp. Xem tên đơn vị trên bảng và xác nhận cách gửi với UBND phường, xã trước khi khai.",
+      "links": [
+        [
+          "Mở bảng khai trực tuyến",
+          "https://docs.google.com/spreadsheets/d/1lJMlB-PAtIqs0VnRswAVp1HFUqhdHcGGgJ-5LoWqUZc/edit?usp=sharing",
+          "submit"
+        ]
+      ]
+    },
+    {
+      "name": "Xã Hoài Đức",
+      "deadline": "Chưa xác minh hạn của địa phương",
+      "note": "Đường dẫn do người dùng cung cấp. Xem tên đơn vị trên bảng và xác nhận cách gửi với UBND phường, xã trước khi khai.",
+      "links": [
+        [
+          "Mở bảng khai trực tuyến",
+          "https://docs.google.com/spreadsheets/d/1lZ_FQzIG1lZklYA69Znp4Ssju0YUXQeZ/edit?usp=sharing",
+          "submit"
+        ]
+      ]
+    },
+    {
+      "name": "Xã Nam Phù",
+      "deadline": "Chưa xác minh hạn của địa phương",
+      "note": "Đường dẫn do người dùng cung cấp. Xem tên đơn vị trên bảng và xác nhận cách gửi với UBND phường, xã trước khi khai.",
+      "links": [
+        [
+          "Mở bảng khai trực tuyến",
+          "https://docs.google.com/spreadsheets/d/1wAecAgEd_3uceGVsOukVLPfc3XTDV05L/edit?usp=sharing",
+          "submit"
         ]
       ]
     },

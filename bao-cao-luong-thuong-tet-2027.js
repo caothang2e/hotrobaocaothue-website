@@ -28,8 +28,8 @@ function normalized(value) {
 
 function displayLinks(channel) {
   const links = channel.links.filter(([label]) => !label.startsWith('Danh sách phường, xã Hà Nội'));
-  const isOnlineTable = ([, url]) => /^https:\/\/docs\.google\.com\/(?:spreadsheets|document)\//.test(url);
-  const table = /^Phường /.test(channel.name) && links.find(isOnlineTable);
+  const isOnlineTable = ([, url]) => /^https:\/\/docs\.google\.com\/(?:spreadsheets|document|forms)\//.test(url);
+  const table = /^(Phường|Xã) /.test(channel.name) && links.find(isOnlineTable);
   if (!table) return links;
 
   return [['Mở bảng khai trực tuyến', table[1], 'submit'], ...links.filter(item => !isOnlineTable(item))];
