@@ -1,5 +1,5 @@
 // Công văn, mẫu biểu và đường nộp theo địa phương.
-const checkedOn = '13/11/2026';
+const checkedOn = '14/11/2026';
 
 const provinces = [
   "An Giang",
@@ -743,6 +743,18 @@ const entries = {
         [
           "Công văn 2981/UBND-VHXH ngày 10/11/2026",
           "https://cdn.thuvienphapluat.vn/uploads/laodongtienluong/20230301/HTT/10-2026/CV-2981.pdf"
+        ]
+      ]
+    },
+    {
+      "name": "Xã An Khánh",
+      "deadline": "Chậm nhất ngày 14/11/2026",
+      "note": "UBND xã An Khánh khảo sát tiền lương, tiền thưởng và quan hệ lao động năm 2026, cùng dự kiến thưởng Tết 2027. Mỗi doanh nghiệp gửi một phiếu.",
+      "links": [
+        [
+          "Mở bảng khai trực tuyến",
+          "https://docs.google.com/forms/d/e/1FAIpQLSeGA0ZWroII0YLMvfMtuy6vh8DK0-guuLl0aGWwQrbeZ08XZg/viewform",
+          "submit"
         ]
       ]
     },
