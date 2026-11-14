@@ -38,6 +38,24 @@ const provinces = [
   "Vĩnh Long"
 ];
 const entries = {
+  "Quảng Ngãi": [
+    {
+      "name": "Doanh nghiệp, nhà đầu tư trong các KKT và KCN tỉnh Quảng Ngãi",
+      "deadline": "Trước ngày 18/11/2026",
+      "note": "Dùng biểu 01, 02, 03 kèm công văn. Gửi báo cáo đến Ban Quản lý KKT Dung Quất và các KCN Quảng Ngãi, qua Phòng Quản lý Doanh nghiệp, số 486 Nguyễn Huệ, xã Tư Nghĩa. Đồng thời gửi file mềm qua email.",
+      "links": [
+        [
+          "Gửi file mềm qua email",
+          "mailto:qldn.dezaqn@gmail.com",
+          "submit"
+        ],
+        [
+          "Công văn 5379/BQL-QLDN và mẫu",
+          "https://cdn.thuvienphapluat.vn/uploads/mst/images/HaiYen/t11-2026/CV-5379-BQL-QLDN.pdf"
+        ]
+      ]
+    }
+  ],
   "TP. Hồ Chí Minh": [
     {
       "name": "Doanh nghiệp gửi trực tiếp Sở Nội vụ",
