@@ -334,13 +334,17 @@ const entries = {
     },
     {
       "name": "Phường Cầu Giấy",
-      "deadline": "Chưa xác minh hạn của địa phương",
-      "note": "Đường dẫn do người dùng cung cấp. Xem tên đơn vị trên bảng và xác nhận cách gửi với UBND phường, xã trước khi khai.",
+      "deadline": "Trước ngày 18/11/2026",
+      "note": "Lập báo cáo theo mẫu kèm Công văn 2597/UBND-NVTP và gửi về Phòng Nội vụ – Tư pháp, UBND phường Cầu Giấy, số 96 Trần Thái Tông. Khi dùng bảng khai trực tuyến, chỉ điền thông tin vào mẫu.",
       "links": [
         [
           "Mở bảng khai trực tuyến",
           "https://docs.google.com/spreadsheets/d/1IPAs7M-RVqxp_MCBCpYCjoKWts83_4jT/edit?gid=1429323643#gid=1429323643",
           "submit"
+        ],
+        [
+          "Công văn 2597/UBND-NVTP và mẫu",
+          "https://cdn.thuvienphapluat.vn/phap-luat/2022-2/NDBT/131126/cong-van-2597-ubnd-nvtp-2026-cau-giay.pdf"
         ]
       ]
     },
