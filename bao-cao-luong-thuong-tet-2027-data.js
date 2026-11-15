@@ -1,5 +1,5 @@
 // Công văn, mẫu biểu và đường nộp theo địa phương.
-const checkedOn = '14/11/2026';
+const checkedOn = '15/11/2026';
 
 const provinces = [
   "An Giang",
@@ -566,8 +566,8 @@ const entries = {
     },
     {
       "name": "Phường Long Biên",
-      "deadline": "Chưa xác minh hạn của địa phương",
-      "note": "Nộp tại Phòng Nội vụ – Tư pháp, UBND phường Long Biên, số 199 đường Bát Khối. Mở văn bản hướng dẫn để đối chiếu.",
+      "deadline": "Trước ngày 18/11/2026",
+      "note": "Theo Công văn 3672/UBND-NVTP ngày 12/11/2026, doanh nghiệp gửi báo cáo bằng văn bản kèm bản mềm về UBND phường Long Biên qua Phòng Nội vụ – Tư pháp, số 199 đường Bát Khối. Liên hệ tiếp nhận: Ngô Thị Thanh Hòa, chuyên viên Phòng Nội vụ – Tư pháp, điện thoại 0975.533.666, email pnvtp_longbien@hanoi.gov.vn.",
       "links": [
         [
           "Danh sách phường, xã Hà Nội",
