@@ -1,5 +1,5 @@
 // Công văn, mẫu biểu và đường nộp theo địa phương.
-const checkedOn = '15/11/2026';
+const checkedOn = '16/11/2026';
 
 const provinces = [
   "An Giang",
@@ -690,6 +690,17 @@ const entries = {
         [
           "Văn bản hướng dẫn của phường",
           "https://cdn.thuvienphapluat.vn/uploads/khoinghiep/2026/11/12/Cv-Thanh-xuan.docx"
+        ]
+      ]
+    },
+    {
+      "name": "Phường Tây Tựu",
+      "deadline": "Trước ngày 19/11/2026",
+      "note": "Doanh nghiệp lập Biểu số 1 về tiền lương, tiền thưởng và Biểu số 2 về nợ lương kèm công văn, gửi UBND phường Tây Tựu qua Phòng Nội vụ – Tư pháp. Liên hệ hướng dẫn: Nguyễn Văn Trường, 039.699.5856.",
+      "links": [
+        [
+          "Công văn 3215/UBND-NVTP và biểu mẫu",
+          "https://cdn.thuvienphapluat.vn/phap-luat/2022-2/NDBT/131126/cong-van-3215-ubnd-nvtp-tay-tuu-2026.pdf"
         ]
       ]
     },
