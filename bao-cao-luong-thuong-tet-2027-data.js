@@ -739,6 +739,22 @@ const entries = {
       ]
     },
     {
+      "name": "Phường Văn Miếu - Quốc Tử Giám",
+      "deadline": "Trước ngày 17/11/2026",
+      "note": "Cập nhật số liệu theo Biểu 01, 02, 03 vào bảng khai trực tuyến. Đồng thời gửi báo cáo về Phòng Nội vụ – Tư pháp phường Văn Miếu - Quốc Tử Giám. Liên hệ Lê Thị Tuyết Nhung, 0979 028 324.",
+      "links": [
+        [
+          "Mở bảng khai trực tuyến",
+          "https://docs.google.com/spreadsheets/d/1KwGOOZz3I9GbPe2AknXOgwMBYWBsYZsT/edit?gid=1106102721#gid=1106102721",
+          "submit"
+        ],
+        [
+          "Công văn 2252/UBND-NVTP ngày 12/11/2026",
+          "assets/cong-van-2252-van-mieu-quoc-tu-giam.pdf"
+        ]
+      ]
+    },
+    {
       "name": "Phường Vĩnh Tuy",
       "deadline": "Trước ngày 17/11/2026",
       "note": "Nộp trực tuyến theo Công văn 1870/UBND-NVTP ngày 13/11/2026. Liên hệ Phòng Nội vụ – Tư pháp, UBND phường Vĩnh Tuy, 423 phố Minh Khai: Nguyễn Việt Bách, 0906 346 789 hoặc Phạm Minh Hạnh, 0904 177 666.",
