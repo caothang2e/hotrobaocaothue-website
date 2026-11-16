@@ -735,6 +735,22 @@ const entries = {
       ]
     },
     {
+      "name": "Phường Vĩnh Tuy",
+      "deadline": "Trước ngày 17/11/2026",
+      "note": "Nộp trực tuyến theo Công văn 1870/UBND-NVTP ngày 13/11/2026. Liên hệ Phòng Nội vụ – Tư pháp, UBND phường Vĩnh Tuy, 423 phố Minh Khai: Nguyễn Việt Bách, 0906 346 789 hoặc Phạm Minh Hạnh, 0904 177 666.",
+      "links": [
+        [
+          "Mở bảng khai trực tuyến",
+          "https://docs.google.com/forms/d/e/1FAIpQLSc7XvD-dZMn8pWi3AmhzYOSw0ejpQ1CRkzMBWXvzCbxp2RXPA/viewform",
+          "submit"
+        ],
+        [
+          "Công văn 1870/UBND-NVTP",
+          "https://cdn.thuvienphapluat.vn/uploads/laodongtienluong/20230301/NTTP/2026.11.16/cong-van-1870-ubnd-nvtp-2026-phuong-vinh-tuy-ha-noi.pdf"
+        ]
+      ]
+    },
+    {
       "name": "Phường Xuân Đỉnh",
       "deadline": "Chưa xác minh hạn của phường",
       "note": "Danh sách địa phương có dẫn biểu mẫu hoặc tài liệu này. Xem hướng dẫn trong tài liệu và hỏi phường nếu cần xác nhận cách gửi.",
