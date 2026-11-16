@@ -457,12 +457,16 @@ const entries = {
     },
     {
       "name": "Phường Giảng Võ",
-      "deadline": "Chưa xác minh hạn của địa phương",
-      "note": "Nơi nhận được dẫn: Phòng Nội vụ – Tư pháp, 525 Kim Mã.",
+      "deadline": "Chậm nhất ngày 17/11/2026",
+      "note": "Gửi số liệu theo Biểu 1, 2, 3 về UBND phường Giảng Võ qua Phòng Nội vụ – Tư pháp, 525 Kim Mã. Ghi rõ các nội dung không phát sinh.",
       "links": [
         [
-          "Danh sách phường, xã Hà Nội",
-          "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-phuong-xa-ha-noi-da-co-link-bao-cao-tien-luong-thuong-tet-2027-chi-tiet-nhu-the-nao-301695.html"
+          "Công văn 2486/UBND-NVTP ngày 10/11/2026",
+          "https://cdn.thuvienphapluat.vn/phap-luat/2022-2/PPAT/cong-van-2486-ubnd-nvtp-2026-phuong-giang-vo-ha-noi.pdf"
+        ],
+        [
+          "Tải Biểu 1, 2, 3 của Hà Nội (Excel)",
+          "https://cdn.thuvienphapluat.vn/phap-luat/2022-2/NHND/Thang-11/Bieu-bao-cao-luong-PL-HN.xlsx"
         ]
       ]
     },
@@ -845,12 +849,12 @@ const entries = {
     },
     {
       "name": "Xã Nội Bài",
-      "deadline": "Chưa xác minh hạn của địa phương",
-      "note": "Nơi nhận được dẫn: Phòng Nội vụ – Tư pháp, thôn Thanh Nhàn.",
+      "deadline": "Trước ngày 17/11/2026",
+      "note": "Gửi 3 biểu mẫu kèm công văn về UBND xã Nội Bài qua Phòng Nội vụ – Tư pháp, thôn Thanh Nhàn. Liên hệ chuyên viên Dương Thị Hoa, 0989 913 021.",
       "links": [
         [
-          "Danh sách phường, xã Hà Nội",
-          "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-sach-phuong-xa-ha-noi-da-co-link-bao-cao-tien-luong-thuong-tet-2027-chi-tiet-nhu-the-nao-301695.html"
+          "Công văn 2030/UBND-NVTP và 3 biểu mẫu",
+          "https://cdn.thuvienphapluat.vn/phap-luat/2022-2/TTKP/CV-2030.pdf"
         ]
       ]
     }
