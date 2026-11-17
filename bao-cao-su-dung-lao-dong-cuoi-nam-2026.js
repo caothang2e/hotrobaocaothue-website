@@ -73,13 +73,16 @@ function renderProvince() {
     }
   }
 
-  const general = element('article');
-  general.append(
-    element('h4', 'Gửi bản scan và nộp bản giấy'),
-    element('p', 'Hạn chung trước ngày 05/12/2026', 'deadline'),
-    element('p', 'Nếu nộp bản giấy, xác nhận hộp thư tiếp nhận trước khi gửi bản scan PDF. Sau đó gửi bản giấy Mẫu 01/PLI về đúng bộ phận của Sở Nội vụ.')
-  );
-  result.append(general, contactCard(name, 'Email, địa chỉ và điện thoại Sở Nội vụ'));
+  if (name !== 'Hà Nội') {
+    const general = element('article');
+    general.append(
+      element('h4', 'Gửi bản scan và nộp bản giấy'),
+      element('p', 'Hạn chung trước ngày 05/12/2026', 'deadline'),
+      element('p', 'Nếu nộp bản giấy, xác nhận hộp thư tiếp nhận trước khi gửi bản scan PDF. Sau đó gửi bản giấy Mẫu 01/PLI về đúng bộ phận của Sở Nội vụ.')
+    );
+    result.append(general);
+  }
+  result.append(contactCard(name, 'Email, địa chỉ và điện thoại Sở Nội vụ'));
 }
 
 function renderOptions() {

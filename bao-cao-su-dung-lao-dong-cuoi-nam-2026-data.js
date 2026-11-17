@@ -94,6 +94,19 @@ const laborEmails = {
 const laborCities = ['Cần Thơ', 'Đà Nẵng', 'Đồng Nai', 'Hà Nội', 'Hải Phòng', 'Hồ Chí Minh', 'Huế'];
 
 const laborEntries = {
+  'Hà Nội': [
+    {
+      name: 'Sở Nội vụ TP. Hà Nội',
+      deadline: 'Đến hết ngày 05/12/2026 theo Công văn 8865/SNV-VLATLĐ',
+      note: 'Dùng Mẫu 01/PLI, tổng hợp số liệu đến thời điểm báo cáo. Đăng nhập Cổng thông tin việc làm TP. Hà Nội, tải PDF ký số hoặc bản scan có chữ ký, đóng dấu nếu có, rồi lưu xác nhận nộp thành công. Nếu đã liên hệ hỗ trợ kỹ thuật mà vẫn không nộp được do lỗi hệ thống, gửi bản giấy qua bưu chính về Phòng Việc làm và An toàn lao động, Sở Nội vụ Hà Nội, số 62 Trần Quốc Toản, phường Cửa Nam. Hạn bản giấy tính theo dấu bưu điện nơi gửi.',
+      links: [
+        ['Cổng thông tin việc làm TP. Hà Nội (cần đăng nhập)', 'https://congvieclam.hanoi.gov.vn/', 'submit'],
+        ['Hướng dẫn thao tác của Hà Nội', 'https://docs.google.com/document/d/1GmMvOIneTiB2Hl8FZyQpDfIiW-GstEjzxYXGhMuEOtg/edit'],
+        ['Nhóm Zalo hỗ trợ kỹ thuật theo công văn', 'https://zalo.me/g/wavddee6ktmt0v9lryyk'],
+        ['Công văn 8865/SNV-VLATLĐ ngày 17/11/2026', 'https://cdn.thuvienphapluat.vn/phap-luat/2022-2/TTKP/CV-8865.pdf']
+      ]
+    }
+  ],
   'Hồ Chí Minh': [
     {
       name: 'Sở Nội vụ TP. Hồ Chí Minh',
