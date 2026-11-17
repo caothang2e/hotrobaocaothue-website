@@ -3,49 +3,42 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self'; base-uri 'none'; form-action 'none'">
-<title>Sửa cơ quan thuế nơi nộp 01/BKNT-KTNT | Hỗ Trợ Báo Cáo Thuế</title>
-<link rel="stylesheet" href="style.css">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<title>Sửa cơ quan thuế nơi nộp trong XML HTKK</title>
 <style>
-.bknt-tool{max-width:780px;margin:32px auto 48px;padding:0 20px}
-.bknt-tool h1{margin:0 0 8px;font-size:clamp(25px,5vw,38px);line-height:1.25}
-.bknt-tool .panel{padding:clamp(16px,4vw,28px);background:#fff;border:1px solid #d9dfd5;border-radius:8px}
-.bknt-tool input,.bknt-tool select{width:100%;padding:9px;border:1px solid #a6bdb4;border-radius:6px;font:inherit;color:inherit;background:#fff}
-.bknt-tool label{display:block;font-weight:650;margin:0 0 5px}
-.bknt-tool fieldset{margin:18px 0;padding:0;border:0;min-width:0}
-.bknt-tool select{margin-top:8px}
-.bknt-tool .fields{display:grid;grid-template-columns:minmax(130px,1fr) minmax(0,3fr);gap:12px;margin-top:12px}
-.bknt-tool .current,.bknt-current{padding:10px 12px;margin-top:12px;background:#f2f6f3;border-left:3px solid #39745e;overflow-wrap:anywhere}
-.bknt-tool .label{display:block;font-weight:650}
-.bknt-tool button{padding:10px 16px;border:0;border-radius:6px;background:#183e39;color:white;font:inherit;font-weight:650;cursor:pointer}
-.bknt-tool button:disabled{opacity:.5;cursor:default}
-.bknt-tool .note,#status{margin:8px 0;font-size:.9rem}
-#status[data-error=true]{color:#a02424;font-weight:600}
-@media(max-width:520px){.bknt-tool .fields{grid-template-columns:1fr}}
+:root{font-family:system-ui,sans-serif;color:#182e36;background:#edf5f4;line-height:1.55}
+body{margin:0}main{max-width:760px;margin:6vh auto;padding:0 18px 28px}
+header{padding:30px 32px;background:#123e40;color:white;border-radius:20px 20px 0 0}
+header p{margin:0;color:#bde8df}h1{font-size:clamp(24px,5vw,35px);line-height:1.2;margin:7px 0 0}
+.panel{padding:26px 32px;background:#fff;border-radius:0 0 20px 20px;box-shadow:0 10px 40px #17474616}
+label,.label{display:block;font-weight:650;margin:0 0 5px}input,select,button{font:inherit;box-sizing:border-box}input:not([type=file]),select{width:100%;border:1px solid #a6bfbf;border-radius:8px;padding:9px 10px;background:white;color:inherit}
+input[type=file]{max-width:100%}button,input::file-selector-button{border:0;border-radius:8px;background:#087364;color:white;padding:9px 15px;cursor:pointer;font-weight:650}
+button:disabled{opacity:.47;cursor:default}input:focus-visible,select:focus-visible,button:focus-visible{outline:3px solid #1ba49a;outline-offset:2px}
+fieldset{margin:18px 0;padding:0;border:0}select{margin-top:8px}.fields{display:grid;grid-template-columns:135px 1fr;gap:12px;margin-top:13px}
+.current{padding:12px 15px;margin:15px 0 0;background:#f2f7f7;border-left:4px solid #118276;overflow-wrap:anywhere}
+.note,#status{font-size:.92rem;color:#455e65;margin:10px 0 0}#status[data-error=true]{color:#a02424;font-weight:600}
+@media(max-width:500px){header,.panel{padding:21px}.fields{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<header class="wide-nav"><a class="brand" href="index.html"><img class="brand-logo" src="assets/logo.png" alt="Logo Hỗ Trợ Báo Cáo Thuế" width="72" height="72"><span>HỖ TRỢ<br><b>BÁO CÁO THUẾ</b></span></a><nav><a href="index.html#library">Thư viện kiến thức</a><a href="xml-etax-htkk.html">Công cụ XML eTax → HTKK</a><a href="sua-xml-01-bknt-ktnt.html" aria-current="page">Sửa XML 01/BKNT-KTNT</a><a href="https://tra-cuu-cshhl-0979936336.mellow-duck-3403.chatgpt.site/" target="_blank" rel="noopener">Hướng dẫn kê khai chủ sở hữu hưởng lợi ↗</a><a href="bao-cao-su-dung-lao-dong-cuoi-nam-2026.html">Báo cáo tình hình sử dụng lao động 6 tháng cuối năm</a><a href="index.html#services">Dịch vụ</a><a href="https://www.facebook.com/hotrobaocaothue/" target="_blank" rel="noopener">Facebook ↗</a><a href="https://zalo.me/g/i14chdfycnaoaeculynd" target="_blank" rel="noopener">Nhóm Zalo hỗ trợ ↗</a></nav></header>
-<main class="bknt-tool">
-  <h1>Sửa cơ quan thuế nơi nộp</h1>
-  <p>Đối chiếu cơ quan thuế ở chỉ tiêu [9] trên XML 01/BKNT-KTNT kết xuất từ HTKK.</p>
+<main>
+  <header><p>HTKK · 01/BKNT-KTNT · TT89/2026</p><h1>Sửa cơ quan thuế nơi nộp</h1></header>
   <div class="panel">
     <label for="file">1. Mở tờ khai XML kết xuất từ HTKK</label>
     <input type="file" id="file" accept=".xml,application/xml,text/xml">
     <div class="current"><span class="label">Cơ quan thuế trong XML gốc</span><span id="current">Chưa mở tệp</span></div>
-    <div class="bknt-current"><strong>Cơ quan thu ở chỉ tiêu [9]</strong><div id="ct9">Chưa mở tệp</div></div>
     <fieldset>
-      <label for="search">2. Xác nhận cơ quan thuế nơi nộp theo chỉ tiêu [9]</label>
+      <label for="search">2. Chọn cơ quan thuế nơi nộp mới</label>
       <input type="search" id="search" placeholder="Tìm mã hoặc tên, ví dụ 10123" autocomplete="off">
       <select id="agency" aria-label="Kết quả tìm cơ quan thuế"></select>
       <div class="fields">
         <div><label for="code">Mã cơ quan thuế</label><input id="code" inputmode="numeric" autocomplete="off" maxlength="5" placeholder="10123"></div>
         <div><label for="name">Tên cơ quan thuế</label><input id="name" autocomplete="off" placeholder="Tên đúng như trong HTKK"></div>
       </div>
-      <p class="note">Dùng mã 5 số trong HTKK. Nếu có nhiều mã cùng tên, đối chiếu với HTKK trước khi chọn.</p>
+      <p class="note">Có thể nhập trực tiếp mã và tên nếu cơ quan thuế cần chọn chưa có trong danh mục.</p>
     </fieldset>
     <button id="download" type="button" disabled>3. Tải XML đã sửa</button>
-    <p class="note">XML được xử lý trên trình duyệt. Dùng XML chưa ký và ký số sau khi sửa.</p>
+    <p class="note">Công cụ chạy tại máy anh. Dùng XML chưa ký và ký số sau khi sửa.</p>
     <p id="status" role="status" aria-live="polite"></p>
   </div>
 </main>
@@ -63,10 +56,6 @@ let revision = 0;
 function showStatus(message, error = false) {
   byId('status').textContent = message;
   byId('status').dataset.error = String(error);
-}
-
-function agencyName(value) {
-  return fold(value).trim().replace(/\s+/g, ' ');
 }
 
 function readFields(xml) {
@@ -94,22 +83,13 @@ function readFields(xml) {
   if (formCode ? formCode !== '2022' : !hasFormName && !hasFormStructure) {
     throw new Error('Hãy chọn XML kết xuất của mẫu 01/BKNT-KTNT theo TT89/2026.');
   }
-  const targets = fields.map(tag => {
+  return fields.map(tag => {
     const matches = Array.from(parent.children).filter(child => child.localName === tag);
     if (matches.length !== 1 || matches[0].children.length) {
       throw new Error('Cần đúng một thẻ ' + tag + ' trong thông tin tờ khai.');
     }
     return matches[0];
   });
-  const readCt9 = tag => detailsHeader ? Array.from(detailsHeader.children)
-    .filter(node => node.localName === tag && !node.children.length) : [];
-  const codes = readCt9('ct9_maCoQuanThu');
-  const names = readCt9('ct9_tenCoQuanThu');
-  if (codes.length !== 1 || names.length !== 1 ||
-    !codes[0].textContent.trim() || !names[0].textContent.trim()) {
-    throw new Error('Chỉ tiêu [9] thiếu hoặc không xác định được mã và tên cơ quan thu. Hãy kiểm tra lại trong HTKK.');
-  }
-  return {targets, ct9: [codes[0].textContent.trim(), names[0].textContent.trim()]};
 }
 
 function locateFields(xml, nodes) {
@@ -131,18 +111,8 @@ function locateFields(xml, nodes) {
       const leading = old.match(/^\s*/)[0].length;
       const trailing = old.slice(leading).match(/\s*$/)[0].length;
       edits.set(node.localName, {start: start + leading, end: match.index - trailing});
-    } else {
-      const name = token.match(/^<([^\s/>]+)/)[1];
-      if (!token.endsWith('/>')) {
-        path.push({name, start: match.index + token.length});
-        continue;
-      }
-      const node = nodes.find(node => node.nodeName === name);
-      if (node && path.length === headerPath.length &&
-        path.every((part, index) => part.name.split(':').pop() === headerPath[index])) {
-        const start = match.index + token.length - 2;
-        edits.set(node.localName, {start, end: start + 2, emptyTag: name});
-      }
+    } else if (!token.endsWith('/>')) {
+      path.push({name: token.match(/^<([^\s/>]+)/)[1], start: match.index + token.length});
     }
   }
   if (edits.size !== fields.length) throw new Error('Không xác định được nội dung của hai thẻ cơ quan thuế.');
@@ -174,25 +144,20 @@ function encodeXml(xml, encoding) {
 function updateDownload() {
   const code = byId('code').value.trim();
   const name = byId('name').value.trim();
-  const known = directory.find(([id]) => id === code);
   byId('download').disabled = !source || !/^\d{5}$/.test(code) || !name ||
-    (source.agencies.length > 0 && !source.agencies.some(([id]) => id === code)) ||
-    (source.agencies.length === 0 && Boolean(known)) ||
-    agencyName(name) !== agencyName(source.ct9[1]) ||
     (source.before[0] === code && source.before[1] === name);
 }
 
 function renderAgencies() {
   const terms = fold(byId('search').value.trim()).split(/\s+/);
-  const choices = source ? source.agencies : directory;
-  const matches = choices.filter(([code, name]) => terms.every(term => fold(code + ' ' + name).includes(term)));
+  const matches = directory.filter(([code, name]) => terms.every(term => fold(code + ' ' + name).includes(term)));
   byId('agency').replaceChildren(new Option(matches.length ? 'Chọn trong ' + matches.length + ' kết quả' : 'Không tìm thấy cơ quan thuế', ''));
   for (const [code, name] of matches) byId('agency').add(new Option(code + ' · ' + name, code));
 }
 
 byId('search').addEventListener('input', renderAgencies);
 byId('agency').addEventListener('change', event => {
-  const entry = (source ? source.agencies : directory).find(([code]) => code === event.target.value);
+  const entry = directory.find(([code]) => code === event.target.value);
   if (!entry) return;
   [byId('code').value, byId('name').value] = entry;
   byId('name').readOnly = true;
@@ -203,14 +168,11 @@ for (const id of ['code', 'name']) {
   byId(id).addEventListener('input', () => {
     byId('agency').value = '';
     if (id === 'code') {
-      const known = (source ? source.agencies : directory).find(([code]) => code === byId('code').value.trim());
-      byId('name').value = known?.[1] ?? source?.ct9[1] ?? '';
+      const known = directory.find(([code]) => code === byId('code').value.trim());
+      if (byId('name').readOnly || known) byId('name').value = known?.[1] ?? '';
+      byId('name').readOnly = Boolean(known);
     }
-    const code = byId('code').value.trim();
-    const wrongCode = source && /^\d{5}$/.test(code) && (source.agencies.length
-      ? !source.agencies.some(([id]) => id === code)
-      : directory.some(([id]) => id === code));
-    showStatus(wrongCode ? 'Mã đã nhập không khớp với cơ quan thu ở chỉ tiêu [9].' : '', Boolean(wrongCode));
+    showStatus('');
     updateDownload();
   });
 }
@@ -220,7 +182,6 @@ byId('file').addEventListener('change', async event => {
   const file = event.target.files[0];
   source = null;
   byId('current').textContent = file ? 'Đang đọc tệp…' : 'Chưa mở tệp';
-  byId('ct9').textContent = byId('current').textContent;
   for (const id of ['search', 'code', 'name']) byId(id).value = '';
   byId('name').readOnly = false;
   renderAgencies();
@@ -231,32 +192,15 @@ byId('file').addEventListener('change', async event => {
     const bytes = new Uint8Array(await file.arrayBuffer());
     if (reading !== revision) return;
     const {xml, encoding} = readXml(bytes);
-    const {targets: nodes, ct9} = readFields(xml);
+    const nodes = readFields(xml);
     const edits = locateFields(xml, nodes);
     const before = nodes.map(node => node.textContent.trim());
-    const agencies = /^\d{5}$/.test(ct9[0]) ? [ct9] :
-      directory.filter(([, name]) => agencyName(name) === agencyName(ct9[1]));
-    source = {xml, encoding, edits, before, ct9, agencies, filename: file.name};
+    source = {xml, encoding, edits, before, filename: file.name};
     byId('current').textContent = before.map(value => value || '(trống)').join(' · ');
-    byId('ct9').textContent = ct9.join(' · ');
-    byId('name').readOnly = true;
-    byId('name').value = ct9[1];
-    renderAgencies();
-    if (agencies.length === 1) {
-      const [code, name] = agencies[0];
-      byId('agency').value = byId('code').value = code;
-      byId('name').value = name;
-      showStatus(before[0] === code && before[1] === name ? 'Cơ quan thuế nơi nộp đã khớp.' : 'Đã điền mã HTKK tương ứng với chỉ tiêu [9].');
-    } else if (agencies.length > 1) {
-      showStatus('Có nhiều mã HTKK cùng tên. Đối chiếu trong HTKK rồi chọn mã đúng.');
-    } else {
-      showStatus('Chưa có mã tương ứng trong danh mục. Nhập mã 5 số sau khi đối chiếu tên cơ quan thu với HTKK.');
-    }
     updateDownload();
   } catch (error) {
     if (reading !== revision) return;
     byId('current').textContent = 'Chưa đọc được tệp';
-    byId('ct9').textContent = 'Chưa xác định';
     showStatus(error instanceof TypeError ? 'Không đọc được mã hóa XML. Hãy dùng bản XML kết xuất từ HTKK.' : error.message, true);
   }
 });
@@ -269,11 +213,10 @@ byId('download').addEventListener('click', () => {
   }));
   let result = source.xml;
   for (const edit of replacements.sort((first, second) => second.start - first.start)) {
-    const value = edit.emptyTag ? '>' + edit.value + '</' + edit.emptyTag + '>' : edit.value;
-    result = result.slice(0, edit.start) + value + result.slice(edit.end);
+    result = result.slice(0, edit.start) + edit.value + result.slice(edit.end);
   }
   try {
-    if (!readFields(result).targets.every((node, index) => node.textContent.trim() === values[index])) {
+    if (!readFields(result).every((node, index) => node.textContent.trim() === values[index])) {
       throw new Error('Không xác minh được mã và tên sau khi sửa.');
     }
     const filename = source.filename.replace(/\.xml$/i, '') + '_da_sua_CQT.xml';
