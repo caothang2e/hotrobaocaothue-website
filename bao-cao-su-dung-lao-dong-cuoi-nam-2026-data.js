@@ -53,6 +53,44 @@ const laborContacts = {
   'Vĩnh Long': [['42 Nguyễn Huệ, phường Long Châu', '0270.382.2233']]
 };
 
+// Hộp thư liên hệ của Sở, cần xác nhận trước khi gửi hồ sơ.
+const laborEmails = {
+  'An Giang': 'sonoivu@angiang.gov.vn',
+  'Bắc Ninh': 'snv@bacninh.gov.vn',
+  'Cà Mau': 'snv.bbt@camau.gov.vn',
+  'Cần Thơ': 'sonv@cantho.gov.vn',
+  'Cao Bằng': 'sonoivu@caobang.gov.vn',
+  'Đà Nẵng': 'snv@danang.gov.vn',
+  'Đắk Lắk': 'sonoivu@noivu.daklak.gov.vn',
+  'Điện Biên': 'snv@dienbien.gov.vn',
+  'Đồng Nai': 'sonoivu@dongnai.gov.vn',
+  'Đồng Tháp': 'snv@dongthap.gov.vn',
+  'Gia Lai': 'sonoivu@snv.gialai.gov.vn',
+  'Hà Nội': 'vanthu_sonv@hanoi.gov.vn',
+  'Hà Tĩnh': 'sonoivu@hatinh.gov.vn',
+  'Hải Phòng': 'sonoivu@haiphong.gov.vn',
+  'Hồ Chí Minh': 'snv@tphcm.gov.vn',
+  'Huế': 'snv@hue.gov.vn',
+  'Hưng Yên': 'sonv@hungyen.gov.vn',
+  'Khánh Hòa': 'snv@khanhhoa.gov.vn',
+  'Lai Châu': 'sonoivu@laichau.gov.vn',
+  'Lạng Sơn': 'sonoivu@langson.gov.vn',
+  'Lào Cai': 'contact-snv@laocai.gov.vn',
+  'Lâm Đồng': 'snv@lamdong.gov.vn',
+  'Nghệ An': 'nv@nghean.gov.vn',
+  'Ninh Bình': 'snv@ninhbinh.gov.vn',
+  'Phú Thọ': 'sonv@phutho.gov.vn',
+  'Quảng Ngãi': 'snv@quangngai.gov.vn',
+  'Quảng Ninh': 'snv@quangninh.gov.vn',
+  'Quảng Trị': 'snv@quangtri.gov.vn',
+  'Sơn La': 'snv@sonla.gov.vn',
+  'Tây Ninh': 'snv@tayninh.gov.vn',
+  'Thái Nguyên': 'sonoivu@thainguyen.gov.vn',
+  'Thanh Hóa': 'snv@thanhhoa.gov.vn',
+  'Tuyên Quang': 'noivu@tuyenquang.gov.vn',
+  'Vĩnh Long': 'snoivu@vinhlong.gov.vn'
+};
+
 const laborCities = ['Cần Thơ', 'Đà Nẵng', 'Đồng Nai', 'Hà Nội', 'Hải Phòng', 'Hồ Chí Minh', 'Huế'];
 
 const laborEntries = {
@@ -60,7 +98,7 @@ const laborEntries = {
     {
       name: 'Sở Nội vụ TP. Hồ Chí Minh',
       deadline: 'Trước ngày 05/12/2026',
-      note: 'Nộp Mẫu 01/PLI qua Cổng Dịch vụ công Quốc gia. Nếu không thực hiện được trên cổng, kê khai qua Google Form của Sở Nội vụ và đính kèm PDF báo cáo có ký tên, đóng dấu. Google Form yêu cầu đăng nhập.',
+      note: 'Kênh tiếp nhận riêng theo Công văn 28771: kê khai qua Google Form của Sở Nội vụ và đính kèm PDF Mẫu 01/PLI đã ký tên, đóng dấu. Google Form yêu cầu đăng nhập.',
       links: [
         ['Nộp qua Google Form của Sở Nội vụ', 'https://forms.gle/hwY2iJwc3PQ984Ns9', 'submit'],
         ['Công văn 28771/SNV-VLATLĐ', 'https://cdn.thuvienphapluat.vn/uploads/mst/images/MinhThu/12-11-2026/28771.pdf']
@@ -105,7 +143,7 @@ const laborEntries = {
     {
       name: 'UBND xã Thiệu Trung',
       deadline: 'Trước ngày 05/12/2026',
-      note: 'Hướng dẫn này áp dụng cho đơn vị trên địa bàn xã Thiệu Trung. Nộp Mẫu 01/PLI qua Cổng Dịch vụ công Quốc gia hoặc trực tuyến về Sở Nội vụ theo công văn. Sau khi nộp, báo Phòng Văn hóa – Xã hội của xã để tổng hợp. Google Form yêu cầu đăng nhập.',
+      note: 'Hướng dẫn này áp dụng cho đơn vị trên địa bàn xã Thiệu Trung. Xem công văn để sử dụng biểu mẫu trực tuyến do Sở Nội vụ công bố. Sau khi nộp, báo Phòng Văn hóa – Xã hội của xã để tổng hợp. Google Form yêu cầu đăng nhập.',
       links: [
         ['Mở biểu mẫu được xã Thiệu Trung hướng dẫn', 'https://docs.google.com/forms/d/e/1FAIpQLSf4-fqZi__NA4-BDWesoKv-UNeL7SOfb3a3p330YYYyuLMOLg/viewform', 'submit'],
         ['Công văn 2664/UBND-VHXH', 'https://cdn.thuvienphapluat.vn/phap-luat/2022-2/DTTM/12-11-2026/2664-UBNDVHXH.pdf']

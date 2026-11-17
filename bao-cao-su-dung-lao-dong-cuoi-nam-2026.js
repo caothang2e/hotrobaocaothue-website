@@ -2,7 +2,6 @@ const filter = document.getElementById('filter');
 const province = document.getElementById('province');
 const match = document.getElementById('match');
 const result = document.getElementById('result');
-const portal = document.getElementById('labor-portal');
 const directory = document.getElementById('labor-directory-list');
 
 function element(tag, value, className) {
@@ -33,6 +32,13 @@ function provinceLabel(name) {
 function contactCard(name, title) {
   const card = element('article');
   card.append(element('h4', title));
+  const email = laborEmails[name];
+  const emailLine = element('p', 'Email liên hệ: ');
+  const emailLink = element('a', email);
+  emailLink.href = 'mailto:' + email;
+  emailLine.append(emailLink);
+  if (name === 'Lào Cai') emailLine.append(' (danh bạ trước sáp nhập, gọi xác nhận trước khi dùng)');
+  card.append(emailLine);
   for (const [address, ...numbers] of laborContacts[name]) {
     card.append(element('p', address));
     if (numbers.length) {
@@ -68,15 +74,12 @@ function renderProvince() {
   }
 
   const general = element('article');
-  const links = element('div', '', 'links');
-  links.append(externalLink([portal.textContent, portal.href, 'submit']));
   general.append(
-    element('h4', channels ? 'Kênh nộp theo quy định chung' : 'Chưa xác minh hướng dẫn riêng'),
+    element('h4', 'Gửi bản scan và nộp bản giấy'),
     element('p', 'Hạn chung trước ngày 05/12/2026', 'deadline'),
-    element('p', 'Nộp Mẫu 01/PLI qua Cổng Dịch vụ công Quốc gia. Nếu không thể nộp qua cổng, liên hệ Sở Nội vụ để gửi bản giấy hoặc theo kênh riêng được công bố.'),
-    links
+    element('p', 'Nếu nộp bản giấy, xác nhận hộp thư tiếp nhận trước khi gửi bản scan PDF. Sau đó gửi bản giấy Mẫu 01/PLI về đúng bộ phận của Sở Nội vụ.')
   );
-  result.append(general, contactCard(name, 'Địa chỉ và điện thoại Sở Nội vụ'));
+  result.append(general, contactCard(name, 'Email, địa chỉ và điện thoại Sở Nội vụ'));
 }
 
 function renderOptions() {
