@@ -98,7 +98,7 @@ const laborEntries = {
     {
       name: 'Sở Nội vụ TP. Hà Nội',
       deadline: 'Đến hết ngày 05/12/2026 theo Công văn 8865/SNV-VLATLĐ',
-      note: 'Dùng Mẫu 01/PLI, tổng hợp số liệu đến thời điểm báo cáo. Đăng nhập Cổng thông tin việc làm TP. Hà Nội, tải PDF ký số hoặc bản scan có chữ ký, đóng dấu nếu có, rồi lưu xác nhận nộp thành công. Nếu đã liên hệ hỗ trợ kỹ thuật mà vẫn không nộp được do lỗi hệ thống, gửi bản giấy qua bưu chính về Phòng Việc làm và An toàn lao động, Sở Nội vụ Hà Nội, số 62 Trần Quốc Toản, phường Cửa Nam. Hạn bản giấy tính theo dấu bưu điện nơi gửi.',
+      note: 'Dùng Mẫu 01/PLI, tổng hợp số liệu đến thời điểm báo cáo. Đăng nhập Cổng thông tin việc làm TP. Hà Nội và tải PDF ký số hoặc bản scan đã ký, đóng dấu nếu có. Sau khi bấm Lưu, chụp màn hình xác nhận. Trạng thái nộp thành công trên cổng này xác nhận đơn vị đã hoàn tất việc nộp cho Sở Nội vụ Hà Nội và được miễn gửi thêm bản giấy. Có thể sửa và lưu lại trước khi hết hạn, hệ thống ghi nhận bản cuối cùng. Đơn vị đã nộp qua Cổng Dịch vụ công Quốc gia được đề nghị cập nhật dữ liệu lên Cổng thông tin việc làm Hà Nội. Nếu đã liên hệ hỗ trợ kỹ thuật mà vẫn không nộp được do lỗi hệ thống, gửi bản giấy qua bưu chính về Phòng Việc làm và An toàn lao động, Sở Nội vụ Hà Nội, số 62 Trần Quốc Toản, phường Cửa Nam. Hạn bản giấy tính theo dấu bưu điện nơi gửi.',
       links: [
         ['Cổng thông tin việc làm TP. Hà Nội (cần đăng nhập)', 'https://congvieclam.hanoi.gov.vn/', 'submit'],
         ['Hướng dẫn thao tác của Hà Nội', 'https://docs.google.com/document/d/1GmMvOIneTiB2Hl8FZyQpDfIiW-GstEjzxYXGhMuEOtg/edit'],
