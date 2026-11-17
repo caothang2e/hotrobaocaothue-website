@@ -98,7 +98,7 @@ const laborEntries = {
     {
       name: 'Sở Nội vụ TP. Hồ Chí Minh',
       deadline: 'Trước ngày 05/12/2026',
-      note: 'Kênh tiếp nhận riêng theo Công văn 28771: kê khai qua Google Form của Sở Nội vụ và đính kèm PDF Mẫu 01/PLI đã ký tên, đóng dấu. Google Form yêu cầu đăng nhập.',
+      note: 'Chốt số liệu đến 15/11/2026 theo Mẫu 01/PLI đính kèm Công văn 28771. Khi dùng Google Form của Sở Nội vụ, kê khai thông tin chung, đính kèm bản scan PDF đã ký tên, đóng dấu và bản Excel (.xls hoặc .xlsx). Google Form yêu cầu đăng nhập.',
       links: [
         ['Nộp qua Google Form của Sở Nội vụ', 'https://forms.gle/hwY2iJwc3PQ984Ns9', 'submit'],
         ['Công văn 28771/SNV-VLATLĐ', 'https://cdn.thuvienphapluat.vn/uploads/mst/images/MinhThu/12-11-2026/28771.pdf']
