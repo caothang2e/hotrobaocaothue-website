@@ -698,6 +698,18 @@ const entries = {
       ]
     },
     {
+      "name": "Phường Tây Hồ",
+      "deadline": "Chưa xác minh hạn nộp của phường",
+      "note": "Khai tình hình tiền lương và quan hệ lao động năm 2026, dự kiến thưởng Tết năm 2027. Theo hướng dẫn trên biểu mẫu, chỉ tiêu không phát sinh nhập 0.",
+      "links": [
+        [
+          "Mở bảng khai trực tuyến",
+          "https://forms.gle/VPUrMvHY9TFhYyvQ9",
+          "submit"
+        ]
+      ]
+    },
+    {
       "name": "Phường Tây Tựu",
       "deadline": "Trước ngày 19/11/2026",
       "note": "Doanh nghiệp lập Biểu số 1 về tiền lương, tiền thưởng và Biểu số 2 về nợ lương kèm công văn, gửi UBND phường Tây Tựu qua Phòng Nội vụ – Tư pháp. Liên hệ hướng dẫn: Nguyễn Văn Trường, 039.699.5856.",
