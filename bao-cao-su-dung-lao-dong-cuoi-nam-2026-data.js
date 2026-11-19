@@ -94,6 +94,17 @@ const laborEmails = {
 const laborCities = ['Cần Thơ', 'Đà Nẵng', 'Đồng Nai', 'Hà Nội', 'Hải Phòng', 'Hồ Chí Minh', 'Huế'];
 
 const laborEntries = {
+  'Đà Nẵng': [
+    {
+      name: 'Sở Nội vụ TP. Đà Nẵng',
+      deadline: 'Trước ngày 05/12/2026',
+      note: 'Theo hướng dẫn Công văn 11017/SNV-LĐVL ngày 19/11/2026 được Thư Viện Pháp Luật đăng lại, đơn vị trên địa bàn thành phố lập Mẫu 01/PLI. Khi gửi qua Google Form của Sở Nội vụ, kê khai thông tin chung và đính kèm bản scan PDF đã ký tên, đóng dấu cùng bản Excel (.xlsx hoặc .xls). Biểu mẫu yêu cầu đăng nhập Google; chưa kiểm tra được các câu hỏi bên trong khi chưa đăng nhập. Không có hướng dẫn gửi qua email thay thế trong phần hình thức nộp được đăng lại.',
+      links: [
+        ['Mở biểu mẫu Đà Nẵng (cần đăng nhập Google)', 'https://forms.gle/pQiv6myidcR9L3hDA', 'submit'],
+        ['Hướng dẫn Công văn 11017/SNV-LĐVL trên Thư Viện Pháp Luật', 'https://thuvienphapluat.vn/phap-luat-doanh-nghiep/bai-viet/link-bao-cao-tinh-hinh-su-dung-lao-dong-nam-2026-tai-da-nang-theo-cong-van-11017-snv-ldvl-24557.html']
+      ]
+    }
+  ],
   'Hà Nội': [
     {
       name: 'Sở Nội vụ TP. Hà Nội',
