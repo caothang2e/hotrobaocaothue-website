@@ -94,6 +94,94 @@ const laborEmails = {
 const laborCities = ['Cần Thơ', 'Đà Nẵng', 'Đồng Nai', 'Hà Nội', 'Hải Phòng', 'Hồ Chí Minh', 'Huế'];
 
 const laborEntries = {
+"Khánh Hòa": [
+  {
+    "name": "Sở Nội vụ tỉnh Khánh Hòa",
+    "deadline": "Trước ngày 05/12/2026",
+    "skipPaperInstruction": true,
+    "note": "Công văn 11059/SNV-LĐVL ngày 17/11/2026: lập Mẫu 01/PLI, nhập thông tin chung trên Google Form và đính kèm bản scan PDF có ký tên, đóng dấu đỏ. Link đã đối chiếu với bản công văn được LuatVietnam đăng lại; Google yêu cầu đăng nhập nên chưa đọc được câu hỏi bên trong. Hỗ trợ Phòng Lao động, Việc làm: 0258.3822493.",
+    "links": [
+      [
+        "Mở biểu mẫu Khánh Hòa (cần đăng nhập Google)",
+        "https://forms.gle/BoT8kGDERWWWFFic8",
+        "submit"
+      ],
+      [
+        "Công văn 11059/SNV-LĐVL và mẫu kèm theo (LuatVietnam)",
+        "https://luatvietnam.vn/lao-dong/cong-van-11059-snv-ldvl-khanh-hoa-2026-huong-dan-bao-cao-tinh-hinh-su-dung-lao-dong-456994-d2.html"
+      ]
+    ]
+  }
+],
+"Đắk Lắk": [
+  {
+    "name": "Sở Nội vụ tỉnh Đắk Lắk",
+    "deadline": "Công văn ghi trước 06/12/2026; nên hoàn thành trước 05/12/2026 theo hạn chung",
+    "skipPaperInstruction": true,
+    "note": "Công văn 7864/SNV-LĐVL ngày 18/11/2026 yêu cầu báo cáo theo Mẫu 01/PLI và đồng thời nhập số liệu qua Google Form. Mốc trước 06/12 trong công văn khác hạn chung trước 05/12; liên hệ Nguyễn Thị Bích Trâm, Phòng Lao động việc làm: 0909.128312 để xác nhận. Link đối chiếu theo nội dung công văn được LuatVietnam đăng lại; Google yêu cầu đăng nhập nên chưa đọc được câu hỏi bên trong.",
+    "links": [
+      [
+        "Mở biểu mẫu Đắk Lắk (cần đăng nhập Google)",
+        "https://forms.gle/6jvEbqKQ447NdQ82A",
+        "submit"
+      ],
+      [
+        "Công văn 7864/SNV-LĐVL (LuatVietnam)",
+        "https://luatvietnam.vn/lao-dong/cong-van-7864-snv-ldvl-dak-lak-2026-bao-cao-dinh-ky-tinh-hinh-su-dung-lao-dong-457023-d2.html"
+      ]
+    ]
+  }
+],
+"Hải Phòng": [
+  {
+    "name": "Ban Quản lý Khu kinh tế Hải Phòng · Chỉ doanh nghiệp trong KCN, KKT",
+    "deadline": "Báo cáo sử dụng lao động: trước ngày 05/12/2026",
+    "skipPaperInstruction": true,
+    "note": "Công văn 7507/BQL-QLLĐ ngày 12/11/2026: dùng Phụ lục 1 cho lao động Việt Nam và Phụ lục 2 cho lao động nước ngoài. Chọn nộp qua hệ thống eHEZA đã được cấp tài khoản hoặc email Phòng Quản lý Lao động: quanlylaodong.kkthaiphong@gmail.com. Thư mục Drive bên dưới là nơi tải mẫu, không phải nơi nộp báo cáo. Hướng dẫn này áp dụng cho doanh nghiệp trong khu công nghiệp, khu kinh tế; không áp dụng thay cho hướng dẫn Sở Nội vụ đối với đơn vị ngoài khu.",
+    "links": [
+      [
+        "Tải biểu mẫu kèm công văn (Google Drive)",
+        "https://drive.google.com/drive/folders/1NqD--bCnAC8XWKrRJLEoYWxGKeAz9VxC?usp=sharing"
+      ],
+      [
+        "Email nhận báo cáo của Ban Quản lý",
+        "mailto:quanlylaodong.kkthaiphong@gmail.com"
+      ],
+      [
+        "Công văn 7507/BQL-QLLĐ và danh sách chuyên viên hỗ trợ (LuatVietnam)",
+        "https://luatvietnam.vn/lao-dong/cong-van-7507-bql-qlld-hai-phong-2026-bao-cao-tinh-hinh-lao-dong-tien-luong-no-luong-457040-d2.html"
+      ]
+    ]
+  }
+],
+"Lạng Sơn": [
+  {
+    "name": "Sở Nội vụ tỉnh Lạng Sơn",
+    "deadline": "Trước ngày 05/12/2026",
+    "skipPaperInstruction": true,
+    "note": "Công văn 4093/SNV-LĐVL ngày 11/11/2026, mục 3.1: lập báo cáo theo Phụ lục 03, gửi PDF có ký xác nhận và đóng dấu đến vlatld.solaodonglangson@gmail.com; đồng thời cập nhật số liệu trên bảng khai trực tuyến. Bảng có cả phần lao động, tiền lương, tiền thưởng và quan hệ lao động năm 2026; đây là bảng được công văn chỉ định. Hỗ trợ tổng hợp lao động: Đinh Thị Lan Hương, 0394.806.906.",
+    "links": [
+      [
+        "Mở bảng khai trực tuyến Lạng Sơn",
+        "https://docs.google.com/spreadsheets/d/1rCIrJzePF_r43AOXFRAgMpbDJ0q3G1st/edit?gid=432615136#gid=432615136",
+        "submit"
+      ],
+      [
+        "Email nhận PDF báo cáo",
+        "mailto:vlatld.solaodonglangson@gmail.com"
+      ],
+      [
+        "Tải Phụ lục 03 báo cáo sử dụng lao động",
+        "https://sonv.langson.gov.vn/upload/105373/20261119/Phu_luc_03__Bao_cao_tinh_hinh_su_dung_lao_dong_c205f.doc"
+      ],
+      [
+        "Công văn 4093/SNV-LĐVL và các phụ lục trên cổng Sở Nội vụ",
+        "https://sonv.langson.gov.vn/thong-bao/v-v-de-nghi-bao-cao-dinh-ky-tinh-hinh-su-dung-lao-dong-tien-luong-tien-thuong-quan-he-lao-dong-an-toan-ve-sinh-lao-dong-.html"
+      ]
+    ]
+  }
+],
+
   'Đà Nẵng': [
     {
       name: 'Sở Nội vụ TP. Đà Nẵng',

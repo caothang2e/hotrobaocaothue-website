@@ -73,7 +73,7 @@ function renderProvince() {
     }
   }
 
-  if (name !== 'Hà Nội' && name !== 'Đà Nẵng') {
+  if (name !== 'Hà Nội' && name !== 'Đà Nẵng' && !channels?.some(channel => channel.skipPaperInstruction)) {
     const general = element('article');
     general.append(
       element('h4', 'Gửi bản scan và nộp bản giấy'),
@@ -105,7 +105,7 @@ function renderOptions() {
 
 const sourced = Object.keys(laborEntries).length;
 document.getElementById('coverage').textContent =
-  `${laborProvinces.length} tỉnh, thành để tra cứu · ${sourced} tỉnh, thành có thông tin địa phương · Bổ sung Đà Nẵng 19/11/2026`;
+  `${laborProvinces.length} tỉnh, thành để tra cứu · ${sourced} tỉnh, thành có thông tin địa phương · Bổ sung 4 địa phương 20/11/2026`;
 directory.append(...laborProvinces.map(name => contactCard(name, provinceLabel(name))));
 filter.addEventListener('input', renderOptions);
 province.addEventListener('change', renderProvince);
