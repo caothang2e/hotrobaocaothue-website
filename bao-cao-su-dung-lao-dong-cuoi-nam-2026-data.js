@@ -94,6 +94,51 @@ const laborEmails = {
 const laborCities = ['Cần Thơ', 'Đà Nẵng', 'Đồng Nai', 'Hà Nội', 'Hải Phòng', 'Hồ Chí Minh', 'Huế'];
 
 const laborEntries = {
+"Đồng Tháp": [
+  {
+    "name": "Sở Nội vụ tỉnh Đồng Tháp",
+    "deadline": "Trước ngày 05/12/2026",
+    "skipPaperInstruction": true,
+    "note": "Thông báo trên cổng Sở Nội vụ đăng ngày 19/11/2026: báo cáo sử dụng lao động theo Mẫu 01/PLI. Trường hợp không gửi được qua cổng, có thể chọn gửi văn bản giấy đến Sở Nội vụ, số 375–379 Hùng Vương, phường Đạo Thạnh, hoặc gửi email laodongvieclamdongthap@gmail.com. Tệp gửi email phải có ký, đóng dấu hoặc chữ ký số. Đây là kênh email nhận báo cáo; nút Excel bên dưới chỉ tải mẫu, không phải link nộp trực tuyến.",
+    "links": [
+      [
+        "Email nhận báo cáo lao động Đồng Tháp",
+        "mailto:laodongvieclamdongthap@gmail.com"
+      ],
+      [
+        "Tải Mẫu 01/PLI (Excel) của Sở Nội vụ",
+        "https://snv.dongthap.gov.vn/documents/d/snvdt/mau-bao-cao-su-dung-lao-dong-01-pli-xlsx"
+      ],
+      [
+        "Thông báo ngày 19/11/2026 trên cổng Sở Nội vụ",
+        "https://snv.dongthap.gov.vn/web/snvdt/tin-tuc/chi-tiet?id=12157002"
+      ]
+    ]
+  }
+],
+"Lào Cai": [
+  {
+    "name": "Sở Nội vụ tỉnh Lào Cai",
+    "deadline": "Trước ngày 05/12/2026",
+    "skipPaperInstruction": true,
+    "note": "Công văn 4730/SNV-LĐVL ngày 15/11/2026: lập Mẫu 01/PLI, số liệu lao động tại thời điểm 15/11/2026. Gửi bản giấy qua bưu chính hoặc nộp trực tiếp tại Văn thư Sở Nội vụ, số 159 Đinh Tiên Hoàng, phường Yên Bái; đồng thời gửi file Excel đến tranthikimngan@laocai.gov.vn, đặt tên tendoanhnghiep.xls hoặc tendoanhnghiep.xlsx. Không dùng hộp thư danh bạ cũ thay cho email tiếp nhận này. Hỗ trợ: Trần Thị Kim Ngân, 0985.256.650. Đã đối chiếu nội dung file công văn trên cổng Sở Nội vụ.",
+    "links": [
+      [
+        "Xem công văn 4730/SNV-LĐVL (PDF gốc)",
+        "https://storage-vnportal.vnpt.vn/lci-ubnd-responsive/2324/Lao%20%C4%91%E1%BB%99ng%20vi%E1%BB%87c%20l%C3%A0m/Nam%202026/0CvguiDNycbaocaodinhkyvelaodongdakysovanthuky_rZgmhNK7Rw8.pdf"
+      ],
+      [
+        "Email gửi file Excel theo công văn",
+        "mailto:tranthikimngan@laocai.gov.vn"
+      ],
+      [
+        "Công văn trên cổng Sở Nội vụ Lào Cai",
+        "https://snv.laocai.gov.vn/linh-vuc-lao-dong-viec-lam/bao-cao-dinh-ky-trong-linh-vuc-lao-dong-1629236"
+      ]
+    ]
+  }
+],
+
 "Khánh Hòa": [
   {
     "name": "Sở Nội vụ tỉnh Khánh Hòa",
@@ -101,7 +146,7 @@ const laborEntries = {
     "skipPaperInstruction": true,
     "note": "Công văn 11059/SNV-LĐVL ngày 17/11/2026: lập Mẫu 01/PLI, nhập thông tin chung trên Google Form và đính kèm bản scan PDF có ký tên, đóng dấu đỏ. Link đã đối chiếu với bản công văn được LuatVietnam đăng lại; Google yêu cầu đăng nhập nên chưa đọc được câu hỏi bên trong. Hỗ trợ Phòng Lao động, Việc làm: 0258.3822493.",
     "links": [
-      ["Xem công văn 11059/SNV-LĐVL (PDF)", "https://luatvietnam.vn/van-ban/xem-truoc-file-2cd83092-16c8-1400-105d-911b3d5b6a5d"],
+      ["Xem công văn 11059/SNV-LĐVL (PDF)", "https://mcdn.thuvienphapluat.vn/uploads/Hoidapphapluat/2026/LNMT/Thang_11/261119/CV-11059-2026.pdf"],
       [
         "Mở biểu mẫu Khánh Hòa (cần đăng nhập Google)",
         "https://forms.gle/BoT8kGDERWWWFFic8",
@@ -121,6 +166,7 @@ const laborEntries = {
     "skipPaperInstruction": true,
     "note": "Công văn 7864/SNV-LĐVL ngày 18/11/2026 yêu cầu báo cáo theo Mẫu 01/PLI và đồng thời nhập số liệu qua Google Form. Mốc trước 06/12 trong công văn khác hạn chung trước 05/12; liên hệ Nguyễn Thị Bích Trâm, Phòng Lao động việc làm: 0909.128312 để xác nhận. Link đối chiếu theo nội dung công văn được LuatVietnam đăng lại; Google yêu cầu đăng nhập nên chưa đọc được câu hỏi bên trong.",
     "links": [
+      ["Xem công văn 7864/SNV-LĐVL (PDF)", "https://mcdn.thuvienphapluat.vn/uploads/Hoidapphapluat/2026/MDV/19-11/CV-7864.pdf"],
       [
         "Mở biểu mẫu Đắk Lắk (cần đăng nhập Google)",
         "https://forms.gle/6jvEbqKQ447NdQ82A",
@@ -188,8 +234,9 @@ const laborEntries = {
     {
       name: 'Sở Nội vụ TP. Đà Nẵng',
       deadline: 'Trước ngày 05/12/2026',
-      note: 'Theo hướng dẫn Công văn 11017/SNV-LĐVL ngày 19/11/2026 được Thư Viện Pháp Luật đăng lại, đơn vị trên địa bàn thành phố lập Mẫu 01/PLI. Khi gửi qua Google Form của Sở Nội vụ, kê khai thông tin chung và đính kèm bản scan PDF đã ký tên, đóng dấu cùng bản Excel (.xlsx hoặc .xls). Biểu mẫu yêu cầu đăng nhập Google; chưa kiểm tra được các câu hỏi bên trong khi chưa đăng nhập. Không có hướng dẫn gửi qua email thay thế trong phần hình thức nộp được đăng lại.',
+      note: 'Công văn 11017/SNV-LĐVL ngày 19/11/2026: lập Mẫu 01/PLI, chốt số liệu đến 15/11/2026 theo mẫu kèm công văn. Khi gửi qua Google Form, kê khai thông tin chung, đính kèm PDF đã ký tên, đóng dấu và bản Excel (.xlsx hoặc .xls). Biểu mẫu yêu cầu đăng nhập Google; chưa kiểm tra được câu hỏi bên trong. Sở không tiếp nhận báo cáo sau thời hạn. Hỗ trợ Phòng Lao động, việc làm: tầng 19 Trung tâm Hành chính, 24 Trần Phú; điện thoại 0236.382.2124.',
       links: [
+        ['Xem công văn 11017/SNV-LĐVL và Mẫu 01/PLI (PDF)', 'https://mcdn.thuvienphapluat.vn/uploads/Hoidapphapluat/2026/TTTT/261120/CV-11017-snv-ldvl.pdf'],
         ['Mở biểu mẫu Đà Nẵng (cần đăng nhập Google)', 'https://forms.gle/pQiv6myidcR9L3hDA', 'submit'],
         ['Hướng dẫn và nguồn công văn 11017 (Thư Viện Pháp Luật)', 'https://thuvienphapluat.vn/phap-luat-doanh-nghiep/bai-viet/link-bao-cao-tinh-hinh-su-dung-lao-dong-nam-2026-tai-da-nang-theo-cong-van-11017-snv-ldvl-24557.html']
       ]
