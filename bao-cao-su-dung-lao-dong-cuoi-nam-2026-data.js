@@ -101,13 +101,14 @@ const laborEntries = {
     "skipPaperInstruction": true,
     "note": "Công văn 11059/SNV-LĐVL ngày 17/11/2026: lập Mẫu 01/PLI, nhập thông tin chung trên Google Form và đính kèm bản scan PDF có ký tên, đóng dấu đỏ. Link đã đối chiếu với bản công văn được LuatVietnam đăng lại; Google yêu cầu đăng nhập nên chưa đọc được câu hỏi bên trong. Hỗ trợ Phòng Lao động, Việc làm: 0258.3822493.",
     "links": [
+      ["Xem công văn 11059/SNV-LĐVL (PDF)", "https://luatvietnam.vn/van-ban/xem-truoc-file-2cd83092-16c8-1400-105d-911b3d5b6a5d"],
       [
         "Mở biểu mẫu Khánh Hòa (cần đăng nhập Google)",
         "https://forms.gle/BoT8kGDERWWWFFic8",
         "submit"
       ],
       [
-        "Công văn 11059/SNV-LĐVL và mẫu kèm theo (LuatVietnam)",
+        "Xem công văn 11059 và mẫu kèm theo (bản đăng lại)",
         "https://luatvietnam.vn/lao-dong/cong-van-11059-snv-ldvl-khanh-hoa-2026-huong-dan-bao-cao-tinh-hinh-su-dung-lao-dong-456994-d2.html"
       ]
     ]
@@ -126,7 +127,7 @@ const laborEntries = {
         "submit"
       ],
       [
-        "Công văn 7864/SNV-LĐVL (LuatVietnam)",
+        "Xem công văn 7864 (bản đăng lại; tải PDF cần đăng nhập)",
         "https://luatvietnam.vn/lao-dong/cong-van-7864-snv-ldvl-dak-lak-2026-bao-cao-dinh-ky-tinh-hinh-su-dung-lao-dong-457023-d2.html"
       ]
     ]
@@ -148,7 +149,7 @@ const laborEntries = {
         "mailto:quanlylaodong.kkthaiphong@gmail.com"
       ],
       [
-        "Công văn 7507/BQL-QLLĐ và danh sách chuyên viên hỗ trợ (LuatVietnam)",
+        "Xem công văn 7507 và danh sách hỗ trợ (bản đăng lại; tải PDF cần đăng nhập)",
         "https://luatvietnam.vn/lao-dong/cong-van-7507-bql-qlld-hai-phong-2026-bao-cao-tinh-hinh-lao-dong-tien-luong-no-luong-457040-d2.html"
       ]
     ]
@@ -161,6 +162,7 @@ const laborEntries = {
     "skipPaperInstruction": true,
     "note": "Công văn 4093/SNV-LĐVL ngày 11/11/2026, mục 3.1: lập báo cáo theo Phụ lục 03, gửi PDF có ký xác nhận và đóng dấu đến vlatld.solaodonglangson@gmail.com; đồng thời cập nhật số liệu trên bảng khai trực tuyến. Bảng có cả phần lao động, tiền lương, tiền thưởng và quan hệ lao động năm 2026; đây là bảng được công văn chỉ định. Hỗ trợ tổng hợp lao động: Đinh Thị Lan Hương, 0394.806.906.",
     "links": [
+      ["Xem công văn 4093/SNV-LĐVL (PDF gốc)", "https://sonv.langson.gov.vn/upload/105373/20261119/Vv_de_nghi_bao_cao_tinh_hinh_su_dung_lao_dong__tien_luong__tien_thuong__quan_he_lao_dong__an_toan__ve_sinh_lao_dong__tai_nan_lao_dong__su_dung_nguoi_lao_dong_nuoc_ngoai_nam_2026_46413.pdf"],
       [
         "Mở bảng khai trực tuyến Lạng Sơn",
         "https://docs.google.com/spreadsheets/d/1rCIrJzePF_r43AOXFRAgMpbDJ0q3G1st/edit?gid=432615136#gid=432615136",
@@ -189,7 +191,7 @@ const laborEntries = {
       note: 'Theo hướng dẫn Công văn 11017/SNV-LĐVL ngày 19/11/2026 được Thư Viện Pháp Luật đăng lại, đơn vị trên địa bàn thành phố lập Mẫu 01/PLI. Khi gửi qua Google Form của Sở Nội vụ, kê khai thông tin chung và đính kèm bản scan PDF đã ký tên, đóng dấu cùng bản Excel (.xlsx hoặc .xls). Biểu mẫu yêu cầu đăng nhập Google; chưa kiểm tra được các câu hỏi bên trong khi chưa đăng nhập. Không có hướng dẫn gửi qua email thay thế trong phần hình thức nộp được đăng lại.',
       links: [
         ['Mở biểu mẫu Đà Nẵng (cần đăng nhập Google)', 'https://forms.gle/pQiv6myidcR9L3hDA', 'submit'],
-        ['Hướng dẫn Công văn 11017/SNV-LĐVL trên Thư Viện Pháp Luật', 'https://thuvienphapluat.vn/phap-luat-doanh-nghiep/bai-viet/link-bao-cao-tinh-hinh-su-dung-lao-dong-nam-2026-tai-da-nang-theo-cong-van-11017-snv-ldvl-24557.html']
+        ['Hướng dẫn và nguồn công văn 11017 (Thư Viện Pháp Luật)', 'https://thuvienphapluat.vn/phap-luat-doanh-nghiep/bai-viet/link-bao-cao-tinh-hinh-su-dung-lao-dong-nam-2026-tai-da-nang-theo-cong-van-11017-snv-ldvl-24557.html']
       ]
     }
   ],
