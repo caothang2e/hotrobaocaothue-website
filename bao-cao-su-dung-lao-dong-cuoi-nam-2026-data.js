@@ -244,7 +244,16 @@ const laborEntries = {
   ],
   'Hà Nội': [
     {
-      name: 'Sở Nội vụ TP. Hà Nội',
+      name: 'Kênh chuyên trách nộp báo cáo Hà Nội · hces.vn',
+      deadline: 'Kỳ báo cáo 6 tháng cuối năm 2026 · Đến hết ngày 05/12/2026 theo Công văn 8865/SNV-VLATLĐ',
+      note: 'Theo thông báo bổ sung kênh tiếp nhận: không phải đăng ký tài khoản, không phải kích hoạt và không sử dụng mật khẩu. Các bước: truy cập hces.vn → chọn báo cáo tình hình sử dụng lao động → điền mã số thuế → điền email nhận xác nhận → điền thông tin đơn vị, chọn đúng Doanh nghiệp/Tổ chức/Hợp tác xã → điền thông tin báo cáo và tải PDF báo cáo đã ký số hoặc bản scan đã ký, đóng dấu → nộp báo cáo → kiểm tra email xác nhận nộp thành công. Lưu lại email xác nhận. Nếu cần hỗ trợ, nhắn Fanpage Cổng thông tin việc làm thành phố Hà Nội bên dưới.',
+      links: [
+        ['Mở bảng khai trực tuyến Hà Nội (không cần tài khoản)', 'https://hces.vn/', 'submit'],
+        ['Fanpage hỗ trợ Cổng thông tin việc làm Hà Nội', 'https://www.facebook.com/profile.php?id=61584342332490']
+      ]
+    },
+    {
+      name: 'Sở Nội vụ TP. Hà Nội · Kênh cần đăng nhập',
       deadline: 'Đến hết ngày 05/12/2026 theo Công văn 8865/SNV-VLATLĐ',
       note: 'Dùng Mẫu 01/PLI, tổng hợp số liệu đến thời điểm báo cáo. Đăng nhập Cổng thông tin việc làm TP. Hà Nội và tải PDF ký số hoặc bản scan đã ký, đóng dấu nếu có. Sau khi bấm Lưu, chụp màn hình xác nhận. Trạng thái nộp thành công trên cổng này xác nhận đơn vị đã hoàn tất việc nộp cho Sở Nội vụ Hà Nội và được miễn gửi thêm bản giấy. Có thể sửa và lưu lại trước khi hết hạn, hệ thống ghi nhận bản cuối cùng. Đơn vị đã nộp qua Cổng Dịch vụ công Quốc gia được đề nghị cập nhật dữ liệu lên Cổng thông tin việc làm Hà Nội. Nếu đã liên hệ hỗ trợ kỹ thuật mà vẫn không nộp được do lỗi hệ thống, gửi bản giấy qua bưu chính về Phòng Việc làm và An toàn lao động, Sở Nội vụ Hà Nội, số 62 Trần Quốc Toản, phường Cửa Nam. Hạn bản giấy tính theo dấu bưu điện nơi gửi.',
       links: [
