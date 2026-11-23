@@ -198,6 +198,7 @@ const laborEntries = {
     "skipPaperInstruction": true,
     "note": "Công văn 7507/BQL-QLLĐ ngày 12/11/2026: dùng Phụ lục 1 cho lao động Việt Nam và Phụ lục 2 cho lao động nước ngoài. Chọn nộp qua hệ thống eHEZA đã được cấp tài khoản hoặc email Phòng Quản lý Lao động: quanlylaodong.kkthaiphong@gmail.com. Thư mục Drive bên dưới là nơi tải mẫu, không phải nơi nộp báo cáo. Hướng dẫn này áp dụng cho doanh nghiệp trong khu công nghiệp, khu kinh tế; không áp dụng thay cho hướng dẫn Sở Nội vụ đối với đơn vị ngoài khu.",
     "links": [
+      ["Xem công văn 7507 và danh sách chuyên viên hỗ trợ (PDF, không cần đăng nhập)", "https://mcdn.thuvienphapluat.vn/uploads/khoinghiep/2026/11/19/HAI-PHONG.pdf"],
       [
         "Tải biểu mẫu kèm công văn (Google Drive)",
         "https://drive.google.com/drive/folders/1NqD--bCnAC8XWKrRJLEoYWxGKeAz9VxC?usp=sharing"
