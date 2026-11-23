@@ -94,6 +94,18 @@ const laborEmails = {
 const laborCities = ['Cần Thơ', 'Đà Nẵng', 'Đồng Nai', 'Hà Nội', 'Hải Phòng', 'Hồ Chí Minh', 'Huế'];
 
 const laborEntries = {
+  'Ninh Bình': [{
+    name: 'Ban Quản lý Khu kinh tế và các Khu công nghiệp tỉnh Ninh Bình',
+    deadline: 'Báo cáo năm: trước ngày 05/12/2026',
+    skipPaperInstruction: true,
+    note: 'Hướng dẫn doanh nghiệp nộp báo cáo định kỳ đăng ngày 15/6/2026, trang 3, mục II.1: từ 01/7/2026 áp dụng nộp báo cáo tình hình thay đổi lao động theo Mẫu 01/PLI trên Nền tảng hợp đồng lao động điện tử của Bộ Nội vụ. Mở nền tảng → chọn Bắt đầu sử dụng → đăng nhập tài khoản người sử dụng lao động. Đây là nền tảng dùng chung, không phải Google Form riêng của tỉnh. Hướng dẫn của Ban Quản lý dành cho doanh nghiệp thuộc phạm vi quản lý KKT, KCN; đồng thời gửi bản giấy hoặc file điện tử về Ban Quản lý qua pdnld.bqlktcn@ninhbinh.gov.vn để theo dõi. Tài liệu là hướng dẫn định kỳ, không phải công văn riêng ban hành cuối năm. Đã kiểm tra trang công khai và màn hình đăng nhập; chức năng báo cáo bên trong yêu cầu tài khoản.',
+    links: [
+      ['Mở nền tảng nộp báo cáo (cần đăng nhập)', 'https://hopdonglaodong.moha.gov.vn/landing-page', 'submit'],
+      ['Hướng dẫn nộp báo cáo định kỳ Ninh Bình (PDF, xem trang 3)', 'https://iza.ninhbinh.gov.vn/public/files/Pho%20truong%20Ban%20trinh%20the%20manh/2026/PHTGS%20Hu%E1%BB%9Bng%20d%E1%BA%ABn%20DN%20n%E1%BB%99p%20bao%20cao%20d%E1%BB%8Bnh%20ky.pdf'],
+      ['Trang công bố hướng dẫn của Ban Quản lý', 'https://iza.ninhbinh.gov.vn/van-ban/chitietvb-294.html'],
+      ['Email gửi bổ sung cho Ban Quản lý KKT, KCN', 'mailto:pdnld.bqlktcn@ninhbinh.gov.vn']
+    ]
+  }],
 "Đồng Tháp": [
   {
     "name": "Sở Nội vụ tỉnh Đồng Tháp",
