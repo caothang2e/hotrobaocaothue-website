@@ -94,6 +94,17 @@ const laborEmails = {
 const laborCities = ['Cần Thơ', 'Đà Nẵng', 'Đồng Nai', 'Hà Nội', 'Hải Phòng', 'Hồ Chí Minh', 'Huế'];
 
 const laborEntries = {
+  'Cần Thơ': [{
+    name: 'Sở Nội vụ TP. Cần Thơ',
+    deadline: 'Báo cáo năm: trước ngày 05/12/2026',
+    skipPaperInstruction: true,
+    note: 'Công văn 2341/SNV-LĐVL về triển khai định kỳ báo cáo tình hình thay đổi về lao động ban hành tháng 4/2026, quy định cả đợt 6 tháng và hằng năm. Theo mục 2.2, nếu không báo cáo được qua cổng, gửi bản giấy Mẫu 01/PLI về Sở Nội vụ, qua Phòng Lao động – Việc làm, số 288 đường 30/4, phường Ninh Kiều; hoặc báo cáo qua Google Form được công văn dẫn. Biểu mẫu công khai có tiêu đề báo cáo sử dụng lao động năm 2026; trang đầu yêu cầu email, tên, địa chỉ đơn vị và chọn trong/ngoài khu công nghiệp. Đã đối chiếu đúng đường dẫn trong PDF; chưa kiểm tra các bước sau trang đầu và không gửi thử. Đơn vị đồng thời thông báo cơ quan BHXH; doanh nghiệp trong KCX, KCN gửi thêm một bản cho Ban Quản lý để theo dõi. Đây là hướng dẫn định kỳ có áp dụng báo cáo năm, không phải công văn mới ban hành tháng 11.',
+    links: [
+      ['Mở bảng khai trực tuyến Cần Thơ', 'https://docs.google.com/forms/d/e/1FAIpQLScL15mpftBZECqlZbCa2hEslJUqu0O1OEYX0iQUnTJARjuEYg/viewform', 'submit'],
+      ['Xem Công văn 2341/SNV-LĐVL và mã QR (PDF)', 'https://cdn.thuvienphapluat.vn/uploads/khoinghiep/2026/11/23/CV-2341.pdf'],
+      ['Nguồn đăng lại công văn Cần Thơ', 'https://thuvienphapluat.vn/lao-dong-tien-luong/cong-van-2341snv-ldvl-bao-cao-tinh-hinh-su-dung-lao-dong-nam-2026-tai-tp-can-tho-cu-the-ra-sao-69041.html']
+    ]
+  }],
   'Ninh Bình': [{
     name: 'Ban Quản lý Khu kinh tế và các Khu công nghiệp tỉnh Ninh Bình',
     deadline: 'Báo cáo năm: trước ngày 05/12/2026',
