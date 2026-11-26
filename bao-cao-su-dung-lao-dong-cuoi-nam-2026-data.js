@@ -273,6 +273,7 @@ const laborEntries = {
       note: 'Theo thông báo bổ sung kênh tiếp nhận: không phải đăng ký tài khoản, không phải kích hoạt và không sử dụng mật khẩu. Các bước: truy cập hces.vn → chọn báo cáo tình hình sử dụng lao động → điền mã số thuế → điền email nhận xác nhận → điền thông tin đơn vị, chọn đúng Doanh nghiệp/Tổ chức/Hợp tác xã → điền thông tin báo cáo và tải PDF báo cáo đã ký số hoặc bản scan đã ký, đóng dấu → nộp báo cáo → kiểm tra email xác nhận nộp thành công. Lưu lại email xác nhận. Nếu cần hỗ trợ, nhắn Fanpage Cổng thông tin việc làm thành phố Hà Nội bên dưới.',
       links: [
         ['Mở bảng khai trực tuyến Hà Nội (không cần tài khoản)', 'https://hces.vn/', 'submit'],
+        ['Hướng dẫn thao tác trên hces.vn (Thư Viện Pháp Luật)', 'https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/huong-dan-nop-bao-cao-tinh-hinh-su-dung-lao-dong-ha-noi-tren-httpshcesvn-6-thang-cuoi-nam-2026-the-303363.html'],
         ['Fanpage hỗ trợ Cổng thông tin việc làm Hà Nội', 'https://www.facebook.com/profile.php?id=61584342332490']
       ]
     },
@@ -314,9 +315,10 @@ const laborEntries = {
     {
       name: 'Sở Nội vụ TP. Đồng Nai',
       deadline: 'Trước ngày 05/12/2026',
-      note: 'Khai theo hướng dẫn tại Công văn 9881/SNV-LĐ. Kỳ số liệu từ 01/12/2025 đến 30/11/2026. Biểu mẫu có phần tình hình sử dụng lao động, tiền lương năm 2026 và dự kiến tuyển dụng năm 2027.',
+      note: 'Khai theo hướng dẫn tại Công văn 9881/SNV-LĐ. Kỳ số liệu từ 01/12/2025 đến 30/11/2026. Biểu mẫu có phần tình hình sử dụng lao động, tiền lương năm 2026 và dự kiến tuyển dụng năm 2027. Đã đối chiếu link biểu mẫu với bản scan công văn: link rút gọn 9W2GRfNR59Q8DLA6A dẫn tới cùng biểu mẫu bên dưới. Doanh nghiệp ngoài khu công nghiệp thực hiện hướng dẫn này; doanh nghiệp trong khu công nghiệp thực hiện theo văn bản của Ban Quản lý các KCN, KKT. Hỗ trợ theo công văn: 0251.3941320.',
       links: [
         ['Mở biểu mẫu nộp trực tuyến', 'https://docs.google.com/forms/d/e/1FAIpQLSdLUtOIVpDFGHUOZSjXy19XA4Yz9Y5TtfbVGWzQMjxtKLlnpw/viewform', 'submit'],
+        ['Xem Công văn 9881/SNV-LĐ ngày 13/11/2026 (PDF bản scan)', 'https://cdn.thuvienphapluat.vn/phap-luat/2022-2/DTML/131126/9881.pdf'],
         ['Công văn 9881/SNV-LĐ trên cổng việc làm Đồng Nai', 'https://vieclamdongnai.gov.vn/van-ban/cong-van-so-9881-snv-ld-ngay-13-thang-11-nam-2026-cua-cua-so-noi-vu-thanh-pho-dong-nai-ve-viec-de-nghi-bao-cao-tinh-hinh-thuc-hien-phap-luat-lao-dong-luat-an-toan-ve-sinh-lao-dong-nam-2026-21682.html'],
         ['Hướng dẫn và kỳ số liệu theo công văn', 'https://thuvienphapluat.vn/ma-so-thue/phap-luat-thue/link-bao-cao-tinh-hinh-su-dung-lao-dong-cuoi-nam-2026-tai-tp-dong-nai-quy-dinh-o-dau-236524.html']
       ]

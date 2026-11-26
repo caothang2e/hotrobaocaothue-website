@@ -105,7 +105,7 @@ function renderOptions() {
 
 const sourced = Object.keys(laborEntries).length;
 document.getElementById('coverage').textContent =
-  `${laborProvinces.length} tỉnh, thành để tra cứu · ${sourced} tỉnh, thành có thông tin địa phương · Cập nhật 24/11/2026`;
+  `${laborProvinces.length} tỉnh, thành để tra cứu · ${sourced} tỉnh, thành có thông tin địa phương · Cập nhật 26/11/2026`;
 directory.append(...laborProvinces.map(name => contactCard(name, provinceLabel(name))));
 filter.addEventListener('input', renderOptions);
 province.addEventListener('change', renderProvince);
