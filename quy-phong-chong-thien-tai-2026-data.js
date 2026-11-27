@@ -886,21 +886,21 @@ window.PCTT_DATA = [
     "id": "phuong-liet",
     "province": "Hà Nội",
     "name": "Phường Phương Liệt",
-    "document": "Hướng dẫn triển khai Kế hoạch 165/KH-UBND ngày 05/05/2026",
-    "date": "08/05/2026 (ngày đăng hướng dẫn)",
-    "deadline": "Theo bài đăng: thực hiện từ 01/05/2026 đến 30/06/2026 (đã qua; liên hệ phường để xác nhận việc nộp hiện nay).",
-    "note": "Nguồn là hướng dẫn công khai trên Cổng thông tin phường; chưa tìm được PDF kế hoạch trong đợt rà soát này. Người dân nộp tại tổ dân phố; cơ quan, đơn vị nộp về tài khoản Quỹ PCTT phường. Bài đăng chưa ghi riêng tên chủ tài khoản và phòng giao dịch; xác nhận tên thụ hưởng trước khi chuyển tiền. Không dùng phần diễn giải mức đóng người lao động trong bài để thay cho cách tính theo hướng dẫn được xác nhận hiện nay.",
+    "document": "Kế hoạch 165/KH-UBND",
+    "date": "05/05/2026",
+    "deadline": "Theo kế hoạch: thời gian thu từ 01/05/2026 đến 30/06/2026; yêu cầu hoàn thành trước 30/06/2026. Mốc này đã qua; liên hệ phường để xác nhận việc nộp hiện nay.",
+    "note": "Đã bổ sung PDF gốc do người dùng cung cấp ngày 27/11/2026; số, ngày kế hoạch và tài khoản tại mục II.4 (trang 4) đã đối chiếu trực quan. Kho bạc Nhà nước Khu vực I – Phòng giao dịch số 5. Tổ dân phố gửi danh sách đối tượng thu, miễn giảm, giấy nộp tiền và kinh phí thu được về Phòng Kinh tế, Hạ tầng và Đô thị qua Khuất Thu Thủy theo mục III.4 (trang 5). Kế hoạch quy định khoản doanh nghiệp bằng 0,02% tổng giá trị tài sản theo báo cáo tài chính, tối thiểu 500.000 đồng, tối đa 100.000.000 đồng. Phần mức đóng người lao động tại mục II.1.1.b cần xác nhận cách tính với phường khi thực hiện; giữ nguyên nội dung PDF để đối chiếu.",
     "accounts": [
       {
         "account": "3761.0.1146514.91049",
-        "payee": "Quỹ PCTT phường Phương Liệt (bài đăng chưa ghi riêng tên chủ tài khoản)",
-        "bank": "Kho bạc Nhà nước Khu vực I (bài đăng chưa nêu phòng giao dịch)",
-        "scope": "Cơ quan, đơn vị theo thông báo trên Cổng thông tin phường.",
-        "pages": ""
+        "payee": "Quỹ Phòng chống thiên tai phường Phương Liệt",
+        "bank": "Kho bạc Nhà nước Khu vực I – Phòng giao dịch số 5",
+        "scope": "Tài khoản thu Quỹ phường theo mục II.4; các phòng, ban, đơn vị, tổ chức và lực lượng vũ trang tổ chức thu, nộp theo phần III của kế hoạch.",
+        "pages": "4"
       }
     ],
     "contact": "Khuất Thu Thủy – Chuyên viên Phòng Kinh tế, Hạ tầng và Đô thị; 0826.883.883.",
-    "pdf": "",
+    "pdf": "assets/quy-pctt-2026/phuong-liet-165.pdf",
     "source": "https://phuongliet.hanoi.gov.vn/chinh-tri-kinh-te-do-thi/thong-bao-trien-khai-thu-quy-phong-chong-thien-tai-nam-2026-tren-dia-ban-phuong-phuong-liet-2826260508085016247.htm"
   },
   {
