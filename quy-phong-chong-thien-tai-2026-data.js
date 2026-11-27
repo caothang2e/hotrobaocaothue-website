@@ -1012,5 +1012,28 @@ window.PCTT_DATA = [
     "contact": "",
     "pdf": "",
     "source": "https://hoaphu.hanoi.gov.vn/thong-bao/thong-bao-ve-viec-thu-quy-phong-chong-thien-tai-nam-2026-tren-dia-ban-xa-hoa-phu-2715260527140801327.htm"
+  },
+  {
+    "id": "lang",
+    "province": "Hà Nội",
+    "name": "Phường Láng",
+    "document": "Công văn 796/UBND-KTHT&ĐT",
+    "date": "05/05/2026",
+    "deadline": "Theo công văn: tổ chức kinh tế hạch toán độc lập nộp tối thiểu 50% trước 30/07 hằng năm, phần còn lại trước 30/11; cá nhân trước 31/07. Các tổ chức Đảng, phòng, ban, đơn vị, khu dân cư, tổ dân phố thuộc phường thu và gửi về Phòng Kinh tế, Hạ tầng và Đô thị trước 20/07. Giữ nguyên mốc 30/07 được ghi trong tài liệu; xác nhận với phường khi thực hiện.",
+    "note": "Nguồn: PDF 4 trang do người dùng cung cấp, triển khai Kế hoạch 200/KH-UBND ngày 17/04/2026. Công văn yêu cầu nộp Quỹ năm 2026 và truy nộp nợ Quỹ năm 2025 nếu có. LƯU Ý TÀI KHOẢN: trang 2–3 ghi 3761.0.9086433.91049, tên Quỹ phòng, chống thiên tai thành phố Hà Nội, KBNN Khu vực I – PGD số 9. Tuy nhiên, Thông báo 47/TB-QPCTT ngày 26/12/2025 của Quỹ thành phố đã công bố dừng tài khoản này từ 29/12/2025 và công bố tài khoản mới 2200.222.888.999 tại Agribank – Chi nhánh Hà Tây. Hai tài liệu chưa thống nhất; chưa hiển thị tài khoản để sao chép, cần xác nhận hướng dẫn hiện hành với phường hoặc Quỹ thành phố trước khi chuyển tiền. Kèm cả hai PDF để đối chiếu, giữ nguyên file gốc.",
+    "accounts": [],
+    "contact": "Phòng Kinh tế, Hạ tầng và Đô thị phường Láng; công văn chưa nêu số điện thoại.",
+    "pdf": "assets/quy-pctt-2026/lang-796.pdf",
+    "source": "",
+    "extraDocs": [
+      {
+        "label": "Đối chiếu Thông báo 47 – thay đổi tài khoản Quỹ thành phố",
+        "url": "assets/quy-pctt-2026/ha-noi-thong-bao-47-2025.pdf"
+      },
+      {
+        "label": "Nguồn công khai Thông báo 47",
+        "url": "https://cdn.thuvienphapluat.vn/uploads/phapluat/2022-2/NDBT/NEWBT/thong-bao-47-tb-qpctt-2025-ha-noi.pdf"
+      }
+    ]
   }
 ];
