@@ -839,5 +839,178 @@ window.PCTT_DATA = [
     "contact": "Phòng Kinh tế, Hạ tầng và Đô thị phường Tương Mai (đầu mối theo kế hoạch; tài liệu chưa nêu số điện thoại).",
     "pdf": "assets/quy-pctt-2026/tuong-mai-258.pdf",
     "source": ""
+  },
+  {
+    "id": "ngoc-ha",
+    "province": "Hà Nội",
+    "name": "Phường Ngọc Hà",
+    "document": "Thông báo tài khoản thu Quỹ 2026; dẫn Kế hoạch 149/KH-UBND ngày 27/03/2026",
+    "date": "05/05/2026 (ngày đăng thông báo)",
+    "deadline": "Bài thông báo tài khoản chưa nêu hạn nộp; xem kế hoạch và xác nhận với phường.",
+    "note": "Thông báo trên Cổng thông tin phường hướng dẫn nộp tiền mặt hoặc chuyển khoản theo Kế hoạch 149/KH-UBND ngày 27/03/2026. Có nguồn công khai để đối chiếu tài khoản; chưa tìm được PDF kế hoạch trong đợt rà soát này.",
+    "accounts": [
+      {
+        "account": "3761.0.1146518.91049",
+        "payee": "Quỹ phòng, chống thiên tai của Phòng Kinh tế, Hạ tầng và Đô thị phường Ngọc Hà",
+        "bank": "Phòng Giao dịch số 1 – Kho bạc Nhà nước Khu vực I; mã CTMT: 91049",
+        "scope": "Cơ quan, đơn vị, doanh nghiệp và tổ dân phố trên địa bàn theo thông báo của phường.",
+        "pages": ""
+      }
+    ],
+    "contact": "",
+    "pdf": "",
+    "source": "https://ngocha.hanoi.gov.vn/kinh-te-ha-tang-do-thi/thong-bao-tai-khoan-nop-quy-phong-chong-thien-tai-nam-2026-2802260505165640384.htm"
+  },
+  {
+    "id": "chuong-my",
+    "province": "Hà Nội",
+    "name": "Phường Chương Mỹ",
+    "document": "Thông báo 1337/TB-UBND",
+    "date": "05/06/2026",
+    "deadline": "Cá nhân: trước 31/07/2026. Tổ chức kinh tế: tối thiểu 50% trước 31/07/2026, phần còn lại trước 30/11/2026.",
+    "note": "Bản thông báo ký, đóng dấu được đính kèm trên Cổng thông tin phường. Nội dung nộp: Nộp quỹ phòng chống thiên tai năm 2026, tên người nộp, tên đơn vị nộp. Cá nhân thu nộp tại nhà văn hóa các tổ dân phố theo hướng dẫn. Các mức lương trong tài liệu là thông tin tại thời điểm văn bản; xác nhận mức áp dụng hiện nay trước khi tính phần người lao động.",
+    "accounts": [
+      {
+        "account": "3761.0.1151535.91049",
+        "payee": "Quỹ Phòng, chống thiên tai phường Chương Mỹ",
+        "bank": "Phòng giao dịch số 15 – Kho bạc Nhà nước Khu vực I",
+        "scope": "Tổ chức kinh tế trong nước và nước ngoài trên địa bàn theo mục III.2 của thông báo.",
+        "pages": "2"
+      }
+    ],
+    "contact": "",
+    "pdf": "assets/quy-pctt-2026/chuong-my-1337.pdf",
+    "source": "https://chuongmy.hanoi.gov.vn/thong-bao/thong-bao-ve-viec-thu-quy-phong-chong-thien-tai-nam-2026-tren-dia-ban-phuong-chuong-my-2803260605171949507.htm"
+  },
+  {
+    "id": "phuong-liet",
+    "province": "Hà Nội",
+    "name": "Phường Phương Liệt",
+    "document": "Hướng dẫn triển khai Kế hoạch 165/KH-UBND ngày 05/05/2026",
+    "date": "08/05/2026 (ngày đăng hướng dẫn)",
+    "deadline": "Theo bài đăng: thực hiện từ 01/05/2026 đến 30/06/2026 (đã qua; liên hệ phường để xác nhận việc nộp hiện nay).",
+    "note": "Nguồn là hướng dẫn công khai trên Cổng thông tin phường; chưa tìm được PDF kế hoạch trong đợt rà soát này. Người dân nộp tại tổ dân phố; cơ quan, đơn vị nộp về tài khoản Quỹ PCTT phường. Bài đăng chưa ghi riêng tên chủ tài khoản và phòng giao dịch; xác nhận tên thụ hưởng trước khi chuyển tiền. Không dùng phần diễn giải mức đóng người lao động trong bài để thay cho cách tính theo hướng dẫn được xác nhận hiện nay.",
+    "accounts": [
+      {
+        "account": "3761.0.1146514.91049",
+        "payee": "Quỹ PCTT phường Phương Liệt (bài đăng chưa ghi riêng tên chủ tài khoản)",
+        "bank": "Kho bạc Nhà nước Khu vực I (bài đăng chưa nêu phòng giao dịch)",
+        "scope": "Cơ quan, đơn vị theo thông báo trên Cổng thông tin phường.",
+        "pages": ""
+      }
+    ],
+    "contact": "Khuất Thu Thủy – Chuyên viên Phòng Kinh tế, Hạ tầng và Đô thị; 0826.883.883.",
+    "pdf": "",
+    "source": "https://phuongliet.hanoi.gov.vn/chinh-tri-kinh-te-do-thi/thong-bao-trien-khai-thu-quy-phong-chong-thien-tai-nam-2026-tren-dia-ban-phuong-phuong-liet-2826260508085016247.htm"
+  },
+  {
+    "id": "thanh-liet",
+    "province": "Hà Nội",
+    "name": "Phường Thanh Liệt",
+    "document": "Kế hoạch 143/KH-UBND",
+    "date": "29/04/2026",
+    "deadline": "Cá nhân: trước 31/07/2026. Tổ chức kinh tế: tối thiểu 50% trước 31/07/2026, phần còn lại trước 30/11/2026. Tổ dân phố hoàn thành thu nộp về phường trước 30/06/2026 theo mục III.6.",
+    "note": "PDF ký, đóng dấu do Trường Mầm non Tân Triều đăng trong mục văn bản UBND phường Thanh Liệt. Chứng từ ghi rõ đơn vị và năm nộp Quỹ; gửi bản scan chứng từ đến phongkinhteketoan@gmail.com để tổng hợp (trang 6). Tài khoản được giữ nguyên theo trang 5–6, không sửa đầu 3722 thành 3761.",
+    "accounts": [
+      {
+        "account": "3722.0.1145874.91049",
+        "payee": "Quỹ phòng chống thiên tai Phòng Kinh tế, Hạ tầng và Đô thị phường Thanh Liệt",
+        "bank": "Kho bạc Nhà nước Khu vực I – PGD số 8",
+        "scope": "Cơ quan, đơn vị, tổ chức kinh tế – xã hội, lực lượng vũ trang, doanh nghiệp, trường học theo mục III.4.",
+        "pages": "5–6"
+      }
+    ],
+    "contact": "Phòng Kinh tế, Hạ tầng và Đô thị phường; email nhận scan chứng từ: phongkinhteketoan@gmail.com.",
+    "pdf": "assets/quy-pctt-2026/thanh-liet-143.pdf",
+    "source": "https://mntantrieu.edu.vn/van-ban-cong-van/van-ban-cua-ubnd-phuong-thanh-liet/cong-van-ve-viec-thu-quy-phong-chong-thien-tai-tren-dia-ban-phuong-thanh-liet-nam-2026.html?categoryId=15042491"
+  },
+  {
+    "id": "hai-ba-trung",
+    "province": "Hà Nội",
+    "name": "Phường Hai Bà Trưng",
+    "document": "Kế hoạch 177/KH-UBND",
+    "date": "13/05/2026",
+    "deadline": "Cá nhân: trước 31/07/2026. Tổ chức kinh tế: tối thiểu 50% trước 31/07/2026, phần còn lại trước 30/11/2026. Tổ dân phố nộp danh sách và tiền về Phòng Văn hóa – Xã hội trước 20/07/2026.",
+    "note": "Đã đối chiếu trực quan: số kế hoạch trên bản gốc là 177/KH-UBND, không lấy số 41 từ tên file trên kho đính kèm. PDF 5 trang chưa công bố số tài khoản cụ thể; chưa hiển thị thông tin chuyển khoản, cần xác nhận với phường. Tài liệu có nhắc biểu chi tiết nhưng file tìm được chưa có biểu đó.",
+    "accounts": [],
+    "contact": "Phòng Kinh tế, Hạ tầng và Đô thị phường (theo phần tổ chức thực hiện; tài liệu chưa nêu điện thoại).",
+    "pdf": "assets/quy-pctt-2026/hai-ba-trung-177.pdf",
+    "source": "https://sqhx-hanoi.mediacdn.vn/91579363132710912/2026/5/15/41kh-trien-khai-thu-quy-pctt-nam-2026-gui-tp-17788534301441831652329.pdf"
+  },
+  {
+    "id": "phu-thuong",
+    "province": "Hà Nội",
+    "name": "Phường Phú Thượng",
+    "document": "Kế hoạch 107/KH-UBND",
+    "date": "31/03/2026",
+    "deadline": "Theo kế hoạch: cơ quan, đơn vị sử dụng ngân sách nộp trước 30/04/2026; tổ chức kinh tế hạch toán độc lập nộp tối thiểu 50% trước 30/06/2026, phần còn lại trước 31/10/2026. Các mốc đã qua; liên hệ phường để xác nhận việc nộp hiện nay.",
+    "note": "Bản scan kế hoạch ký, đóng dấu được tìm thấy trên kho tài liệu Thư Viện Pháp Luật. Hai tài khoản dành cho hai nhóm đối tượng khác nhau; không dùng tài khoản cơ quan sử dụng ngân sách cho doanh nghiệp hạch toán độc lập. Số tài khoản 37610.1146205.91049 được giữ nguyên cách ghi trong bản gốc. Trang 4 của PDF chứa trang đánh số 4 và 5 của bản scan.",
+    "accounts": [
+      {
+        "account": "2200.222.888.999",
+        "payee": "Quỹ phòng, chống thiên tai thành phố Hà Nội",
+        "bank": "Agribank – Chi nhánh Hà Tây",
+        "scope": "Tổ chức kinh tế hạch toán độc lập; tổ chức, cá nhân đóng góp tự nguyện theo mục II.3.",
+        "pages": "4"
+      },
+      {
+        "account": "37610.1146205.91049",
+        "payee": "Quỹ phòng, chống thiên tai của Phòng Kinh tế, Hạ tầng và Đô thị phường Phú Thượng",
+        "bank": "Phòng Giao dịch số 9 – Kho bạc Nhà nước Khu vực I; mã CTMT: 91.049",
+        "scope": "Cơ quan, tổ chức, đơn vị sử dụng ngân sách theo mục II.3.",
+        "pages": "4"
+      }
+    ],
+    "contact": "",
+    "pdf": "assets/quy-pctt-2026/phu-thuong-107.pdf",
+    "source": "https://cdn.thuvienphapluat.vn/uploads/mst/images/MinhAnh/Thang-11-2026/ke-hoach-107.pdf"
+  },
+  {
+    "id": "dong-da",
+    "province": "Hà Nội",
+    "name": "Phường Đống Đa",
+    "document": "Kế hoạch 176/KH-UBND; Công văn 911/UBND-KTHTĐT",
+    "date": "24/04/2026; 11/06/2026",
+    "deadline": "Cá nhân: trước 31/07/2026. Tổ chức kinh tế: tối thiểu 50% trước 31/07/2026, phần còn lại trước 30/11/2026.",
+    "note": "Tìm được kế hoạch PDF và 3 ảnh công văn trên Cổng thông tin phường qua tìm kiếm nội bộ. Công văn 911 hướng dẫn riêng tổ chức kinh tế; nội dung nộp: Nộp quỹ phòng chống thiên tai năm 2026, tên người nộp, tên đơn vị nộp. Gửi chứng từ và báo cáo về UBND phường qua Lê Phương Hồng để đối chiếu. Công văn 911 dẫn số kế hoạch 174, trong khi bản PDF kế hoạch đính kèm cổng phường ghi 176; giữ đúng số của từng bản gốc.",
+    "accounts": [
+      {
+        "account": "3761.0.1145864.91049",
+        "payee": "Phòng Kinh tế, Hạ tầng và Đô thị phường Đống Đa",
+        "bank": "Phòng nghiệp vụ số 4 – Kho bạc Nhà nước Khu vực I (theo cách ghi của văn bản)",
+        "scope": "Tổ chức kinh tế trong nước và nước ngoài trên địa bàn theo Công văn 911; kế hoạch cũng hướng dẫn phòng, ban, cơ quan thuộc phường.",
+        "pages": "5–6"
+      }
+    ],
+    "contact": "Lê Phương Hồng – Chuyên viên Phòng Kinh tế, Hạ tầng và Đô thị; 0886.163.366.",
+    "pdf": "assets/quy-pctt-2026/dong-da-176.pdf",
+    "source": "https://dongda.hanoi.gov.vn/ha-tang-do-thi/ubnd-phuong-dong-da-thong-bao-ve-viec-nop-quy-phong-chong-thien-tai-nam-2026-doi-voi-to-chuc-kinh-te-trong-nuoc-va-nuoc-ngoai-tren-dia-ban-phuong-280626062007353731.htm",
+    "extraDocs": [
+      {
+        "label": "Công văn 911 – trang 1",
+        "url": "assets/quy-pctt-2026/dong-da-911-trang-1.jpg"
+      },
+      {
+        "label": "Công văn 911 – trang 2",
+        "url": "assets/quy-pctt-2026/dong-da-911-trang-2.jpg"
+      },
+      {
+        "label": "Công văn 911 – trang 3",
+        "url": "assets/quy-pctt-2026/dong-da-911-trang-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "hoa-phu",
+    "province": "Hà Nội",
+    "name": "Xã Hòa Phú",
+    "document": "Thông báo thu Quỹ PCTT năm 2026 trên Cổng thông tin xã",
+    "date": "27/05/2026 (ngày đăng thông báo)",
+    "deadline": "Cá nhân: trước 31/07/2026. Tổ chức kinh tế: tối thiểu 50% trước 31/07/2026, phần còn lại trước 30/11/2026.",
+    "note": "Có hướng dẫn công khai về thời gian và địa điểm nộp, nhưng bài đăng ghi tài khoản 3761.0.1149162049 với định dạng chưa rõ; chưa tìm được PDF để đối chiếu. Chưa hiển thị tài khoản để sao chép, cần xác nhận trực tiếp với UBND xã trước khi chuyển tiền. Bài đăng nêu nơi mở là PGD số 15 – KBNN Khu vực I, tên tài khoản Quỹ Phòng, chống thiên tai xã Hòa Phú. Cá nhân thu nộp tại nhà văn hóa các thôn. Chưa tìm được bản PDF thông báo trong đợt rà soát này.",
+    "accounts": [],
+    "contact": "",
+    "pdf": "",
+    "source": "https://hoaphu.hanoi.gov.vn/thong-bao/thong-bao-ve-viec-thu-quy-phong-chong-thien-tai-nam-2026-tren-dia-ban-xa-hoa-phu-2715260527140801327.htm"
   }
 ];
