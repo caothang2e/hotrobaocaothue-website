@@ -734,5 +734,37 @@ window.PCTT_DATA = [
         "url": "assets/quy-pctt-2026/bach-mai-3144-trang-2.jpg"
       }
     ]
+  },
+  {
+    "id": "duong-hao",
+    "province": "Hưng Yên",
+    "name": "Phường Đường Hào",
+    "document": "Công văn 2644/UBND-KT,HT&ĐT",
+    "date": "16/11/2026",
+    "deadline": "Hai trang công văn được cung cấp chưa nêu hạn nộp cụ thể; liên hệ phường để xác nhận.",
+    "note": "Thu Quỹ phòng, chống thiên tai năm 2026 theo Quyết định 2018/QĐ-UBND ngày 13/11/2026 (đợt 2). Số tiền của từng cơ quan, doanh nghiệp theo phụ lục đính kèm công văn; hai ảnh được cung cấp chưa có phụ lục này, cần đối chiếu với phường. Nội dung nộp: [tên đơn vị] nộp Quỹ Phòng, chống thiên tai năm 2026. Nếu có biến động, thu theo số thực tế và báo cáo bằng văn bản về UBND phường qua Phòng Kinh tế, Hạ tầng và Đô thị. Nguồn: hai ảnh công văn do người dùng cung cấp.",
+    "accounts": [
+      {
+        "account": "3713.0.1173150.00000",
+        "payee": "Phòng Kinh tế, Hạ tầng và Đô thị phường Đường Hào",
+        "bank": "Kho bạc Nhà nước Khu vực IV",
+        "scope": "Các cơ quan, doanh nghiệp trên địa bàn phường Đường Hào theo công văn.",
+        "pages": "1"
+      }
+    ],
+    "pages": "1",
+    "contact": "Phạm Thị Hồng Thu – chuyên viên Phòng Kinh tế, Hạ tầng và Đô thị; điện thoại: 036.7214.128.",
+    "pdf": "",
+    "source": "",
+    "extraDocs": [
+      {
+        "label": "Xem công văn – trang 1 (tài khoản nộp)",
+        "url": "assets/quy-pctt-2026/duong-hao-2644-trang-1.jpg"
+      },
+      {
+        "label": "Xem công văn – trang 2 (liên hệ)",
+        "url": "assets/quy-pctt-2026/duong-hao-2644-trang-2.jpg"
+      }
+    ]
   }
 ];
