@@ -1007,8 +1007,16 @@ window.PCTT_DATA = [
     "document": "Thông báo thu Quỹ PCTT năm 2026 trên Cổng thông tin xã",
     "date": "27/05/2026 (ngày đăng thông báo)",
     "deadline": "Cá nhân: trước 31/07/2026. Tổ chức kinh tế: tối thiểu 50% trước 31/07/2026, phần còn lại trước 30/11/2026.",
-    "note": "Có hướng dẫn công khai về thời gian và địa điểm nộp, nhưng bài đăng ghi tài khoản 3761.0.1149162049 với định dạng chưa rõ; chưa tìm được PDF để đối chiếu. Chưa hiển thị tài khoản để sao chép, cần xác nhận trực tiếp với UBND xã trước khi chuyển tiền. Bài đăng nêu nơi mở là PGD số 15 – KBNN Khu vực I, tên tài khoản Quỹ Phòng, chống thiên tai xã Hòa Phú. Cá nhân thu nộp tại nhà văn hóa các thôn. Chưa tìm được bản PDF thông báo trong đợt rà soát này.",
-    "accounts": [],
+    "note": "Thông tin tài khoản và nội dung nộp được người dùng xác nhận ngày 27/11/2026, trùng nội dung công khai trên Cổng thông tin xã. Giữ nguyên số tài khoản 3761.0.1149162049 theo thông báo, không tự thêm hoặc sửa chữ số. Nội dung chuyển khoản: Nộp quỹ phòng chống thiên tai năm 2026, tên người nộp, tên đơn vị nộp. Hộ gia đình, cá nhân thu nộp tại nhà văn hóa các thôn theo hướng dẫn của xã. Hiện có nguồn hướng dẫn trực tuyến; chưa có file PDF thông báo.",
+    "accounts": [
+      {
+        "account": "3761.0.1149162049",
+        "payee": "Quỹ Phòng, chống thiên tai xã Hoà Phú",
+        "bank": "Phòng giao dịch số 15 – Kho bạc Nhà nước Khu vực I",
+        "scope": "Tổ chức kinh tế trong nước và nước ngoài lập thủ tục nộp theo thông báo của UBND xã Hòa Phú.",
+        "pages": ""
+      }
+    ],
     "contact": "",
     "pdf": "",
     "source": "https://hoaphu.hanoi.gov.vn/thong-bao/thong-bao-ve-viec-thu-quy-phong-chong-thien-tai-nam-2026-tren-dia-ban-xa-hoa-phu-2715260527140801327.htm"
