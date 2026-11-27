@@ -702,5 +702,37 @@ window.PCTT_DATA = [
     "pdf": "assets/quy-pctt-2026/an-khanh.pdf",
     "source": "",
     "contact": ""
+  },
+  {
+    "id": "bach-mai",
+    "province": "Hà Nội",
+    "name": "Phường Bạch Mai",
+    "document": "Công văn 3144/UBND-HTĐTMT",
+    "date": "22/10/2026",
+    "deadline": "Cá nhân: trước 31/07/2026. Tổ chức kinh tế: tối thiểu 50% trước 31/07/2026, phần còn lại trước 30/11/2026.",
+    "note": "Công văn tiếp tục đôn đốc thu, nộp Quỹ năm 2026 theo Kế hoạch 162/KH-UBND ngày 31/12/2025. Có thể nộp tiền mặt tại Phòng Hạ tầng - Đô thị và Môi trường, tầng 5 trụ sở Đảng ủy, HĐND và UBND phường, số 33 Đại Cồ Việt. Nội dung chuyển khoản: Nộp quỹ Phòng chống thiên tai năm 2026 của [tên đơn vị] – phường Bạch Mai. Nguồn: hai ảnh trang 1 và trang 2 do người dùng cung cấp.",
+    "accounts": [
+      {
+        "account": "3761.0.1148855.91049",
+        "payee": "Phòng Hạ tầng - Đô thị và Môi trường phường Bạch Mai",
+        "bank": "Kho bạc Nhà nước Khu vực I – Phòng giao dịch số 2 (380 Trần Khát Chân, phường Hai Bà Trưng, Hà Nội)",
+        "scope": "Các đơn vị, tổ chức và cá nhân trên địa bàn phường Bạch Mai theo công văn.",
+        "pages": "2"
+      }
+    ],
+    "pages": "2",
+    "contact": "Đinh Đăng Khoa – 0903.952.346; nơi nộp tiền mặt: tầng 5, số 33 Đại Cồ Việt, phường Bạch Mai.",
+    "pdf": "",
+    "source": "",
+    "extraDocs": [
+      {
+        "label": "Xem công văn – trang 1",
+        "url": "assets/quy-pctt-2026/bach-mai-3144-trang-1.jpg"
+      },
+      {
+        "label": "Xem công văn – trang 2 (tài khoản và nơi nộp)",
+        "url": "assets/quy-pctt-2026/bach-mai-3144-trang-2.jpg"
+      }
+    ]
   }
 ];
