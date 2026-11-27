@@ -242,10 +242,10 @@ window.PCTT_DATA = [
   {
     "id": "dai-thanh",
     "name": "Xã Đại Thanh",
-    "document": "Kế hoạch 223/KH-UBND",
+    "document": "Kế hoạch 229/KH-UBND",
     "date": "11/05/2026",
     "deadline": "Cá nhân, đơn vị: trước 30/09/2026.",
-    "note": "Mốc trong tài liệu đã qua; liên hệ Phòng Kinh tế xã để xác nhận hướng dẫn bổ sung nếu chưa nộp. Gửi báo cáo kết quả thu, nộp cho xã.",
+    "note": "Số hiệu 229/KH-UBND đối chiếu theo trang đầu bản ký người dùng cung cấp. Hạn trong kế hoạch là trước 30/09/2026 và đã qua; liên hệ Phòng Kinh tế xã để xác nhận hướng dẫn bổ sung nếu chưa nộp. Gửi báo cáo kết quả thu, nộp cho xã.",
     "account": "3761.0.1149527.91049",
     "payee": "Phòng Kinh tế xã Đại Thanh",
     "bank": "Kho bạc Nhà nước khu vực I – Phòng giao dịch số 8",
@@ -630,5 +630,77 @@ window.PCTT_DATA = [
     "source": "",
     "pdf": "assets/quy-pctt-2026/xuan-phuong.pdf",
     "contact": "Trụ sở Đảng ủy - HĐND - UBND phường: Số 28 đường Foresa, 4B Khu đô thị Xuân Phương, Hà Nội."
+  },
+  {
+    "id": "tu-liem",
+    "province": "Hà Nội",
+    "name": "Phường Từ Liêm",
+    "document": "Thông báo 114/TB-HTĐTMT",
+    "date": "19/11/2026",
+    "deadline": "Thông tin tài khoản thay đổi từ 20/11/2026. Thông báo không quy định hạn nộp Quỹ.",
+    "note": "Phòng Hạ tầng - Đô thị và Môi trường phường thông báo thay đổi thông tin Quỹ. Mã Kho bạc: 0017. Đã đối chiếu ảnh người dùng gửi với bản PDF được Thư Viện Pháp Luật đăng lại. Không dùng ngày bắt đầu áp dụng tài khoản làm hạn nộp.",
+    "accounts": [
+      {
+        "account": "3761.0.1178800.91049",
+        "payee": "Quỹ phòng chống thiên tai phường Từ Liêm",
+        "bank": "Kho bạc nhà nước Khu vực I - Phòng giao dịch số 10",
+        "pages": "1",
+        "scope": "Áp dụng cho tổ chức, cá nhân thuộc phạm vi hướng dẫn của Phường Từ Liêm."
+      }
+    ],
+    "pages": "1",
+    "pdf": "assets/quy-pctt-2026/tu-liem.pdf",
+    "source": "https://thuvienphapluat.vn/ma-so-thue/phap-luat-thue/thay-doi-thong-tin-quy-phong-chong-thien-tai-tai-phuong-tu-liem-ha-noi-theo-thong-bao-114tb-htdtmt-237425.html",
+    "contact": "Trụ sở HĐND và UBND phường: Số 125 đường Hồ Tùng Mậu, phường Từ Liêm, Hà Nội.",
+    "extraDocs": [
+      {
+        "label": "Xem ảnh thông báo",
+        "url": "assets/quy-pctt-2026/tu-liem-thong-bao-114.jpg"
+      }
+    ]
+  },
+  {
+    "id": "hoai-duc",
+    "province": "Hà Nội",
+    "name": "Xã Hoài Đức",
+    "document": "Công văn 3415/UBND-KT",
+    "date": "19/11/2026",
+    "deadline": "Hoàn thành nộp Quỹ trước ngày 30/11/2026.",
+    "note": "Cơ quan, đơn vị, tổ chức, hộ kinh doanh gửi báo cáo kèm chứng từ thu, nộp về UBND xã (qua Phòng Kinh tế) không quá 05 ngày kể từ ngày nhận công văn. Nộp tại Agribank hoặc VietinBank chi nhánh gần nhất theo hướng dẫn và photo chứng từ gửi xã. Số hiệu, ngày ban hành đã đối chiếu bản hiển thị có ký, đóng dấu do người dùng cung cấp.",
+    "accounts": [
+      {
+        "account": "3761.0.1153963.91049",
+        "payee": "Quỹ phòng chống thiên tai xã Hoài Đức",
+        "bank": "Kho bạc Nhà nước khu vực I - Phòng giao dịch số 17",
+        "pages": "3",
+        "scope": "Áp dụng cho tổ chức, cá nhân thuộc phạm vi hướng dẫn của Xã Hoài Đức."
+      }
+    ],
+    "pages": "3",
+    "pdf": "assets/quy-pctt-2026/hoai-duc.pdf",
+    "source": "",
+    "contact": ""
+  },
+  {
+    "id": "an-khanh",
+    "province": "Hà Nội",
+    "name": "Xã An Khánh",
+    "document": "Kế hoạch 478/KH-UBND",
+    "date": "25/11/2026",
+    "deadline": "Cơ quan, đơn vị, công ty, doanh nghiệp trên địa bàn: thu và nộp vào Quỹ của xã xong trước ngày 30/11/2026.",
+    "note": "Thông tin tài khoản theo mục IV.6 của kế hoạch. Văn bản nêu tài khoản tiền gửi thu, nộp Quỹ PCTT xã An Khánh nhưng không ghi riêng tên chủ tài khoản; xác nhận tên thụ hưởng khi lập chứng từ. Nguồn: file PDF do người dùng cung cấp.",
+    "accounts": [
+      {
+        "account": "3761.0.1178936.91049",
+        "payee": "Kế hoạch chưa ghi riêng tên chủ tài khoản; xác nhận với UBND xã An Khánh",
+        "bank": "Kho bạc nhà nước Khu vực I - Phòng giao dịch số 17",
+        "pages": "3",
+        "scope": "Áp dụng cho tổ chức, cá nhân thuộc phạm vi hướng dẫn của Xã An Khánh."
+      }
+    ],
+    "pages": "3",
+    "pdf": "assets/quy-pctt-2026/an-khanh.pdf",
+    "source": "",
+    "contact": ""
   }
 ];
