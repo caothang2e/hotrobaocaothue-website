@@ -11,7 +11,8 @@ window.PCTT_DATA = [
     "bank": "Kho bạc Nhà nước khu vực I – Phòng giao dịch số 6",
     "pages": "4–5",
     "contact": "",
-    "pdf": "assets/quy-pctt-2026/bo-de.pdf"
+    "pdf": "assets/quy-pctt-2026/bo-de.pdf",
+    "province": "Hà Nội"
   },
   {
     "id": "cau-giay",
@@ -25,7 +26,8 @@ window.PCTT_DATA = [
     "bank": "Agribank – Chi nhánh Hà Tây",
     "pages": "3",
     "contact": "",
-    "pdf": "assets/quy-pctt-2026/cau-giay.pdf"
+    "pdf": "assets/quy-pctt-2026/cau-giay.pdf",
+    "province": "Hà Nội"
   },
   {
     "id": "hoan-kiem",
@@ -39,7 +41,8 @@ window.PCTT_DATA = [
     "bank": "Agribank – Chi nhánh Hà Tây",
     "pages": "5–6",
     "contact": "",
-    "pdf": "assets/quy-pctt-2026/hoan-kiem.pdf"
+    "pdf": "assets/quy-pctt-2026/hoan-kiem.pdf",
+    "province": "Hà Nội"
   },
   {
     "id": "ha-dong",
@@ -53,7 +56,8 @@ window.PCTT_DATA = [
     "bank": "Kho bạc Nhà nước khu vực I – Phòng giao dịch số 4",
     "pages": "4",
     "contact": "",
-    "pdf": "assets/quy-pctt-2026/ha-dong.pdf"
+    "pdf": "assets/quy-pctt-2026/ha-dong.pdf",
+    "province": "Hà Nội"
   },
   {
     "id": "khuong-dinh",
@@ -67,7 +71,8 @@ window.PCTT_DATA = [
     "bank": "Kho bạc Nhà nước khu vực I – Phòng giao dịch số 5",
     "pages": "1",
     "contact": "",
-    "pdf": "assets/quy-pctt-2026/khuong-dinh.pdf"
+    "pdf": "assets/quy-pctt-2026/khuong-dinh.pdf",
+    "province": "Hà Nội"
   },
   {
     "id": "kien-hung",
@@ -81,7 +86,8 @@ window.PCTT_DATA = [
     "bank": "Agribank – Chi nhánh Hà Tây",
     "pages": "4",
     "contact": "",
-    "pdf": "assets/quy-pctt-2026/kien-hung.pdf"
+    "pdf": "assets/quy-pctt-2026/kien-hung.pdf",
+    "province": "Hà Nội"
   },
   {
     "id": "nghia-do",
@@ -95,7 +101,8 @@ window.PCTT_DATA = [
     "bank": "",
     "pages": "",
     "contact": "",
-    "pdf": "assets/quy-pctt-2026/nghia-do.pdf"
+    "pdf": "assets/quy-pctt-2026/nghia-do.pdf",
+    "province": "Hà Nội"
   },
   {
     "id": "thanh-xuan",
@@ -109,7 +116,8 @@ window.PCTT_DATA = [
     "bank": "Kho bạc Nhà nước khu vực I – Phòng giao dịch số 5",
     "pages": "4, 6",
     "contact": "",
-    "pdf": "assets/quy-pctt-2026/thanh-xuan.pdf"
+    "pdf": "assets/quy-pctt-2026/thanh-xuan.pdf",
+    "province": "Hà Nội"
   },
   {
     "id": "tay-ho",
@@ -123,7 +131,8 @@ window.PCTT_DATA = [
     "bank": "Kho bạc Nhà nước khu vực I – Phòng giao dịch số 9",
     "pages": "1",
     "contact": "",
-    "pdf": "assets/quy-pctt-2026/tay-ho.pdf"
+    "pdf": "assets/quy-pctt-2026/tay-ho.pdf",
+    "province": "Hà Nội"
   },
   {
     "id": "viet-hung",
@@ -137,7 +146,8 @@ window.PCTT_DATA = [
     "bank": "Kho bạc Nhà nước khu vực I – Phòng giao dịch số 6",
     "pages": "4",
     "contact": "",
-    "pdf": "assets/quy-pctt-2026/viet-hung.pdf"
+    "pdf": "assets/quy-pctt-2026/viet-hung.pdf",
+    "province": "Hà Nội"
   },
   {
     "id": "vinh-tuy",
@@ -151,7 +161,8 @@ window.PCTT_DATA = [
     "bank": "",
     "pages": "",
     "contact": "",
-    "pdf": "assets/quy-pctt-2026/vinh-tuy.pdf"
+    "pdf": "assets/quy-pctt-2026/vinh-tuy.pdf",
+    "province": "Hà Nội"
   },
   {
     "id": "yen-hoa",
@@ -165,7 +176,8 @@ window.PCTT_DATA = [
     "bank": "Agribank – Chi nhánh Hà Tây",
     "pages": "3",
     "contact": "",
-    "pdf": "assets/quy-pctt-2026/yen-hoa.pdf"
+    "pdf": "assets/quy-pctt-2026/yen-hoa.pdf",
+    "province": "Hà Nội"
   },
   {
     "id": "o-cho-dua",
@@ -179,7 +191,8 @@ window.PCTT_DATA = [
     "bank": "Agribank – Chi nhánh Hà Tây",
     "pages": "5, 7",
     "contact": "Phòng Kinh tế, Hạ tầng và Đô thị – số 61 phố Hoàng Cầu; 096.829.8546; ocdvmanh228@gmail.com",
-    "pdf": "assets/quy-pctt-2026/o-cho-dua.pdf"
+    "pdf": "assets/quy-pctt-2026/o-cho-dua.pdf",
+    "province": "Hà Nội"
   },
   {
     "id": "dai-mo",
@@ -193,7 +206,8 @@ window.PCTT_DATA = [
     "bank": "VietinBank – Chi nhánh Thăng Long",
     "pages": "3",
     "contact": "Phạm Gia Giang – 0982878868",
-    "pdf": "assets/quy-pctt-2026/dai-mo.pdf"
+    "pdf": "assets/quy-pctt-2026/dai-mo.pdf",
+    "province": "Hà Nội"
   },
   {
     "id": "doai-phuong",
@@ -207,7 +221,8 @@ window.PCTT_DATA = [
     "bank": "Kho bạc Nhà nước khu vực I – Phòng giao dịch số 14",
     "pages": "3–4",
     "contact": "Phạm Đức Hùng – 0988 668 105",
-    "pdf": "assets/quy-pctt-2026/doai-phuong.pdf"
+    "pdf": "assets/quy-pctt-2026/doai-phuong.pdf",
+    "province": "Hà Nội"
   },
   {
     "id": "dong-anh",
@@ -221,7 +236,8 @@ window.PCTT_DATA = [
     "bank": "VietinBank (tài khoản ủy nhiệm thu)",
     "pages": "3",
     "contact": "Nguyễn Văn Khiêm – 0976741183",
-    "pdf": "assets/quy-pctt-2026/dong-anh.pdf"
+    "pdf": "assets/quy-pctt-2026/dong-anh.pdf",
+    "province": "Hà Nội"
   },
   {
     "id": "dai-thanh",
@@ -235,6 +251,362 @@ window.PCTT_DATA = [
     "bank": "Kho bạc Nhà nước khu vực I – Phòng giao dịch số 8",
     "pages": "4",
     "contact": "",
-    "pdf": "assets/quy-pctt-2026/dai-thanh.pdf"
+    "pdf": "assets/quy-pctt-2026/dai-thanh.pdf",
+    "province": "Hà Nội"
+  },
+  {
+    "id": "hcm",
+    "province": "TP. Hồ Chí Minh",
+    "name": "Hướng dẫn cấp thành phố",
+    "document": "Kế hoạch 248/KH-UBND; Công văn 11685/UBND-ĐT",
+    "date": "29/05/2026; 25/11/2026",
+    "deadline": "Cá nhân: trước 31/07/2026. Tổ chức kinh tế: tối thiểu 50% trước 31/07/2026, phần còn lại trước 30/11/2026.",
+    "note": "Công văn 11685 yêu cầu hoàn thành kế hoạch thu trước 30/11/2026. Doanh nghiệp theo phân cấp thu tại xã, phường nộp theo tài khoản thông báo của xã, phường. Tài khoản cấp thành phố dưới đây chỉ dành cho doanh nghiệp Nhà nước do Cục Thuế quản lý theo mục I.5(c) Kế hoạch 248; không áp dụng chung cho mọi doanh nghiệp.",
+    "accounts": [
+      {
+        "account": "3761.0.3024684.91049",
+        "payee": "Quỹ Phòng, chống thiên tai Thành phố Hồ Chí Minh",
+        "bank": "Kho bạc Nhà nước khu vực II",
+        "scope": "Doanh nghiệp Nhà nước do Cục Thuế quản lý theo mục I.5(c).",
+        "pages": "3"
+      }
+    ],
+    "pages": "",
+    "source": "https://phongchonglutbaotphcm.gov.vn/user_vanban/controller/manager_page.php?action=content&id=111",
+    "pdf": "assets/quy-pctt-2026/hcm.pdf",
+    "contact": "",
+    "extraDocs": [
+      {
+        "label": "Công văn 11685 ngày 25/11/2026",
+        "url": "assets/quy-pctt-2026/hcm-11685.pdf"
+      }
+    ]
+  },
+  {
+    "id": "da-nang",
+    "province": "Đà Nẵng",
+    "name": "Hướng dẫn cấp thành phố",
+    "document": "Công văn 120/QPCTT-NVGV",
+    "date": "05/11/2026",
+    "deadline": "Tổ chức kinh tế được đôn đốc hoàn thành trước 30/11/2026.",
+    "note": "Có thể chọn một trong hai tài khoản của Quỹ được nêu tại mục 2. Thu riêng phần của doanh nghiệp và phần thu hộ người lao động theo kế hoạch giao.",
+    "accounts": [
+      {
+        "account": "4200201008447",
+        "payee": "Quỹ Phòng, chống thiên tai thành phố Đà Nẵng",
+        "bank": "Agribank – Chi nhánh Quảng Nam",
+        "scope": "",
+        "pages": "1"
+      },
+      {
+        "account": "1034515104",
+        "payee": "Quỹ Phòng, chống thiên tai thành phố Đà Nẵng",
+        "bank": "Vietcombank – Chi nhánh Quảng Nam",
+        "scope": "",
+        "pages": "1"
+      }
+    ],
+    "pages": "",
+    "source": "https://cdn.thuvienphapluat.vn/uploads/mst/images/cong-van-120-qpctt-nvgv-2026-da-nang.pdf",
+    "pdf": "assets/quy-pctt-2026/da-nang.pdf",
+    "contact": ""
+  },
+  {
+    "id": "dong-nai",
+    "province": "Đồng Nai",
+    "name": "Hướng dẫn cấp thành phố",
+    "document": "Quyết định 829/QĐ-UBND",
+    "date": "15/06/2026",
+    "deadline": "Cá nhân: trước 31/07/2026. Tổ chức kinh tế: tối thiểu 50% trước 31/07/2026, phần còn lại trước 30/11/2026.",
+    "note": "Tài khoản cấp tỉnh/thành phố được ghi tại mục 1.5 kế hoạch kèm quyết định. Thực hiện theo phân công thu và thông báo của cơ quan quản lý Quỹ, UBND xã/phường.",
+    "accounts": [
+      {
+        "account": "3761.0.1151936.91049",
+        "payee": "Quỹ Nông nghiệp và Môi trường thành phố Đồng Nai",
+        "bank": "Kho bạc Nhà nước khu vực XVII",
+        "scope": "",
+        "pages": "5"
+      }
+    ],
+    "pages": "",
+    "source": "https://cdn.thuvienphapluat.vn/phap-luat/2022-2/NDBT/171126/quyet-dinh-829-qd-ubnd-2026-dong-nai.pdf",
+    "pdf": "assets/quy-pctt-2026/dong-nai.pdf",
+    "contact": ""
+  },
+  {
+    "id": "ninh-binh",
+    "province": "Ninh Bình",
+    "name": "Hướng dẫn cấp tỉnh",
+    "document": "Kế hoạch 203/KH-UBND",
+    "date": "09/06/2026",
+    "deadline": "Cá nhân: trước 31/07/2026. Tổ chức kinh tế: tối thiểu 50% trước 31/07/2026, phần còn lại trước 30/11/2026.",
+    "note": "UBND xã/phường thu của tổ chức kinh tế và người lao động theo mục II.4(b). Doanh nghiệp xác nhận tài khoản nơi được giao thu trước khi chuyển. Hai tài khoản dưới đây là tài khoản Quỹ cấp tỉnh; mốc 15/12 là hạn xã/phường chuyển quỹ lên tỉnh, không phải hạn doanh nghiệp.",
+    "accounts": [
+      {
+        "account": "2300218888",
+        "payee": "Quỹ Phòng, chống thiên tai tỉnh Ninh Bình",
+        "bank": "Vietcombank – Chi nhánh Ninh Bình",
+        "scope": "Tài khoản Quỹ cấp tỉnh; đối chiếu phân cấp thu tại mục II.4.",
+        "pages": "4–5"
+      },
+      {
+        "account": "3761.0.3027665.91049",
+        "payee": "Quỹ Phòng, chống thiên tai tỉnh Ninh Bình",
+        "bank": "Kho bạc Nhà nước khu vực V",
+        "scope": "Tài khoản Quỹ cấp tỉnh; đối chiếu phân cấp thu tại mục II.4.",
+        "pages": "5"
+      }
+    ],
+    "pages": "",
+    "source": "https://cdn.thuvienphapluat.vn/phap-luat/2022-2/NDBT/171126/ke-hoach-203-kh-ubnd-ninh-binh-2026.pdf",
+    "pdf": "assets/quy-pctt-2026/ninh-binh.pdf",
+    "contact": ""
+  },
+  {
+    "id": "quang-tri",
+    "province": "Quảng Trị",
+    "name": "Hướng dẫn cấp tỉnh",
+    "document": "Quyết định 3851/QĐ-UBND (theo nguồn giới thiệu)",
+    "date": "14/09/2026 (theo nguồn giới thiệu)",
+    "deadline": "Cá nhân: trước 15/10/2026. Tổ chức kinh tế: tối thiểu 50% trước 30/09, phần còn lại trước 30/11/2026.",
+    "note": "Quyết định kèm kế hoạch thu năm 2026 và truy thu năm 2025. Bản PDF nguồn chưa hiện số/ngày ở trang đầu; số hiệu và ngày nêu theo bảng tổng hợp nguồn. Đối chiếu thông báo thu của đơn vị.",
+    "accounts": [
+      {
+        "account": "5331238686",
+        "payee": "Quỹ Phòng chống thiên tai tỉnh Quảng Trị",
+        "bank": "BIDV – Chi nhánh Quảng Bình",
+        "scope": "",
+        "pages": "2"
+      }
+    ],
+    "pages": "",
+    "source": "https://cdn.thuvienphapluat.vn/phap-luat/2022-2/NDBT/171126/quyet-dinh-3851-qd-ubnd-quang-tri-2026.pdf",
+    "pdf": "assets/quy-pctt-2026/quang-tri.pdf",
+    "contact": ""
+  },
+  {
+    "id": "tay-ninh",
+    "province": "Tây Ninh",
+    "name": "Hướng dẫn cấp tỉnh",
+    "document": "Quyết định 10991/QĐ-UBND",
+    "date": "23/06/2026",
+    "deadline": "Thu, nộp một lần trong năm, trước 30/11/2026.",
+    "note": "Kế hoạch còn yêu cầu tiếp tục đóng các khoản chưa thực hiện từ năm 2018–2025 theo thông báo. Đối chiếu năm và số tiền để tránh gộp nhầm khoản truy thu.",
+    "accounts": [
+      {
+        "account": "3761.0.9087582.91049",
+        "payee": "Quỹ Phòng, chống thiên tai tỉnh Tây Ninh",
+        "bank": "Kho bạc Nhà nước khu vực XVIII – Phòng Kế toán nhà nước",
+        "scope": "",
+        "pages": "9"
+      }
+    ],
+    "pages": "",
+    "source": "https://cdn.thuvienphapluat.vn/phap-luat/2022-2/NDBT/171126/quyet-dinh-10991-qd-ubnd-tay-ninh-2026.pdf",
+    "pdf": "assets/quy-pctt-2026/tay-ninh.pdf",
+    "contact": "Sở Nông nghiệp và Môi trường – 0272.3521.750"
+  },
+  {
+    "id": "dong-thap",
+    "province": "Đồng Tháp",
+    "name": "Hướng dẫn cấp tỉnh",
+    "document": "Kế hoạch 1061/KH-UBND",
+    "date": "06/07/2026",
+    "deadline": "Cá nhân: trước 31/07/2026. Tổ chức kinh tế: tối thiểu 50% trước 31/07/2026, phần còn lại trước 30/11/2026.",
+    "note": "Tài khoản cấp xã được mở tại Phòng giao dịch sở tại của Kho bạc khu vực XVIII theo ủy quyền. Tài khoản dưới đây là cấp tỉnh. Ghi tên cơ quan/đơn vị nộp Quỹ, không ghi tên cá nhân đi nộp; mã quan hệ ngân sách 9136691.",
+    "accounts": [
+      {
+        "account": "3761.0.9136691.91049",
+        "payee": "Quỹ phòng, chống thiên tai tỉnh Đồng Tháp",
+        "bank": "Kho bạc Nhà nước khu vực XVIII",
+        "scope": "Tài khoản cấp tỉnh; chọn nơi nhận theo phân cấp thu và thông báo.",
+        "pages": "3"
+      }
+    ],
+    "pages": "",
+    "source": "https://cdn.thuvienphapluat.vn/phap-luat/2022-2/NDBT/171126/ke-hoach-1061-kh-ubnd-dong-thap-2026.pdf",
+    "pdf": "assets/quy-pctt-2026/dong-thap.pdf",
+    "contact": ""
+  },
+  {
+    "id": "hue",
+    "province": "Huế",
+    "name": "Hướng dẫn cấp thành phố",
+    "document": "Quyết định 2864/QĐ-UBND",
+    "date": "20/08/2026",
+    "deadline": "Quyết định chưa nêu ngày nộp cụ thể; đối chiếu thông báo thu của cơ quan quản lý Quỹ.",
+    "note": "Chuyển vào tài khoản Quỹ thành phố hoặc tài khoản cấp xã theo thông báo của cơ quan quản lý Quỹ. Không tự dùng tài khoản cấp thành phố thay cho nơi nhận đã được thông báo.",
+    "accounts": [
+      {
+        "account": "37610302910891049",
+        "payee": "Quỹ Phòng, chống thiên tai thành phố Huế",
+        "bank": "Kho bạc Nhà nước khu vực XIII – Phòng nghiệp vụ 2",
+        "scope": "",
+        "pages": "4"
+      },
+      {
+        "account": "1024659196",
+        "payee": "Quỹ Phòng, chống thiên tai thành phố Huế",
+        "bank": "Vietcombank – Chi nhánh Huế",
+        "scope": "",
+        "pages": "4"
+      },
+      {
+        "account": "8680045723",
+        "payee": "Quỹ Phòng, chống thiên tai thành phố Huế",
+        "bank": "BIDV – Chi nhánh Huế",
+        "scope": "",
+        "pages": "4"
+      }
+    ],
+    "pages": "",
+    "source": "https://cdn.thuvienphapluat.vn/uploads/tvpldatanew/phap-luat/ngdobaotrung/2026-11-26/quyet-dinh-2864-qd-ubnd-tp-hue-2026.pdf",
+    "pdf": "assets/quy-pctt-2026/hue.pdf",
+    "contact": ""
+  },
+  {
+    "id": "hai-phong-do-son",
+    "province": "Hải Phòng",
+    "name": "Phường Đồ Sơn",
+    "document": "Kế hoạch 114/KH-UBND",
+    "date": "22/04/2026",
+    "deadline": "Theo khoản 5 Điều 15 Nghị định 78/2021/NĐ-CP; kiểm tra thông báo thu, điều chỉnh tại địa phương.",
+    "note": "Văn bản áp dụng tại phường Đồ Sơn, yêu cầu cơ quan, tổ chức và doanh nghiệp chuyển vào tài khoản Quỹ thành phố; không suy rộng thay cho thông báo của mọi xã/phường Hải Phòng.",
+    "accounts": [
+      {
+        "account": "3761.0.9084319.91049",
+        "payee": "Quỹ Phòng chống thiên tai thành phố Hải Phòng",
+        "bank": "Kho bạc Nhà nước khu vực III – Phòng Kế toán nhà nước",
+        "scope": "",
+        "pages": "3"
+      },
+      {
+        "account": "8699726868",
+        "payee": "Quỹ Phòng chống thiên tai thành phố Hải Phòng",
+        "bank": "BIDV – Chi nhánh Hải Dương, PGD Trần Hưng Đạo",
+        "scope": "",
+        "pages": "3"
+      },
+      {
+        "account": "25298888",
+        "payee": "Quỹ Phòng chống thiên tai thành phố Hải Phòng",
+        "bank": "VietinBank – Chi nhánh Hải Phòng, PGD Dương Kinh",
+        "scope": "",
+        "pages": "3"
+      }
+    ],
+    "pages": "",
+    "source": "https://cdn.haiphong.gov.vn/gov-hpg/6793/tintuc/2026/4/kh-thu-quy-pctt-_trinh-ky_.signed639125356967228957.pdf",
+    "pdf": "assets/quy-pctt-2026/hai-phong-do-son.pdf",
+    "contact": ""
+  },
+  {
+    "id": "bac-ninh",
+    "province": "Bắc Ninh",
+    "name": "Hướng dẫn cấp tỉnh",
+    "document": "Thông tin thu Quỹ 2026 – Báo và PTTH Bắc Ninh",
+    "date": "29/06/2026",
+    "deadline": "Cá nhân: trước 31/07/2026. Tổ chức kinh tế: tối thiểu 50% trước 31/07/2026, phần còn lại trước 30/11/2026.",
+    "note": "Hướng dẫn báo chí địa phương: cơ quan thuộc tỉnh, đơn vị Trung ương và tổ chức kinh tế nộp cấp tỉnh; đơn vị, người lao động thuộc UBND xã/phường nộp cấp xã/phường. Chưa lưu được bản quyết định PDF; xem bài nguồn.",
+    "accounts": [
+      {
+        "account": "3761.0.9130543.91049",
+        "payee": "Quỹ Phòng chống thiên tai tỉnh Bắc Ninh",
+        "bank": "Kho bạc Nhà nước khu vực VI – Phòng Kế toán nhà nước",
+        "scope": "",
+        "pages": ""
+      },
+      {
+        "account": "20662688",
+        "payee": "Quỹ Phòng chống thiên tai tỉnh Bắc Ninh",
+        "bank": "VietinBank – Chi nhánh Tiên Sơn",
+        "scope": "",
+        "pages": ""
+      },
+      {
+        "account": "110600429889",
+        "payee": "Quỹ Phòng chống thiên tai tỉnh Bắc Ninh",
+        "bank": "VietinBank – Chi nhánh Bắc Ninh",
+        "scope": "",
+        "pages": ""
+      },
+      {
+        "account": "26881888",
+        "payee": "Quỹ Phòng chống thiên tai tỉnh Bắc Ninh",
+        "bank": "VietinBank – Chi nhánh Bắc Giang",
+        "scope": "",
+        "pages": ""
+      }
+    ],
+    "pages": "",
+    "source": "https://baobacninhtv.vn/bg2/baobacgiang.vn/bac-ninh-trien-khai-thu-hon-246-2-ty-dong-quy-phong-chong-thien-tai-nam-2026-postid448910.bbg",
+    "pdf": "",
+    "contact": ""
+  },
+  {
+    "id": "thanh-hoa",
+    "province": "Thanh Hóa",
+    "name": "Hướng dẫn cấp tỉnh",
+    "document": "Hướng dẫn theo Quyết định 1785/QĐ-UBND – Báo Thanh Hóa",
+    "date": "18/06/2026 (ngày quyết định)",
+    "deadline": "Cá nhân: trước 31/07/2026. Tổ chức kinh tế: tối thiểu 50% trước 31/07/2026, phần còn lại trước 30/11/2026.",
+    "note": "Doanh nghiệp do Thuế cơ sở quản lý nộp vào tài khoản UBND xã/phường. Chỉ doanh nghiệp do Thuế tỉnh trực tiếp quản lý nộp thẳng Ban quản lý Quỹ. Chưa lưu bản quyết định PDF; xem bài hướng dẫn nguồn.",
+    "accounts": [
+      {
+        "account": "3761.0.1114119.91049",
+        "payee": "Ban quản lý Quỹ Bảo vệ, phát triển rừng, môi trường và Phòng, chống thiên tai Thanh Hóa",
+        "bank": "Kho bạc Nhà nước khu vực XI – Phòng Kế toán nhà nước",
+        "scope": "Chỉ doanh nghiệp do Thuế tỉnh trực tiếp quản lý theo hướng dẫn nguồn.",
+        "pages": ""
+      }
+    ],
+    "pages": "",
+    "source": "https://baothanhhoa.vn/trien-khai-ke-hoach-thu-nop-quy-phong-chong-thien-tai-nam-2026-294534.htm",
+    "pdf": "",
+    "contact": ""
+  },
+  {
+    "id": "hung-yen-hong-quang",
+    "province": "Hưng Yên",
+    "name": "Xã Hồng Quang",
+    "document": "Hướng dẫn thu Quỹ 2026 trên Cổng thông tin xã",
+    "date": "Năm 2026; đối chiếu 27/11/2026",
+    "deadline": "Chậm nhất ngày 30/11/2026.",
+    "note": "Chỉ áp dụng cho xã Hồng Quang. Nội dung chuyển khoản: tên đơn vị/họ tên và nộp Quỹ phòng chống thiên tai năm 2026. Người dân khác nộp qua Trưởng thôn theo hướng dẫn nguồn.",
+    "accounts": [
+      {
+        "account": "2409201004432",
+        "payee": "Quỹ phòng chống thiên tai xã Hồng Quang",
+        "bank": "Agribank – Chi nhánh Ân Thi Hưng Yên",
+        "scope": "",
+        "pages": ""
+      }
+    ],
+    "pages": "",
+    "source": "https://hongquang.hungyen.gov.vn/moi-dong-gop-nho-mot-la-chan-binh-yen-cho-que-huong-hong-quang-c21023.html",
+    "pdf": "",
+    "contact": ""
+  },
+  {
+    "id": "quang-ngai-dak-bla",
+    "province": "Quảng Ngãi",
+    "name": "Phường Đăk Bla",
+    "document": "Hướng dẫn thu Quỹ 2026 trên Cổng thông tin phường",
+    "date": "Năm 2026; đối chiếu 27/11/2026",
+    "deadline": "Hoàn thành trước 30/09/2026.",
+    "note": "Chỉ áp dụng tại phường Đăk Bla. Mốc trong hướng dẫn đã qua; xác nhận thông báo mới nếu chưa nộp. Cơ quan, trường học, doanh nghiệp chuyển khoản; người dân nộp tiền mặt theo hướng dẫn phường.",
+    "accounts": [
+      {
+        "account": "127000145922",
+        "payee": "Phòng Kinh tế, Hạ tầng và Đô thị phường Đăk Bla",
+        "bank": "VietinBank – Chi nhánh Kon Tum",
+        "scope": "",
+        "pages": ""
+      }
+    ],
+    "pages": "",
+    "source": "https://dakbla.quangngai.gov.vn/tin-tuc/thu-quy-phong-chong-thien-tai-nam-2026.html",
+    "pdf": "",
+    "contact": "Phòng Kinh tế, Hạ tầng và Đô thị – số 54 Đặng Tiến Đông"
   }
 ];
