@@ -608,5 +608,27 @@ window.PCTT_DATA = [
     "source": "https://dakbla.quangngai.gov.vn/tin-tuc/thu-quy-phong-chong-thien-tai-nam-2026.html",
     "pdf": "",
     "contact": "Phòng Kinh tế, Hạ tầng và Đô thị – số 54 Đặng Tiến Đông"
+  },
+  {
+    "id": "xuan-phuong",
+    "province": "Hà Nội",
+    "name": "Phường Xuân Phương",
+    "document": "Thông báo 196/TB-HTĐTMT",
+    "date": "27/11/2026",
+    "deadline": "Thông tin tài khoản áp dụng từ 27/11/2026. Thông báo này không quy định thời hạn nộp Quỹ.",
+    "note": "Thông báo thay đổi thông tin Quỹ do Phòng Hạ tầng - Đô thị và Môi trường phường Xuân Phương ban hành. Chủ tài khoản: Phòng Hạ tầng - Đô thị và Môi trường phường Xuân Phương; mã Kho bạc 0017. Nguồn: bản có chữ ký, đóng dấu do người dùng cung cấp; chưa xác định được đường dẫn công bố trực tiếp của đúng tài liệu này trên cổng phường tại thời điểm cập nhật. Văn bản ghi hình thức công khai trên cổng phường và niêm yết tại trụ sở.",
+    "accounts": [
+      {
+        "account": "3761.0.1178985.91049",
+        "payee": "Quỹ phòng, chống thiên tai phường Xuân Phương",
+        "bank": "Kho bạc nhà nước Khu vực I - Phòng giao dịch số 10",
+        "scope": "Tổ chức, cá nhân trên địa bàn phường Xuân Phương; thông tin mới từ 27/11/2026.",
+        "pages": "1"
+      }
+    ],
+    "pages": "1",
+    "source": "",
+    "pdf": "assets/quy-pctt-2026/xuan-phuong.pdf",
+    "contact": "Trụ sở Đảng ủy - HĐND - UBND phường: Số 28 đường Foresa, 4B Khu đô thị Xuân Phương, Hà Nội."
   }
 ];
