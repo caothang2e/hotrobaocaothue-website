@@ -284,7 +284,7 @@ const laborEntries = {
       links: [
         ['Cổng thông tin việc làm TP. Hà Nội (cần đăng nhập)', 'https://congvieclam.hanoi.gov.vn/', 'submit'],
         ['Hướng dẫn thao tác của Hà Nội', 'https://docs.google.com/document/d/1GmMvOIneTiB2Hl8FZyQpDfIiW-GstEjzxYXGhMuEOtg/edit'],
-        ['Nhóm Zalo hỗ trợ kỹ thuật theo công văn', 'https://zalo.me/g/wavddee6ktmt0v9lryyk'],
+        ['Nhóm Zalo hỗ trợ của Hỗ Trợ Báo Cáo Thuế', 'https://zalo.me/g/bmbdeqkbjrvx1r7o8vfc'],
         ['Công văn 8865/SNV-VLATLĐ ngày 17/11/2026', 'https://cdn.thuvienphapluat.vn/phap-luat/2022-2/TTKP/CV-8865.pdf']
       ]
     }
