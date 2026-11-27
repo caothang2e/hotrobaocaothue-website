@@ -788,5 +788,56 @@ window.PCTT_DATA = [
     "contact": "Vũ Mạnh Hùng – Công chức Phòng Kinh tế; điện thoại: 0976.432.376.",
     "pdf": "assets/quy-pctt-2026/yen-my-1739.pdf",
     "source": ""
+  },
+  {
+    "id": "phu-dien",
+    "province": "Hà Nội",
+    "name": "Phường Phú Diễn",
+    "document": "Thông báo 2163/TB-UBND",
+    "date": "25/11/2026",
+    "deadline": "Các cơ quan, đơn vị, doanh nghiệp hoàn thành thu, nộp Quỹ trước ngày 30/11/2026.",
+    "note": "Đôn đốc thu, nộp Quỹ PCTT năm 2026. Nội dung chuyển khoản: Thu quỹ phòng chống thiên tai – [tên cơ quan, đơn vị] nộp Quỹ phòng, chống thiên tai năm 2026. Cơ quan, doanh nghiệp có thể chuyển khoản qua ngân hàng; tổ dân phố nộp tiền mặt về Phòng Hạ tầng – Đô thị và Môi trường. Cơ quan, đơn vị, doanh nghiệp gửi bản chụp chứng từ nộp tiền và danh sách người lao động đã đóng góp về phòng qua Nguyễn Thị Giang. Số tài khoản được giữ nguyên đúng như trang 2 của thông báo, không tự thêm phần đuôi. Nguồn: PDF 4 trang do người dùng cung cấp; số, ngày và tài khoản đã đối chiếu trực quan.",
+    "accounts": [
+      {
+        "account": "3761.0.1178777",
+        "payee": "Phòng Hạ tầng – Đô thị và Môi trường",
+        "bank": "Kho bạc Nhà nước Khu vực I – Phòng Giao dịch số 10",
+        "scope": "Cơ quan, đơn vị, doanh nghiệp trên địa bàn phường Phú Diễn theo thông báo.",
+        "pages": "2"
+      }
+    ],
+    "pages": "2",
+    "contact": "Nguyễn Thị Giang – Chuyên viên Phòng Hạ tầng – Đô thị và Môi trường; điện thoại: 0904.899.094.",
+    "pdf": "assets/quy-pctt-2026/phu-dien-2163.pdf",
+    "source": ""
+  },
+  {
+    "id": "tuong-mai",
+    "province": "Hà Nội",
+    "name": "Phường Tương Mai",
+    "document": "Kế hoạch 258/KH-UBND",
+    "date": "29/04/2026",
+    "deadline": "Cần xác nhận với phường: kế hoạch năm 2026 nhưng mục II.3.5 (trang 4) ghi cá nhân trước 31/07/2025; tổ chức kinh tế nộp tối thiểu 50% trước 31/07/2025, phần còn lại trước 30/11/2025. Chưa có căn cứ sửa các mốc này thành năm 2026.",
+    "note": "Kế hoạch thu Quỹ PCTT năm 2026. Mục II.3.1 và II.3.2 quy định hai tài khoản cho hai nhóm đối tượng khác nhau, cần chọn đúng phạm vi bên dưới. Khi nộp tiền/chuyển khoản ghi rõ thông tin đơn vị và số điện thoại để đối chiếu. Mục thời hạn ghi năm 2025 không thống nhất với năm kế hoạch 2026; liên hệ Phòng Kinh tế, Hạ tầng và Đô thị phường để xác nhận hạn áp dụng. Nguồn: PDF 7 trang do người dùng cung cấp; tài khoản trang 3 và mốc thời hạn trang 4 đã đối chiếu trực quan.",
+    "accounts": [
+      {
+        "account": "2200.222.888.999",
+        "payee": "Quỹ phòng, chống thiên tai thành phố Hà Nội",
+        "bank": "Ngân hàng Nông nghiệp và Phát triển nông thôn (Agribank) – Chi nhánh Hà Tây",
+        "scope": "Mục II.3.1: tổ chức kinh tế trong nước và nước ngoài, nộp khoản của tổ chức và của cá nhân do mình quản lý theo khoản 1.1 và điểm b khoản 1.3 Mục II.",
+        "pages": "3"
+      },
+      {
+        "account": "3761.0.1156147.91049",
+        "payee": "Tiền gửi Quỹ phòng, chống thiên tai phường Tương Mai; đơn vị: Phòng Kinh tế, Hạ tầng và Đô thị phường Tương Mai",
+        "bank": "Phòng giao dịch số 8 – Kho bạc Nhà nước Khu vực I",
+        "scope": "Mục II.3.2: cơ quan, tổ chức, đơn vị sự nghiệp của Đảng, Nhà nước, tổ chức chính trị – xã hội và hội được ngân sách hỗ trợ kinh phí hoạt động; thu, nộp của cán bộ, công chức, viên chức, người hưởng lương, phụ cấp và người lao động thuộc phạm vi quản lý.",
+        "pages": "3"
+      }
+    ],
+    "pages": "3",
+    "contact": "Phòng Kinh tế, Hạ tầng và Đô thị phường Tương Mai (đầu mối theo kế hoạch; tài liệu chưa nêu số điện thoại).",
+    "pdf": "assets/quy-pctt-2026/tuong-mai-258.pdf",
+    "source": ""
   }
 ];
