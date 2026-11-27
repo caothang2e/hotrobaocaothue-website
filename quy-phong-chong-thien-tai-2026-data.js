@@ -766,5 +766,27 @@ window.PCTT_DATA = [
         "url": "assets/quy-pctt-2026/duong-hao-2644-trang-2.jpg"
       }
     ]
+  },
+  {
+    "id": "yen-my",
+    "province": "Hưng Yên",
+    "name": "Xã Yên Mỹ",
+    "document": "Thông báo 1739/TB-UBND",
+    "date": "19/08/2026",
+    "deadline": "Theo thông báo: nộp trước ngày 30/09/2026 (hạn đã qua; liên hệ xã để xác nhận việc nộp hiện nay).",
+    "note": "Thu, nộp Quỹ phòng, chống thiên tai đợt 2 năm 2026 đối với doanh nghiệp, hợp tác xã trên địa bàn. Thông báo gồm thu năm 2026 và truy thu các năm trước; số tiền từng đơn vị theo danh sách kèm theo, nhưng file được cung cấp chỉ có 2 trang thông báo, chưa có danh sách. Nội dung nộp: [tên đơn vị] nộp Quỹ Phòng, chống thiên tai năm 2026. Nguồn: PDF do người dùng cung cấp; số và ngày thông báo được đối chiếu trực quan trên trang 1.",
+    "accounts": [
+      {
+        "account": "0010323820",
+        "payee": "Quỹ phòng, chống thiên tai xã Yên Mỹ",
+        "bank": "Phòng giao dịch Ngân hàng Chính sách xã hội Yên Mỹ",
+        "scope": "Doanh nghiệp, hợp tác xã trên địa bàn xã Yên Mỹ theo thông báo.",
+        "pages": "2"
+      }
+    ],
+    "pages": "2",
+    "contact": "Vũ Mạnh Hùng – Công chức Phòng Kinh tế; điện thoại: 0976.432.376.",
+    "pdf": "assets/quy-pctt-2026/yen-my-1739.pdf",
+    "source": ""
   }
 ];
