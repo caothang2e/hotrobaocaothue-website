@@ -20,12 +20,12 @@ window.PCTT_DATA = [
     "document": "Kế hoạch 158/KH-UBND",
     "date": "29/04/2026",
     "deadline": "Văn bản nêu nộp quỹ Thành phố trước 31/12/2026; xác nhận tiến độ thu đối với đơn vị tại phường.",
-    "note": "Gửi giấy nộp tiền về Phòng Kinh tế, Hạ tầng và Đô thị để tổng hợp.",
+    "note": "Mốc 31/12/2026 là nộp quỹ Thành phố theo kế hoạch; không tự coi đây là gia hạn nộp của doanh nghiệp. Xác nhận tiến độ thu tại phường. Sau khi nộp, gửi giấy nộp tiền về Phòng Kinh tế, Hạ tầng và Đô thị để phường ghi nhận, tổng hợp báo cáo.",
     "account": "2200.222.888.999",
     "payee": "Quỹ phòng, chống thiên tai thành phố Hà Nội",
     "bank": "Agribank – Chi nhánh Hà Tây",
     "pages": "3",
-    "contact": "",
+    "contact": "Đỗ Thanh Chúc – Chuyên viên Phòng Kinh tế, Hạ tầng và Đô thị; 0982.962.935 (trang 4).",
     "pdf": "assets/quy-pctt-2026/cau-giay.pdf",
     "province": "Hà Nội"
   },
@@ -102,7 +102,8 @@ window.PCTT_DATA = [
     "pages": "",
     "contact": "",
     "pdf": "assets/quy-pctt-2026/nghia-do.pdf",
-    "province": "Hà Nội"
+    "province": "Hà Nội",
+    "source": "https://nghiado.hanoi.gov.vn/kinh-te-tai-chinh/ke-hoach-trien-khai-thu-quy-phong-chong-thien-tai-nam-2026-2816260511094809077.htm"
   },
   {
     "id": "thanh-xuan",
@@ -170,7 +171,7 @@ window.PCTT_DATA = [
     "document": "Kế hoạch 111/KH-UBND",
     "date": "18/03/2026",
     "deadline": "Văn bản nêu nộp quỹ Thành phố trước 31/12/2026; xác nhận tiến độ thu đối với đơn vị tại phường.",
-    "note": "Gửi giấy nộp tiền về Phòng Kinh tế, Hạ tầng và Đô thị.",
+    "note": "Gửi giấy nộp tiền về Phòng Kinh tế, Hạ tầng và Đô thị. Mốc 31/12/2026 trong kế hoạch là nộp quỹ Thành phố; không tự coi đây là gia hạn nộp của doanh nghiệp. Cần xác nhận tiến độ thu tại phường.",
     "account": "2200.222.888.999",
     "payee": "Quỹ phòng, chống thiên tai thành phố Hà Nội",
     "bank": "Agribank – Chi nhánh Hà Tây",
@@ -935,7 +936,7 @@ window.PCTT_DATA = [
     "accounts": [],
     "contact": "Phòng Kinh tế, Hạ tầng và Đô thị phường (theo phần tổ chức thực hiện; tài liệu chưa nêu điện thoại).",
     "pdf": "assets/quy-pctt-2026/hai-ba-trung-177.pdf",
-    "source": "https://sqhx-hanoi.mediacdn.vn/91579363132710912/2026/5/15/41kh-trien-khai-thu-quy-pctt-nam-2026-gui-tp-17788534301441831652329.pdf"
+    "source": "https://haibatrung.hanoi.gov.vn/trang-chu/ke-hoach-trien-khai-thuc-hien-thu-quy-phong-chong-thien-tai-tren-dia-ban-phuong-hbt-nam-2026-2814260515205743365.htm"
   },
   {
     "id": "phu-thuong",
@@ -1043,5 +1044,89 @@ window.PCTT_DATA = [
         "url": "https://cdn.thuvienphapluat.vn/uploads/phapluat/2022-2/NDBT/NEWBT/thong-bao-47-tb-qpctt-2025-ha-noi.pdf"
       }
     ]
+  },
+  {
+    "id": "gia-lai-980",
+    "name": "Hướng dẫn cấp tỉnh Gia Lai",
+    "province": "Gia Lai",
+    "document": "Quyết định 980/QĐ-UBND",
+    "date": "21/03/2026",
+    "deadline": "Cá nhân: trước 31/07 hằng năm. Tổ chức kinh tế: tối thiểu 50% trước 31/07, phần còn lại trước 30/11 hằng năm (Điều 3, trang 9).",
+    "note": "Hướng dẫn lập, phê duyệt và thông báo kế hoạch thu Quỹ, kèm biểu mẫu. Phân biệt đơn vị thuộc cấp tỉnh thu và đơn vị thuộc cấp xã thu: tổ chức kinh tế thuộc cấp xã thu nộp vào tài khoản cấp xã được UBND tỉnh ủy quyền, không tự dùng tài khoản tỉnh bên dưới. Cần đối chiếu danh sách, thông báo thu của đơn vị. Tỷ lệ 72% tại trang 8 là cấp xã chuyển nộp về Quỹ tỉnh, không phải mức doanh nghiệp được giảm đóng.",
+    "accounts": [
+      {
+        "account": "3761.0.3028629.91049",
+        "payee": "Quỹ Phòng, chống thiên tai tỉnh Gia Lai",
+        "bank": "Kho bạc Nhà nước Khu vực XV – Phòng Kế toán Nhà nước",
+        "scope": "Chỉ áp dụng cho tổ chức kinh tế, cơ quan, đơn vị thuộc cấp tỉnh thu theo hướng dẫn; cấp xã dùng tài khoản được ủy quyền riêng.",
+        "pages": "7–8"
+      }
+    ],
+    "contact": "Quỹ PCTT tỉnh: 15 Lý Thái Tổ, phường Quy Nhơn Nam, Gia Lai; 0256.3900889 (trang 12).",
+    "pdf": "assets/quy-pctt-2026/gia-lai-980.pdf",
+    "source": "https://tuyphuoc.gialai.gov.vn/upload/105751/20260413/980_QD-UBND_21032026-signed_01_8db3b.pdf"
+  },
+  {
+    "id": "hcm-ben-thanh-432",
+    "name": "Phường Bến Thành",
+    "province": "TP. Hồ Chí Minh",
+    "document": "Thông báo 432/TB-UBND",
+    "date": "23/07/2026",
+    "deadline": "Cá nhân: trước 31/07/2026. Tổ chức kinh tế: tối thiểu 50% trước 31/07/2026, phần còn lại trước 30/11/2026.",
+    "note": "Thông báo thu Quỹ PCTT năm 2026. Nội dung nộp cần ghi tên doanh nghiệp, mã số thuế, khoản đóng của doanh nghiệp và khoản đóng của người lao động riêng theo hướng dẫn tại trang 2. PDF công khai gồm 2 trang thông báo; chưa có bản hướng dẫn lập giấy nộp tiền được nhắc kèm theo. Đoạn kết trang 2 ghi năm 2025, trong khi tiêu đề, nội dung thu và thời hạn ghi năm 2026; giữ nguyên bản gốc và đối chiếu với phường nếu cần xác nhận.",
+    "accounts": [
+      {
+        "account": "3713.0.1150173.91049",
+        "payee": "Phòng Kinh tế, Hạ tầng và Đô thị phường Bến Thành",
+        "bank": "Kho bạc Nhà nước Khu vực II – Phòng giao dịch số 11",
+        "scope": "Cơ quan, đơn vị, tổ chức kinh tế, cá nhân thuộc thông báo thu của phường Bến Thành.",
+        "pages": "2"
+      }
+    ],
+    "contact": "Phòng Kinh tế, Hạ tầng và Đô thị phường Bến Thành; thông báo chưa nêu số điện thoại.",
+    "pdf": "assets/quy-pctt-2026/hcm-ben-thanh-432.pdf",
+    "source": "https://cdn.thuvienphapluat.vn/uploads/tvpldatanew/phap-luat/phamphananhthu/2026-11-26/432-TB-UBND.pdf"
+  },
+  {
+    "id": "hcm-an-phu-dong-1026",
+    "name": "Phường An Phú Đông",
+    "province": "TP. Hồ Chí Minh",
+    "document": "Thông báo 1026/TB-UBND",
+    "date": "16/11/2026",
+    "deadline": "Tổ chức kinh tế: tối thiểu 50% trước 31/07/2026, phần còn lại trước 30/11/2026; xem các đối tượng tại mục III của thông báo.",
+    "note": "Thông báo thu Quỹ năm 2026, đồng thời rà soát khoản năm 2025 chưa nộp. Có mã QR tra cứu số tiền tại trang 2. Nội dung chuyển khoản ghi tên công ty, MST, năm nộp và tách số tiền doanh nghiệp/người lao động. Đơn vị đã nộp gửi chứng từ về Phòng Hạ tầng để đối chiếu, tránh thu trùng.",
+    "accounts": [
+      {
+        "account": "1304242222",
+        "payee": "Phòng Hạ tầng – UBND phường An Phú Đông",
+        "bank": "Vietcombank",
+        "scope": "Đơn vị, doanh nghiệp thuộc thông báo thu của phường An Phú Đông; đối chiếu số phải nộp trước khi chuyển.",
+        "pages": "2"
+      }
+    ],
+    "contact": "Dương Thụy Mai Trâm – 0976.443.452; Phòng Hạ tầng, 540 Hà Huy Giáp, phường An Phú Đông, TP Hồ Chí Minh (trang 4).",
+    "pdf": "assets/quy-pctt-2026/hcm-an-phu-dong-1026.pdf",
+    "source": "https://cdn.thuvienphapluat.vn/uploads/tvpldatanew/phap-luat/phamphananhthu/2026-11-26/1026-TB-UBND.pdf"
+  },
+  {
+    "id": "hcm-sai-gon-364",
+    "name": "Phường Sài Gòn",
+    "province": "TP. Hồ Chí Minh",
+    "document": "Kế hoạch 364/KH-UBND – đợt 2",
+    "date": "07/10/2026",
+    "deadline": "Doanh nghiệp và người lao động thuộc kế hoạch đợt 2 nộp một lần trước 30/11/2026 (trang 2).",
+    "note": "Kế hoạch thu Quỹ PCTT năm 2026 đợt 2, áp dụng cho doanh nghiệp chưa có trong danh sách kế hoạch trước và đơn vị chưa nộp hoặc nộp thiếu. Đối chiếu phạm vi tại mục II trước khi thực hiện. PDF công khai gồm 3 trang kế hoạch, chưa kèm đầy đủ phụ lục được nhắc trong văn bản.",
+    "accounts": [
+      {
+        "account": "3713.0.1161938.91049",
+        "payee": "Phòng Kinh tế, Hạ tầng và Đô thị phường Sài Gòn",
+        "bank": "Kho bạc Nhà nước Khu vực II – Phòng giao dịch số 11",
+        "scope": "Doanh nghiệp, người lao động thuộc kế hoạch thu đợt 2 của phường Sài Gòn.",
+        "pages": "3"
+      }
+    ],
+    "contact": "Phòng Kinh tế, Hạ tầng và Đô thị phường Sài Gòn; kế hoạch chưa nêu số điện thoại.",
+    "pdf": "assets/quy-pctt-2026/hcm-sai-gon-364.pdf",
+    "source": "https://cdn.thuvienphapluat.vn/uploads/tvpldatanew/phap-luat/phamphananhthu/2026-11-26/KH-364.pdf"
   }
 ];
