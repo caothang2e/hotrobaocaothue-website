@@ -287,30 +287,36 @@ window.PCTT_DATA = [
     "id": "da-nang",
     "province": "Đà Nẵng",
     "name": "Hướng dẫn cấp thành phố",
-    "document": "Công văn 120/QPCTT-NVGV",
-    "date": "05/11/2026",
+    "document": "Công văn 120/QPCTT-NVGV; Thông báo 33/TB-QPCTT (lần 3)",
+    "date": "05/11/2026; 09/11/2026",
     "deadline": "Tổ chức kinh tế được đôn đốc hoàn thành trước 30/11/2026.",
-    "note": "Có thể chọn một trong hai tài khoản của Quỹ được nêu tại mục 2. Thu riêng phần của doanh nghiệp và phần thu hộ người lao động theo kế hoạch giao.",
+    "note": "Bổ sung Thông báo 33/TB-QPCTT ngày 09/11/2026 (lần 3), đôn đốc tổ chức kinh tế thuộc danh sách hoàn thành nộp trước 30/11/2026. Thông báo 33 nêu tài khoản Vietcombank 1034515104; Công văn 120 trước đó nêu hai tài khoản, có thể chọn một theo công văn. Thông báo 33 không tuyên bố dừng tài khoản Agribank, không suy luận tài khoản đó đã bị hủy. File người dùng gửi gồm 2 trang, trang 2 trắng, không có danh sách doanh nghiệp được nhắc kèm theo. Đã đọc bản có ký, đóng dấu; chưa tìm thấy URL công bố riêng của đúng Thông báo 33 trên cổng Quỹ.",
     "accounts": [
       {
         "account": "4200201008447",
         "payee": "Quỹ Phòng, chống thiên tai thành phố Đà Nẵng",
         "bank": "Agribank – Chi nhánh Quảng Nam",
-        "scope": "",
+        "scope": "Tài khoản được nêu tại Công văn 120 ngày 05/11/2026; Thông báo 33 không đề cập lại tài khoản này và không tuyên bố dừng sử dụng.",
         "pages": "1"
       },
       {
         "account": "1034515104",
         "payee": "Quỹ Phòng, chống thiên tai thành phố Đà Nẵng",
         "bank": "Vietcombank – Chi nhánh Quảng Nam",
-        "scope": "",
+        "scope": "Được nêu tại cả Công văn 120 ngày 05/11 và Thông báo 33 ngày 09/11/2026.",
         "pages": "1"
       }
     ],
     "pages": "",
-    "source": "https://cdn.thuvienphapluat.vn/uploads/mst/images/cong-van-120-qpctt-nvgv-2026-da-nang.pdf",
+    "source": "https://pctt.danang.gov.vn/chi-tiet-tin/group/211/nid/9813/cong-van-so-12-qpctt-nvgv-ngay-5-11-2-26-ve-de-nghi-phoi-hop-don-doc-thu-nop-quy-phong-chong-thien-tai-doi-voi-cac-to-chuc-kinh-te-nam-2-26",
     "pdf": "assets/quy-pctt-2026/da-nang.pdf",
-    "contact": ""
+    "contact": "Theo Thông báo 33: 02363.777.774; 0914.543.559; 0935572747; 0914.534.789.",
+    "extraDocs": [
+      {
+        "label": "Thông báo 33 ngày 09/11/2026 – đôn đốc lần 3",
+        "url": "assets/quy-pctt-2026/da-nang-thong-bao-33.pdf"
+      }
+    ]
   },
   {
     "id": "dong-nai",
@@ -617,7 +623,7 @@ window.PCTT_DATA = [
     "document": "Thông báo 196/TB-HTĐTMT",
     "date": "27/11/2026",
     "deadline": "Thông tin tài khoản áp dụng từ 27/11/2026. Thông báo này không quy định thời hạn nộp Quỹ.",
-    "note": "Thông báo thay đổi thông tin Quỹ do Phòng Hạ tầng - Đô thị và Môi trường phường Xuân Phương ban hành. Chủ tài khoản: Phòng Hạ tầng - Đô thị và Môi trường phường Xuân Phương; mã Kho bạc 0017. Nguồn: bản có chữ ký, đóng dấu do người dùng cung cấp; chưa xác định được đường dẫn công bố trực tiếp của đúng tài liệu này trên cổng phường tại thời điểm cập nhật. Văn bản ghi hình thức công khai trên cổng phường và niêm yết tại trụ sở.",
+    "note": "Thông báo thay đổi thông tin Quỹ do Phòng Hạ tầng - Đô thị và Môi trường phường Xuân Phương ban hành. Chủ tài khoản: Phòng Hạ tầng - Đô thị và Môi trường phường Xuân Phương; mã Kho bạc 0017. Nguồn: bản có chữ ký, đóng dấu do người dùng cung cấp; chưa xác định được đường dẫn công bố trực tiếp của đúng tài liệu này trên cổng phường tại thời điểm cập nhật. Văn bản ghi hình thức công khai trên cổng phường và niêm yết tại trụ sở. Bổ sung công văn thu Quỹ ngày 09/07/2026, kèm biểu CT-02/CT-03, do người dùng gửi qua Drive. Công văn tháng 7 còn ghi tài khoản cũ 3761.0.1149329.91049 và mốc hoàn thành 30/08/2026; chỉ lưu để đối chiếu, không thay thông tin mới của Thông báo 196 ngày 27/11/2026. Chưa tìm thấy nguồn công bố công khai khớp bản công văn tháng 7.",
     "accounts": [
       {
         "account": "3761.0.1178985.91049",
@@ -630,7 +636,13 @@ window.PCTT_DATA = [
     "pages": "1",
     "source": "",
     "pdf": "assets/quy-pctt-2026/xuan-phuong.pdf",
-    "contact": "Trụ sở Đảng ủy - HĐND - UBND phường: Số 28 đường Foresa, 4B Khu đô thị Xuân Phương, Hà Nội."
+    "contact": "Trụ sở Đảng ủy - HĐND - UBND phường: Số 28 đường Foresa, 4B Khu đô thị Xuân Phương, Hà Nội.",
+    "extraDocs": [
+      {
+        "label": "Công văn tháng 7 kèm biểu mẫu – tài khoản cũ, chỉ đối chiếu",
+        "url": "assets/quy-pctt-2026/xuan-phuong-thu-quy-20260709.pdf"
+      }
+    ]
   },
   {
     "id": "tu-liem",
@@ -887,10 +899,10 @@ window.PCTT_DATA = [
     "id": "phuong-liet",
     "province": "Hà Nội",
     "name": "Phường Phương Liệt",
-    "document": "Kế hoạch 165/KH-UBND",
-    "date": "05/05/2026",
+    "document": "Kế hoạch 170/KH-UBND (thay thế Kế hoạch 165/KH-UBND)",
+    "date": "08/05/2026",
     "deadline": "Theo kế hoạch: thời gian thu từ 01/05/2026 đến 30/06/2026; yêu cầu hoàn thành trước 30/06/2026. Mốc này đã qua; liên hệ phường để xác nhận việc nộp hiện nay.",
-    "note": "Đã bổ sung PDF gốc do người dùng cung cấp ngày 27/11/2026; số, ngày kế hoạch và tài khoản tại mục II.4 (trang 4) đã đối chiếu trực quan. Kho bạc Nhà nước Khu vực I – Phòng giao dịch số 5. Tổ dân phố gửi danh sách đối tượng thu, miễn giảm, giấy nộp tiền và kinh phí thu được về Phòng Kinh tế, Hạ tầng và Đô thị qua Khuất Thu Thủy theo mục III.4 (trang 5). Kế hoạch quy định khoản doanh nghiệp bằng 0,02% tổng giá trị tài sản theo báo cáo tài chính, tối thiểu 500.000 đồng, tối đa 100.000.000 đồng. Phần mức đóng người lao động tại mục II.1.1.b cần xác nhận cách tính với phường khi thực hiện; giữ nguyên nội dung PDF để đối chiếu.",
+    "note": "Kế hoạch 170 ghi rõ thay thế Kế hoạch 165/KH-UBND ngày 05/05/2026 tại trang 6. Đã đối chiếu số/ngày trên bản hiển thị có chữ ký, đóng dấu; tài khoản tại trang 4 vẫn là 3761.0.1146514.91049, KBNN Khu vực I – Phòng giao dịch số 5. File Drive do người dùng gửi trùng từng byte với bản công khai trên Thư Viện Pháp Luật; chưa xác định URL công bố riêng của đúng Kế hoạch 170 trên cổng phường. Giữ kế hoạch 165 cũ để đối chiếu. Mốc thu kết thúc tháng 6 đã qua; liên hệ phường để xác nhận việc nộp hiện nay. Phần miễn, giảm và mức đóng cá nhân cần đối chiếu quy định hiện hành và hướng dẫn phường, không tự áp dụng mọi nội dung của kế hoạch tháng 5 cho thời điểm hiện tại.",
     "accounts": [
       {
         "account": "3761.0.1146514.91049",
@@ -901,8 +913,18 @@ window.PCTT_DATA = [
       }
     ],
     "contact": "Khuất Thu Thủy – Chuyên viên Phòng Kinh tế, Hạ tầng và Đô thị; 0826.883.883.",
-    "pdf": "assets/quy-pctt-2026/phuong-liet-165.pdf",
-    "source": "https://phuongliet.hanoi.gov.vn/chinh-tri-kinh-te-do-thi/thong-bao-trien-khai-thu-quy-phong-chong-thien-tai-nam-2026-tren-dia-ban-phuong-phuong-liet-2826260508085016247.htm"
+    "pdf": "assets/quy-pctt-2026/phuong-liet-170.pdf",
+    "source": "https://cdn.thuvienphapluat.vn/uploads/tvpldatanew/phap-luat/phamphananhthu/2026-11-27/phuong-liet.pdf",
+    "extraDocs": [
+      {
+        "label": "Kế hoạch 165 cũ – đã được kế hoạch 170 thay thế",
+        "url": "assets/quy-pctt-2026/phuong-liet-165.pdf"
+      },
+      {
+        "label": "Thông báo trên cổng phường tháng 5 để đối chiếu",
+        "url": "https://phuongliet.hanoi.gov.vn/chinh-tri-kinh-te-do-thi/thong-bao-trien-khai-thu-quy-phong-chong-thien-tai-nam-2026-tren-dia-ban-phuong-phuong-liet-2826260508085016247.htm"
+      }
+    ]
   },
   {
     "id": "thanh-liet",
@@ -970,22 +992,22 @@ window.PCTT_DATA = [
     "id": "dong-da",
     "province": "Hà Nội",
     "name": "Phường Đống Đa",
-    "document": "Kế hoạch 176/KH-UBND; Công văn 911/UBND-KTHTĐT",
-    "date": "24/04/2026; 11/06/2026",
+    "document": "Thông báo 473/TB-UBND – thay đổi tài khoản; Kế hoạch 176/KH-UBND",
+    "date": "13/11/2026; kế hoạch ngày 24/04/2026",
     "deadline": "Cá nhân: trước 31/07/2026. Tổ chức kinh tế: tối thiểu 50% trước 31/07/2026, phần còn lại trước 30/11/2026.",
-    "note": "Tìm được kế hoạch PDF và 3 ảnh công văn trên Cổng thông tin phường qua tìm kiếm nội bộ. Công văn 911 hướng dẫn riêng tổ chức kinh tế; nội dung nộp: Nộp quỹ phòng chống thiên tai năm 2026, tên người nộp, tên đơn vị nộp. Gửi chứng từ và báo cáo về UBND phường qua Lê Phương Hồng để đối chiếu. Công văn 911 dẫn số kế hoạch 174, trong khi bản PDF kế hoạch đính kèm cổng phường ghi 176; giữ đúng số của từng bản gốc.",
+    "note": "Thông báo 473 thay đổi thông tin tài khoản tiếp nhận sau khi tổ chức lại phòng chuyên môn. Dùng thông tin mới tại thông báo; tài khoản 3761.0.1145864.91049 trong kế hoạch và Công văn 911 là thông tin cũ. Nội dung nộp: Nộp quỹ phòng chống thiên tai năm 2026, tên người nộp, tên đơn vị nộp. Thông báo giữ các nội dung về đối tượng, mức đóng, thời hạn theo Kế hoạch 176; ngày đổi tài khoản không phải ngày gia hạn nộp. Đã đối chiếu bản có chữ ký, đóng dấu do người dùng gửi qua Drive, trùng từng byte với bản công khai trên Thư Viện Pháp Luật. Chưa tìm thấy URL công bố đúng Thông báo 473 trên cổng phường. Liên hệ phía dưới theo Công văn 911 trước khi tổ chức lại phòng, cần xác nhận đầu mối hiện hành.",
     "accounts": [
       {
-        "account": "3761.0.1145864.91049",
-        "payee": "Phòng Kinh tế, Hạ tầng và Đô thị phường Đống Đa",
-        "bank": "Phòng nghiệp vụ số 4 – Kho bạc Nhà nước Khu vực I (theo cách ghi của văn bản)",
-        "scope": "Tổ chức kinh tế trong nước và nước ngoài trên địa bàn theo Công văn 911; kế hoạch cũng hướng dẫn phòng, ban, cơ quan thuộc phường.",
-        "pages": "5–6"
+        "account": "3761.0.1178792.91049",
+        "payee": "Phòng Hạ tầng, Đô thị và Môi trường phường Đống Đa",
+        "bank": "Kho bạc Nhà nước Khu vực I",
+        "scope": "Tổ chức, doanh nghiệp, cá nhân thuộc đối tượng đóng góp trên địa bàn phường Đống Đa; áp dụng từ ngày ban hành Thông báo 473 (13/11/2026).",
+        "pages": "1"
       }
     ],
     "contact": "Lê Phương Hồng – Chuyên viên Phòng Kinh tế, Hạ tầng và Đô thị; 0886.163.366.",
-    "pdf": "assets/quy-pctt-2026/dong-da-176.pdf",
-    "source": "https://dongda.hanoi.gov.vn/ha-tang-do-thi/ubnd-phuong-dong-da-thong-bao-ve-viec-nop-quy-phong-chong-thien-tai-nam-2026-doi-voi-to-chuc-kinh-te-trong-nuoc-va-nuoc-ngoai-tren-dia-ban-phuong-280626062007353731.htm",
+    "pdf": "assets/quy-pctt-2026/dong-da-473.pdf",
+    "source": "https://cdn.thuvienphapluat.vn/uploads/tvpldatanew/phap-luat/phamphananhthu/2026-11-27/dong-da.pdf",
     "extraDocs": [
       {
         "label": "Công văn 911 – trang 1",
@@ -998,6 +1020,14 @@ window.PCTT_DATA = [
       {
         "label": "Công văn 911 – trang 3",
         "url": "assets/quy-pctt-2026/dong-da-911-trang-3.jpg"
+      },
+      {
+        "label": "Kế hoạch 176 – thông tin tài khoản cũ",
+        "url": "assets/quy-pctt-2026/dong-da-176.pdf"
+      },
+      {
+        "label": "Nguồn cổng phường – Công văn 911 trước khi đổi tài khoản",
+        "url": "https://dongda.hanoi.gov.vn/ha-tang-do-thi/ubnd-phuong-dong-da-thong-bao-ve-viec-nop-quy-phong-chong-thien-tai-nam-2026-doi-voi-to-chuc-kinh-te-trong-nuoc-va-nuoc-ngoai-tren-dia-ban-phuong-280626062007353731.htm"
       }
     ]
   },
@@ -1168,5 +1198,39 @@ window.PCTT_DATA = [
         "url": "https://docs.google.com/spreadsheets/d/1R3K2DOdmraKydBksJd-BbtE-v6L_PD_L/edit?gid=921040714#gid=921040714"
       }
     ]
+  },
+  {
+    "id": "duong-hoa",
+    "province": "Hà Nội",
+    "name": "Xã Dương Hòa",
+    "document": "Kế hoạch 218/KH-UBND – bản công khai chưa thể hiện chữ ký, dấu",
+    "date": "19/05/2026 (ghi trên bản công khai)",
+    "deadline": "Theo mục III: cá nhân trước 10/07/2026; tổ chức kinh tế tối thiểu 50% trước 31/10/2026, phần còn lại trước 30/11/2026. Mục IV.11 còn nêu cơ quan, đơn vị nộp vào Quỹ xã trước 15/06 và xã gửi báo cáo quyết toán về Quỹ Thành phố trước 30/12/2026. Các mốc chưa đồng nhất; cần xác nhận lịch hiện hành với xã, không coi 30/12 là hạn của doanh nghiệp.",
+    "note": "Tài liệu 6 trang do người dùng gửi qua Drive, trùng từng byte với bản Thư Viện Pháp Luật công khai. Trang cuối có tên người ký nhưng chưa thể hiện chữ ký, con dấu; chưa tìm thấy bản công bố khớp trên cổng UBND xã. Trang 4 ghi tên Quỹ Phòng chống thiên tai xã Dương Hòa, số tài khoản 3761.0.1150055, PGD số 17 – KBNN Khu vực I. Giữ nguyên cách ghi số này, không tự bổ sung đuôi 91049; chưa đưa vào phần tài khoản sử dụng để tránh hiểu là đã xác nhận. Cần xác nhận bản ký, thời hạn và thông tin chuyển tiền với Phòng Kinh tế trước khi nộp.",
+    "accounts": [],
+    "contact": "UBND xã Dương Hòa, qua Phòng Kinh tế; kế hoạch chưa nêu số điện thoại.",
+    "pdf": "assets/quy-pctt-2026/duong-hoa-218.pdf",
+    "source": "https://cdn.thuvienphapluat.vn/uploads/tvpldatanew/phap-luat/phamphananhthu/2026-11-27/duong-hoa.pdf"
+  },
+  {
+    "id": "vinh-hung",
+    "province": "Hà Nội",
+    "name": "Phường Vĩnh Hưng",
+    "document": "Kế hoạch 226/KH-UBND",
+    "date": "25/05/2026",
+    "deadline": "Tổ chức kinh tế hạch toán độc lập: tối thiểu 50% trước 31/07/2026, phần còn lại trước 31/10/2026. Cơ quan, đơn vị sử dụng ngân sách nộp về Quỹ phường trước 31/07/2026 (mục III.3). Các mốc đã qua; xác nhận tiến độ hiện hành với phường. Kế hoạch này chưa nêu hạn riêng phường chuyển lên Thành phố.",
+    "note": "Đã đối chiếu số/ngày, tài khoản tại trang 4 và trang 7 có chữ ký, đóng dấu. File Drive trùng từng byte với bản Thư Viện Pháp Luật công khai; chưa xác định URL công bố khớp trên cổng phường. Tổ dân phố gửi danh sách bản chính và kinh phí về Phòng Kinh tế, Hạ tầng và Đô thị (192 Thanh Đàm, theo mục IV.5 trang 6). File gồm 8 trang, trang cuối trắng; chưa thấy phụ biểu chỉ tiêu được nhắc trong kế hoạch. Phần đối tượng miễn đóng có nội dung cần đối chiếu quy định hiện hành và hướng dẫn phường, không dùng để tự quyết định miễn đóng.",
+    "accounts": [
+      {
+        "account": "3761.0.1151543.91049",
+        "payee": "Phòng Kinh tế Hạ tầng và Đô thị phường Vĩnh Hưng",
+        "bank": "Phòng giao dịch số 8 – Kho bạc Nhà nước Khu vực I",
+        "scope": "Cơ quan, đơn vị sử dụng ngân sách, tổ chức kinh tế hạch toán độc lập, tổ chức/cá nhân đóng góp tự nguyện theo mục III.3 của kế hoạch phường Vĩnh Hưng.",
+        "pages": "4"
+      }
+    ],
+    "contact": "Phòng Kinh tế, Hạ tầng và Đô thị; kế hoạch ghi 192 Thanh Đàm cho việc tổ dân phố nộp danh sách và kinh phí, chưa nêu số điện thoại.",
+    "pdf": "assets/quy-pctt-2026/vinh-hung-226.pdf",
+    "source": "https://cdn.thuvienphapluat.vn/uploads/tvpldatanew/phap-luat/phamphananhthu/2026-11-27/vinh-hung.pdf"
   }
 ];
