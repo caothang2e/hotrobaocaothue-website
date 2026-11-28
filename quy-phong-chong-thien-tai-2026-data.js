@@ -1128,5 +1128,45 @@ window.PCTT_DATA = [
     "contact": "Phòng Kinh tế, Hạ tầng và Đô thị phường Sài Gòn; kế hoạch chưa nêu số điện thoại.",
     "pdf": "assets/quy-pctt-2026/hcm-sai-gon-364.pdf",
     "source": "https://cdn.thuvienphapluat.vn/uploads/tvpldatanew/phap-luat/phamphananhthu/2026-11-26/KH-364.pdf"
+  },
+  {
+    "id": "hung-yen-phu-duc",
+    "province": "Hưng Yên",
+    "name": "Xã Phụ Dực",
+    "document": "Kế hoạch 205/KH-UBND",
+    "date": "05/11/2026",
+    "deadline": "Cơ quan, đơn vị, doanh nghiệp, hợp tác xã: hoàn thành trước 30/11/2026 (mục II.4). Đợt thu tập trung tại thôn đối với hộ gia đình, cá nhân: từ 28/11 đến hết 30/11/2026; không dùng lịch tại thôn thay cho hạn của doanh nghiệp.",
+    "note": "Kế hoạch chung về thu thuế, quỹ và các khoản đóng góp; nội dung Quỹ PCTT tại mục II.1(b), II.4. Doanh nghiệp, hợp tác xã, tổ chức kinh tế nộp theo công văn đề nghị gửi từng đơn vị của UBND xã (Phòng Kinh tế). Nội dung nộp: (Tên đơn vị nộp) nộp Quỹ phòng, chống thiên tai năm 2026. Các khoản đóng góp tự nguyện được tách khỏi nghĩa vụ Quỹ PCTT. Bản PDF công khai có 6 trang kế hoạch đã ký, đóng dấu; chưa kèm phụ lục địa điểm thu được nhắc trong văn bản. Văn bản này không nêu một hạn riêng cho xã chuyển tiền lên Quỹ tỉnh.",
+    "accounts": [
+      {
+        "account": "3713.0.1158583.00000",
+        "payee": "Văn phòng Hội đồng nhân dân và Ủy ban nhân dân xã Phụ Dực",
+        "bank": "Kho bạc Nhà nước Khu vực IV – Phòng giao dịch số 6",
+        "scope": "Đối tượng tại mục II.4 của kế hoạch xã Phụ Dực; doanh nghiệp đối chiếu công văn đề nghị gửi riêng từng đơn vị.",
+        "pages": "4"
+      }
+    ],
+    "contact": "UBND xã Phụ Dực, qua Phòng Kinh tế; kế hoạch chưa nêu số điện thoại.",
+    "pdf": "assets/quy-pctt-2026/hung-yen-phu-duc-205.pdf",
+    "source": "https://phuduc.hungyen.gov.vn/ke-hoach-to-chuc-thu-thue-quy-va-cac-khoan-dong-gop-nam-2026-tren-dia-ban-xa-phu-duc-c21339.html"
+  },
+  {
+    "id": "hcm-chanh-hiep",
+    "province": "TP. Hồ Chí Minh",
+    "name": "Phường Chánh Hiệp",
+    "document": "Thông báo tra cứu và đôn đốc nộp Quỹ PCTT năm 2026 trên cổng thông tin phường",
+    "date": "27/11/2026 (ngày đăng thông báo)",
+    "deadline": "Cơ sở, doanh nghiệp thuộc danh sách: hoàn thành trước 30/11/2026 theo thông báo đôn đốc; không phải hạn riêng phường chuyển tiền lên thành phố.",
+    "note": "Thông báo trực tuyến đề nghị nộp Quỹ năm 2026 và hoàn tất phần còn thiếu năm 2025. Có bảng tra cứu danh sách, số tiền năm 2026 và đầu mối gửi chứng từ. Đã kiểm tra bảng liên kết mang tiêu đề Danh sách tổng hợp thu Quỹ phòng chống thiên tai năm 2026; đây là bảng tra cứu số phải nộp, không phải biểu mẫu nộp hồ sơ. Bài công khai chưa nêu số tài khoản, số/ngày văn bản ký hoặc cung cấp PDF; không suy rộng tài khoản thành phố hay phường khác.",
+    "accounts": [],
+    "contact": "Phòng Hạ tầng, 279 Hồ Văn Cống, phường Chánh Hiệp; Nguyễn Thị Thu Mai – 0945.195.519.",
+    "pdf": "",
+    "source": "https://phuongchanhhiep.org.vn/tin-tuc/thong-bao-tra-cuu-va-don-doc-nop-quy-phong-chong-thien-tai-nam-2026",
+    "extraDocs": [
+      {
+        "label": "Tra cứu danh sách và số tiền Quỹ năm 2026",
+        "url": "https://docs.google.com/spreadsheets/d/1R3K2DOdmraKydBksJd-BbtE-v6L_PD_L/edit?gid=921040714#gid=921040714"
+      }
+    ]
   }
 ];
