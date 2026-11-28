@@ -319,7 +319,7 @@ const laborEntries = {
       links: [
         ['Mở biểu mẫu nộp trực tuyến', 'https://docs.google.com/forms/d/e/1FAIpQLSdLUtOIVpDFGHUOZSjXy19XA4Yz9Y5TtfbVGWzQMjxtKLlnpw/viewform', 'submit'],
         ['Xem Công văn 9881/SNV-LĐ ngày 13/11/2026 (PDF bản scan)', 'https://cdn.thuvienphapluat.vn/phap-luat/2022-2/DTML/131126/9881.pdf'],
-        ['Công văn 9881/SNV-LĐ trên cổng việc làm Đồng Nai', 'https://vieclamdongnai.gov.vn/van-ban/cong-van-so-9881-snv-ld-ngay-13-thang-11-nam-2026-cua-cua-so-noi-vu-thanh-pho-dong-nai-ve-viec-de-nghi-bao-cao-tinh-hinh-thuc-hien-phap-luat-lao-dong-luat-an-toan-ve-sinh-lao-dong-nam-2026-21682.html'],
+        ['Công văn 9881/SNV-LĐ trên cổng việc làm Đồng Nai', 'https://vieclamdongnai.gov.vn/thong-bao-va-ket-qua-phien-gdvl/cong-van-so-9881-snv-ld-ngay-13-thang-11-nam-2026-cua-cua-so-noi-vu-thanh-pho-dong-nai-ve-viec-de-nghi-bao-cao-tinh-hinh-thuc-hien-phap-luat-lao-dong-luat-an-toan-ve-sinh-lao-dong-nam-2026-21683.html'],
         ['Hướng dẫn và kỳ số liệu theo công văn', 'https://thuvienphapluat.vn/ma-so-thue/phap-luat-thue/link-bao-cao-tinh-hinh-su-dung-lao-dong-cuoi-nam-2026-tai-tp-dong-nai-quy-dinh-o-dau-236524.html']
       ]
     }
